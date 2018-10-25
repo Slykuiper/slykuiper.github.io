@@ -1,0 +1,65 @@
+---
+layout: default
+title: Apply
+description:
+permalink: /apply/
+---
+<section class="mast">
+    <header class="mast__header">
+        <h1>Application</h1>
+        <span>Application length must exceed 15 seconds (excluding intros)</span>
+        <span>Applications must contain a Relative Minds intro</span>
+    </header>
+    <div class="mast__img bg-black">
+        <div class="absolute-bg2" style="background-image: url('/assets/images/videos/va7iik/va7_mw1.jpg');"></div>
+    </div>
+</section>
+
+<section id="apply" class="section-padding bg-black">
+    <div class="grid">
+        <h1 class="section-header">Form</h1>
+        <div class="apply">
+            <div class="app_form">
+                <form accept-charset="UTF-8" action="https://formspree.io/slykuiper@gmail.com" method="POST">
+                    <p>Application Type</p>
+                    <select id="app_type" name="Application Type" onchange="otherCheck(this);" required>
+                        <option value="editor">Editor</option>
+                        <option value="gfx">Graphic Designer</option>
+                        <option value="other">Other</option>
+                    </select><br>
+                    <input id="other_field" type="text" name="Application Type Other" placeholder="Other position" style="display: none;"><br>
+                    <p>Channel</p>
+                    <input type="text" name="Channel" placeholder="Channel URL" required><br>
+                    <p>Application Video</p>
+                    <input type="text" name="Application Video" placeholder="Video URL" required><br>
+                    <p>Contact Information</p>
+                    <input type="text" name="Contact Information" placeholder="Email address, Discord id, twitter, etc" required><br>
+                    <p>Additional Information</p>
+                    <input type="text" name="Additional Information" placeholder="Previous teams, achievements, goals, etc"><br>
+                    <input type="hidden" name="utf8" value="?"><br>
+                    <input type="submit" value="Apply">
+
+                    <script>
+                        function otherCheck(that) {
+                            if (that.value == "other") {
+                                document.getElementById("other_field").style.display = "block";
+                            } else {
+                                document.getElementById("other_field").style.display = "none";
+                            }
+                        }
+                    </script>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="apply" class="section-padding bg-alpha">
+    <div class="grid">
+        <div class="apply">
+            <div class="apply__text">
+                <p>Due to the high volume of submissions, we are not able to reply to each individual applicant. You will be contacted if you have been selected for consideration. Feel free to join our <a href="https://discord.gg/TFjWehf">discord server</a> or email us if you have any questions. </p>
+            </div>
+        </div>
+    </div>
+</section>

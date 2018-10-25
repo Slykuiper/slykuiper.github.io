@@ -1,0 +1,40 @@
+/**
+ * About
+ */
+.about {
+    max-width: $mq-md;
+    margin: 2em auto 0;
+    overflow: hidden;
+
+    @media (min-width: $mq-sm) {
+        margin-top: 3em;
+    }
+
+    &__text {
+        margin-bottom: 3em;
+        font-size: 1.5em;
+        text-align: center;
+        left: 50%;
+        text-transform: uppercase;
+
+        & a {
+            @include link-posts();
+        }
+    }
+
+    &__subtext {
+        margin-bottom: 30px;
+        font-size: 1.75em;
+        text-align: center;
+        left: 50%;
+
+        & a {
+            @include link-posts();
+        }
+    }
+
+    p {
+        text-align: center;
+        left: 50%;
+    }
+}

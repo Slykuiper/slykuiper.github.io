@@ -1,0 +1,45 @@
+# Site settings
+baseurl: "" 
+
+# Color settings (Hex value without #)
+color_alpha: 0a0a0a
+color_beta: eeeeee
+
+# Google Analytics
+google_analytics: UA—XXXXXXXX-X
+
+# Instagram API
+instagram_key: 2237615866.1677ed0.2184cbe7894b41b2bc8d3218b27b6ded
+instagram_caption: true
+
+# SEO settings
+title: Corbin Scott
+description: Corbin "Slykuiper" Scott
+url: "slykuiper2.github.io"
+email: corbin@slykuiper.com
+twitter_username: Slykuiper
+default_img: https://relativeminds.org/assets/images/logo.png
+
+# Profile settings
+name: Relative Minds
+social:
+  twitter-square: http://twitter.com/Slykuiper
+  youtube-square: https://www.youtube.com/slykuiper
+  discord: https://discord.gg/TFjWehf
+
+# Build settings
+exclude: ["node_modules", "gulpfile.js", "assets/js/app.js", "README.md", "Gemfile", "Gemfile.lock"]
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Sass
+sass:
+  style: compressed
+
+# Gems
+gems: [jekyll-sitemap, octopress-autoprefixer]
+
+collections:
+    bio:
+        output: true
+        permalink: /roster/:name/

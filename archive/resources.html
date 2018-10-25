@@ -1,0 +1,107 @@
+---
+layout: default
+title: Resources
+description:
+permalink: /resources/
+rscs:
+  - rsc-member: "va7iik"
+    rsc-items:
+    - rsc-name: "Datamoshing Guide"
+      rsc-link: "https://www.youtube.com/watch?v=vmfjmRtZ9qo"
+      rsc-img: "/assets/images/videos/va7iik/guide_dm.png"
+    - rsc-name: "x264 meGUI Guide"
+      rsc-link: "https://www.youtube.com/watch?v=-bbwWWwpM6I"
+      rsc-img: "/assets/images/videos/va7iik/guide_megui.png"
+    - rsc-name: "x264 HandBreak Guide"
+      rsc-link: "https://www.youtube.com/watch?v=CN9je0kh84g"
+      rsc-img: "/assets/images/videos/va7iik/guide_hb.jpg"
+  - rsc-member: "gmzorz"
+    rsc-items:
+    - rsc-name: "Bo2 Fog Mod"
+      rsc-link: "http://gmzorz.com/fog.html"
+      rsc-img: "/assets/images/videos/gmzorz/fog.jpg"
+    - rsc-name: "Redacted/Bo2 Community Page"
+      rsc-link: "http://gmzorz.com/redacted.html"
+      rsc-img: "/assets/images/videos/gmzorz/redacted.png"
+    - rsc-name: "Bo2 Dvar/Config Guide"
+      rsc-link: "http://gmzorz.com/bo2dvars.html"
+      rsc-img: "/assets/images/videos/gmzorz/dvar.png"
+    - rsc-name: "Render guide"
+      rsc-link: "http://gmzorz.com/render.html"
+      rsc-img: "/assets/images/videos/gmzorz/render.jpg"
+    - rsc-name: "BO2 GrowFX"
+      rsc-link: "http://gmzorz.com/growFX.html"
+      rsc-img: "/assets/images/videos/gmzorz/growfx.jpg"
+    - rsc-name: "MW3 Christmas Mod"
+      rsc-link: "http://gmzorz.com/christmas.html"
+      rsc-img: "/assets/images/videos/gmzorz/christmas.jpg"
+    - rsc-name: "Replacing weapon animations"
+      rsc-link: "http://gmzorz.com/weapanim.html"
+      rsc-img: "/assets/images/videos/gmzorz/weapanim.jpg"
+  - rsc-member: "slykuiper"
+    rsc-items:
+    - rsc-name: "MW2 MVM Mod"
+      rsc-link: "https://www.dropbox.com/s/kc62cs7txv3f3ku/slysmvmmod.rar?dl=0"
+      rsc-img: "/assets/images/videos/sly/sly_amen1.jpg"
+    - rsc-name: "BO1 SP MVM Mod"
+      rsc-link: "https://www.dropbox.com/s/8fdulf2nyqm8lk9/sp_sly.rar?dl=0"
+      rsc-img: "/assets/images/videos/sly/t5sp.jpg"
+    - rsc-name: "BO1 ZM MVM Mod"
+      rsc-link: "https://www.dropbox.com/s/rjx40dbcgiakuik/zm_sly.rar?dl=0"
+      rsc-img: "/assets/images/videos/sly/t5zm.jpg"
+---
+<section class="mast">
+    <header class="mast__header">
+        <h1>Resources</h1>
+        <span>Here you'll find all of our resources available for download.</span>
+        <span>Intros, logos, graphics, as well as resources submitted by our members.</span>
+    </header>
+    <div class="mast__img bg-black">
+        <div class="absolute-bg2" style="background-image: url('/assets/images/videos/va7iik/va7_thelords.jpg');"></div>
+    </div>
+</section>
+
+<section class="section-padding bg-black">
+    <div class="grid">
+        <div class="resources">
+            <div class="resources__text">
+                <h2>Team Graphics</h2>
+                <ul><li><a href="https://www.mediafire.com/file/slyaoall08y5v88/RM+Editors+Pack.rar" style="font-size: 2em;">Editors Pack</a></li></ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="bg-black">
+    <div class="grid">
+        {% for rsc in page.rscs %}
+        <h2 class="section-header">{{ rsc.rsc-member }}</h2>
+        <ul class="container-triple" itemscope itemtype="http://schema.org/Blog">
+            {% for item in rsc.rsc-items %}
+            <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+                <a class="preview__link" href="{{ item.rsc-link }}" itemprop="url">
+                    <div class="preview__img bg-white wow slideInUp">
+                        <figure class="absolute-bg wow fadeIn" data-wow-delay="900ms" style="background-image: url('{{ item.rsc-img }}');"></figure>
+                    </div>
+                    <div class="preview__container bg-alpha">
+                        <div>
+                            <h4 class="wow fadeInUp" data-wow-delay="150ms" itemprop="name">{{ item.rsc-name }}</h4>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="section-padding bg-alpha">
+    <div class="grid">
+        <div class="resources">
+            <div class="resources__text">
+                Are we missing something? Let us know and we'll add it.
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,89 @@
+/**
+ * Body
+ */
+body {
+    min-height: 100vh;
+    color: $color_beta;
+    background-color: $color-black;
+}
+
+/**
+ * Main
+ */
+main {
+  flex-grow: 1;
+  padding-top: 4em;
+
+  #home & {
+    padding-top: 0;
+  }
+}
+
+/**
+ * Sections
+ */
+section {
+  position: relative;
+}
+
+.section-padding {
+  padding-top: 4em;
+  padding-bottom: 4em;
+
+  @media (min-width: $mq-sm) {
+    padding-top: 6em;
+    padding-bottom: 6em;
+  }
+
+  &--half {
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    @media (min-width: $mq-sm) {
+      padding-top: 3em;
+      padding-bottom: 3em;
+    }
+  }
+}
+
+.grid {
+    margin-right: 1em;
+    margin-left: 1em;
+
+    @media (min-width: $mq-md) {
+        margin-right: 4em;
+        margin-left: 4em;
+    }
+
+    &--double {
+        margin-right: 1em;
+        margin-left: 1em;
+
+        @media (min-width: $mq-md) {
+            margin-right: 8em;
+            margin-left: 8em;
+        }
+    }
+
+    &--fourth {
+        margin-right: 1em;
+        margin-left: 1em;
+
+        @media (min-width: $mq-md) {
+            margin-right: 16em;
+            margin-left: 16em;
+        }
+    }
+}
+
+.section-header {
+    text-align: center;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-shadow: 0px 0px 1px $color-black;
+
+    span {
+        @include nth-animation-delay();
+        display: inline-block;
+    }
+}

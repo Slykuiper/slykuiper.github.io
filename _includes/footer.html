@@ -1,0 +1,57 @@
+<footer class="footer section-padding--half bg-alpha">
+    <div class="footer__container grid">
+        <p>&copy;{{ site.time | date: "%Y" }} {{ site.title }}</p>
+        {% if site.email or site.social %}
+        <ul class="footer__social">
+            {% if site.email %}
+            <li><a class="fas fa-envelope" href="mailto:{{ site.email }}"></a></li>
+            {% endif %}
+            {% for social in site.social %}
+            <li><a class="fab fa-{{ social[0] }}" href="{{ social[1] }}" target="_blank"></a></li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+</footer>
+
+<script type="text/javascript" src="{{ '/assets/js/jquery.min.js' | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ '/assets/js/app.min.js' | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ '/assets/js/jquery.fitvids.js' | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ '/assets/js/TweenMax.min.js' | prepend: site.baseurl }}"></script>
+
+<script>
+    $(document).ready(function () {
+        $('iframe[src*="youtube"]').parent().fitVids();
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $('iframe[src*="player.vimeo.com"]').parent().fitVids();
+    });
+</script>
+
+<script>
+    var falling = true;
+
+    TweenLite.set("#logo-fall", { perspective: 600 })
+
+    var total = 30;
+    var container = document.getElementById("logo-fall"), w = window.innerWidth, h = window.innerHeight;
+
+    for (i = 0; i < total; i++) {
+        var Div = document.createElement('div');
+        TweenLite.set(Div, { attr: { class: 'dot' }, x: R(0, w), y: R(-200, -150), z: R(-200, 200) });
+        container.appendChild(Div);
+        animm(Div);
+    }
+
+    function animm(elm) {
+        TweenMax.to(elm, R(6, 15), { y: h + 100, ease: Linear.easeNone, repeat: -1, delay: -15 });
+        TweenMax.to(elm, R(4, 8), { x: '+=100', rotationZ: R(0, 180), repeat: -1, yoyo: true, ease: Sine.easeInOut });
+        TweenMax.to(elm, R(2, 8), { rotationX: R(0, 360), rotationY: R(0, 360), repeat: -1, yoyo: true, ease: Sine.easeInOut, delay: -5 });
+    };
+
+    function R(min, max) { return min + Math.random() * (max - min) };
+</script>
+
