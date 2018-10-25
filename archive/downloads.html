@@ -72,7 +72,7 @@ rscs:
     </div>
 </section>
 
-<section class="section bg-alpha">
+<section class="section-padding bg-alpha">
     <div class="grid">
         <div class="resources">
             <div class="resources__text">
@@ -81,11 +81,3 @@ rscs:
         </div>
     </div>
 </section>
-
-<div class="preview__container bg-alpha">
-    <div>
-        <h2 class="wow fadeInUp" data-wow-delay="150ms" itemprop="name">{{ post.title }}</h2>
-        <p class="preview__excerpt wow fadeInUp" data-wow-delay="300ms" itemprop="description">{{ post.content | strip_html | truncatewords: 30 }}</p>
-    </div>
-    <time class="preview__date wow fadeInUp" data-wow-delay="450ms" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-</div>
