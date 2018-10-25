@@ -35,6 +35,7 @@
             margin-top: 0.25em;
             font-size: 1.1em;
             animation: fadeInUp 3s both 0.9s;
+            text-transform: none;
 
             @media (min-width: $mq-sm) {
                 font-size: 1.25em;
