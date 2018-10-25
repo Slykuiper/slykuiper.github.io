@@ -7,12 +7,10 @@
     overflow: hidden;
 
     @media (min-width: $mq-sm) {
-        margin-top: 3em;
     }
 
 
     &__text {
-        margin-bottom: 3em;
         font-size: 1.5em;
         text-align: center;
         left: 50%;
