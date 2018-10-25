@@ -30,21 +30,6 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
 
-    <script type="text/javascript">
-        var array_sly = ["sly_acedia1.jpg", "sly_acedia2.jpg", "sly_acedia3.jpg", "sly_acedia4.jpg", "sly_amen1.jpg", "sly_amen2.jpg", "sly_amen3.jpg", "sly_amen4.jpg", "sly_amen5.jpg", "sly_amen6.jpg", "sly_amen7.jpg", "sly_anagnorisis1.jpg", "sly_anagnorisis2.jpg", "sly_anagnorisis3.jpg", "sly_anagnorisis4.jpg", "sly_anagnorisis5.jpg", "sly_kingdom1.jpg", "sly_kingdom2.jpg", "sly_kingdom3.jpg", "sly_kingdom4.jpg", "sly_kingdom5.jpg", "sly_wantme1.jpg", "sly_wantme2.jpg", "sly_wantme3.jpg", "sly_wantme4.jpg"];
-
-        $(document).ready(function () {
-            getRandomHeaderImage(array_sly, "/assets/images/videos/sly/");
-        });
-
-        function getRandomHeaderImage(imgArray, path) {
-            path = path || '/assets/images/videos/'; // default path here
-            var randNum = Math.floor(Math.random() * imgArray.length);
-            var img = imgArray[randNum];
-            $(".absolute_bg").css('background-image', 'url(' + path + img + ')');
-        };
-    </script>
-
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

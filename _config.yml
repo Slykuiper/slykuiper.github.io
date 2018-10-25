@@ -18,14 +18,17 @@ description: Corbin "Slykuiper" Scott
 url: "slykuiper2.github.io"
 email: corbin@slykuiper.com
 twitter_username: Slykuiper
-default_img: https://relativeminds.org/assets/images/logo.png
+default_img: https://slykuiper2.github.io/assets/images/logo.png
 
 # Profile settings
 name: Relative Minds
 social:
   twitter-square: http://twitter.com/Slykuiper
+  dribbble-square: http://dribbble.com/slykuiper
+  instagram: http://www.instagram.com/slykuiper
   youtube-square: https://www.youtube.com/slykuiper
-  discord: https://discord.gg/TFjWehf
+  twitch: https://twitch.tv/slykuiper
+  vimeo-square: https://vimeo.com/slykuiper
 
 # Build settings
 exclude: ["node_modules", "gulpfile.js", "assets/js/app.js", "README.md", "Gemfile", "Gemfile.lock"]
