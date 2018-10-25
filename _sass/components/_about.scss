@@ -13,7 +13,7 @@
     &__text {
         margin-bottom: 3em;
         font-size: 1.5em;
-        text-align: center;
+        text-align: left;
         left: 50%;
         text-transform: uppercase;
 
@@ -25,7 +25,7 @@
     &__subtext {
         margin-bottom: 30px;
         font-size: 1.75em;
-        text-align: center;
+        text-align: left;
         left: 50%;
 
         & a {
@@ -34,7 +34,11 @@
     }
 
     p {
-        text-align: center;
+        text-align: left;
         left: 50%;
+
+        & a {
+            @include link-posts();
+        }
     }
 }
