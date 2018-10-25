@@ -9,26 +9,33 @@ rscs:
     - rsc-name: "Spirograph Project File"
       rsc-link: "http://slykuiper.com/SPIROGRAPH/"
       rsc-img: "/assets/images/videos/va7iik/guide_dm.png"
+      rsc-description: "An animated spirograph built in after effects with a few parameters."
     - rsc-name: "Floral Project File"
       rsc-link: "http://slykuiper.com/FLORAL/"
       rsc-img: "/assets/images/videos/va7iik/guide_megui.png"
+      rsc-description: "An animated energy/flow effect using default plugins, inset any shape/logo/text."
     - rsc-name: "TOPO Preset"
       rsc-link: "http://slykuiper.com/TOPO/"
       rsc-img: "/assets/images/videos/va7iik/guide_megui.png"
+      rsc-description: "Originally built for a topographic map design, I expanded on this to create cool trippy visuals."
     - rsc-name: "Slykuiper Toolkit Script"
       rsc-link: "https://github.com/Slykuiper/slykuipertoolkit"
       rsc-img: "/assets/images/videos/va7iik/guide_megui.png"
+      rsc-description: "Personal script for easy access to my most used expressions and actions."
   - rsc-type: "Game Mods"
     rsc-items:
     - rsc-name: "MW2 MVM Mod"
       rsc-link: "https://www.dropbox.com/s/kc62cs7txv3f3ku/slysmvmmod.rar?dl=0"
       rsc-img: "/assets/images/videos/edits/sly_amen1.jpg"
+      rsc-description: "Modern warfare 2 movie mod."
     - rsc-name: "BO1 SP MVM Mod"
       rsc-link: "https://www.dropbox.com/s/8fdulf2nyqm8lk9/sp_sly.rar?dl=0"
       rsc-img: "/assets/images/videos/edits/t5sp.jpg"
+      rsc-description: "Black ops 1 singleplayer movie mod."
     - rsc-name: "BO1 ZM MVM Mod"
       rsc-link: "https://www.dropbox.com/s/rjx40dbcgiakuik/zm_sly.rar?dl=0"
       rsc-img: "/assets/images/videos/edits/t5zm.jpg"
+      rsc-description: "Black ops 1 zombies movie mod."
 ---
 <section class="mast">
     <header class="mast__header">
@@ -54,6 +61,7 @@ rscs:
                     <div class="preview__container bg-alpha">
                         <div>
                             <h4 class="wow fadeInUp" data-wow-delay="150ms" itemprop="name">{{ item.rsc-name }}</h4>
+                            <p class="preview__excerpt wow fadeInUp" data-wow-delay="300ms" itemprop="description">{{ item.rsc-description | strip_html | truncatewords: 30 }}</p>
                         </div>
                     </div>
                 </a>
@@ -64,11 +72,20 @@ rscs:
     </div>
 </section>
 
-<section class="section-padding bg-alpha">
+<section class="section bg-alpha">
     <div class="grid">
         <div class="resources">
-            <div class="resources__text">If you have suggestions of projects you'd like to have available for download, feel free to email me.
+            <div class="resources__text">
+                If you have suggestions of projects you'd like to have available for download, feel free to email me.
             </div>
         </div>
     </div>
 </section>
+
+<div class="preview__container bg-alpha">
+    <div>
+        <h2 class="wow fadeInUp" data-wow-delay="150ms" itemprop="name">{{ post.title }}</h2>
+        <p class="preview__excerpt wow fadeInUp" data-wow-delay="300ms" itemprop="description">{{ post.content | strip_html | truncatewords: 30 }}</p>
+    </div>
+    <time class="preview__date wow fadeInUp" data-wow-delay="450ms" itemprop="datePublished" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+</div>
