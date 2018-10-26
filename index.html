@@ -17,14 +17,14 @@ layout: default
 		        var element, anim;
                 element = document.getElementById('bm_namereveal');
 		        element.style.display = 'inline-block';
-		        var homename = {
+                var namereveal = {
                     container: document.getElementById('bm_namereveal'),
 			        renderer: 'svg',
 			        loop: false,
 			        autoplay: true,
 			        path: 'assets/bodymovin/namereveal.json'
 		        };
-		        anim = bodymovin.loadAnimation(homename);
+                anim = bodymovin.loadAnimation(namereveal);
 		        anim.play();
 	        }
 	        nameReveal();
