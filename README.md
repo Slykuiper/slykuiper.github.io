@@ -1,8 +1,9 @@
-# ![relative-minds logo](https://github.com/RelativeMinds/relativeminds.github.io/blob/master/assets/images/logo-75.png) Relative Minds - Website
-Borne out of the montage making community in 2013, Relative Minds is a well rounded design collective consisting of <a data-scroll href="/roster">members worldwide</a> with a passion for all digital mediums.
+# ![slykuiper logo](https://github.com/Slykuiper/slykuiper.github.com/blob/master/images/slykuiper-black-75.png) Slykuiper - Website
+I'm Corbin "Slykuiper" Scott, a motion graphics designer and video editor.  
+You can check out my portfolio site at http://slykuiper.com  
 
 ## Contact
-Interested in working together or have a question to ask? Reach out below. 
+Interested in working together or have a question to ask? Reach out to me and I'll get back to you as soon as I can. 
 
-Email: relativemindsbusiness@gmail.com
-Twitter: https://twitter.com/Relative_Minds  
+Email: corbin@slykuiper.com  
+Twitter: https://twitter.com/slykuiper  
