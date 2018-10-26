@@ -10,8 +10,8 @@ tags:
 This is an Adobe After Effects/Trapcode Mir tutorial for creating the canyon/iceberg effect I used in two of my [daily artworks](http://slykuiper.com/EVERYDAYS/).
 
 <figure class="half">
-	<a href="/images/work/everydays/2016/12-14-2016.png"><img src="/images/work/everydays/2016/12-14-2016.png"></a>
-	<a href="/images/work/everydays/2016/12-18-2016.png"><img src="/images/work/everydays/2016/12-18-2016.png"></a>
+	<a href="/assets/images/work/everydays/2016/12-14-2016.png"><img src="/assets/images/work/everydays/2016/12-14-2016.png"></a>
+	<a href="/assets/images/work/everydays/2016/12-18-2016.png"><img src="/assets/images/work/everydays/2016/12-18-2016.png"></a>
 	<figcaption>December 14th, 2016 "CALLING" & December 18th, 2016 "ROGUE"</figcaption>
 </figure>
 
@@ -24,8 +24,8 @@ Under the **Shader** tab set the Shader to Phong. The mir will appear white beca
 Under the **Material** tab, change Diffuse, Specular, and Specular Shininess to 0.
 
 <figure class="half">
-	<a href="/images/work/tutorials/calling/initial-shader.png"><img src="/images/work/tutorials/calling/initial-shader.png"></a>
-	<a href="/images/work/tutorials/calling/initial-material.png"><img src="/images/work/tutorials/calling/initial-material.png"></a>
+	<a href="/assets/images/work/tutorials/calling/initial-shader.png"><img src="/assets/images/work/tutorials/calling/initial-shader.png"></a>
+	<a href="/assets/images/work/tutorials/calling/initial-material.png"><img src="/assets/images/work/tutorials/calling/initial-material.png"></a>
 	<figcaption>Shader & Material settings.</figcaption>
 </figure>
 
@@ -34,9 +34,9 @@ Under the **Material** tab, change Diffuse, Specular, and Specular Shininess to 
 In order to create the canyon look, you'll need to create a texture, and later tweak it to also be used as an amplitude map to displace the mesh's geometry. Create a new composition and call it "texture", same dimensions as before, and create a black (#000000) solid. Select the **Brush Tool** then double-click on your layer in the timeline to open the layer in the Layer Panel. In the Brushes Panel, create a round brush with a Diameter of 100 px and a Hardness of 100%. In the Paint Panel, make sure the color of the brush is white. Draw a path using the Brush Tool, it can be any shape you like. Check out the examples below for ideas.
 
 <figure class="third">
-	<a href="/images/work/tutorials/calling/path-1.png"><img src="/images/work/tutorials/calling/path-1.png"></a>
-	<a href="/images/work/tutorials/calling/path-2.png"><img src="/images/work/tutorials/calling/path-2.png"></a>
-	<a href="/images/work/tutorials/calling/path-3.png"><img src="/images/work/tutorials/calling/path-3.png"></a>
+	<a href="/assets/images/work/tutorials/calling/path-1.png"><img src="/assets/images/work/tutorials/calling/path-1.png"></a>
+	<a href="/assets/images/work/tutorials/calling/path-2.png"><img src="/assets/images/work/tutorials/calling/path-2.png"></a>
+	<a href="/assets/images/work/tutorials/calling/path-3.png"><img src="/assets/images/work/tutorials/calling/path-3.png"></a>
 	<figcaption>Example paths for the texture composition.</figcaption>
 </figure> 
 
@@ -45,14 +45,14 @@ Once you've drawn your path, create an adjustment layer and apply the **Tint** e
 On the Mir layer under the **Texture** tab, set the Texture Layer to your texture composition. Under the **Fractal** tab, set your Amplitude Layer to your amplitude composition. Change the Fractal Type to Multi. Set your amplitude high, around 100 and your Frequency low, around 300. Under Z Range adjust Z Lift to your liking, I used 1.20.
 
 <figure class="half">
-	<a href="/images/work/tutorials/calling/texture-settings.png"><img src="/images/work/tutorials/calling/texture-settings.png"></a>
-	<a href="/images/work/tutorials/calling/fractal-settings.png"><img src="/images/work/tutorials/calling/fractal-settings.png"></a>
+	<a href="/assets/images/work/tutorials/calling/texture-settings.png"><img src="/assets/images/work/tutorials/calling/texture-settings.png"></a>
+	<a href="/assets/images/work/tutorials/calling/fractal-settings.png"><img src="/assets/images/work/tutorials/calling/fractal-settings.png"></a>
 	<figcaption>Texture & Fractal settings.</figcaption>
 </figure>
 
 That's all there is to create the effect, you could add color correction effects like Curves and Glow to make it pop, or tweak the Mir settings to create your own look. Remove the Invert effect from the amplitude composition to create a raised, "iceberg" look. To color the slopes of the mesh, you want to color the grey area in the texture composition. Add a Curves effect on the adjustment layer in the texture composition and bring up the Blue Channel in the middle of the curve graph.
 
 <figure>
-	<a href="/images/work/tutorials/calling/texture-curves.png"><img src="/images/work/tutorials/calling/texture-curves.png"></a>
+	<a href="/assets/images/work/tutorials/calling/texture-curves.png"><img src="/assets/images/work/tutorials/calling/texture-curves.png"></a>
 	<figcaption>Curves settings in the texture composition.</figcaption>
 </figure>

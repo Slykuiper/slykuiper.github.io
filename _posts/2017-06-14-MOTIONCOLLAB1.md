@@ -35,8 +35,8 @@ I was 2nd in Group A (0:03 - 0:06), transforming Beef Boy's character into a des
 </figure> 
 
 <figure class="third">
-	<a href="/images/work/other/rAfterEffects_file3.png"><img src="/images/work/other/rAfterEffects_file3.png"></a>
-	<a href="/images/work/other/rAfterEffects_file4.png"><img src="/images/work/other/rAfterEffects_file4.png"></a>
-	<a href="/images/work/other/rAfterEffects_file5.png"><img src="/images/work/other/rAfterEffects_file5.png"></a>
+	<a href="/assets/images/work/other/rAfterEffects_file3.png"><img src="/assets/images/work/other/rAfterEffects_file3.png"></a>
+	<a href="/assets/images/work/other/rAfterEffects_file4.png"><img src="/assets/images/work/other/rAfterEffects_file4.png"></a>
+	<a href="/assets/images/work/other/rAfterEffects_file5.png"><img src="/assets/images/work/other/rAfterEffects_file5.png"></a>
 	<figcaption>Asset generation for the space elements, using fractal noise and tint, with a shapelayer with turbulence displace as the matte.</figcaption>
 </figure>

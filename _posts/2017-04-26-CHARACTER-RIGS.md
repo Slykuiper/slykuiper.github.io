@@ -18,7 +18,7 @@ The skateboarder rig was animated by blocking out key movements with a real skat
 
 My part of the first [r/AfterEffects collaboration](http://slykuiper.com/rAFTEREFFECTS/). An astronaut shown at the end of my part of group B.
 <figure>
-	<a href="/images/work/other/astronaut.gif"><img src="/images/work/other/astronaut.gif"></a>
+	<a href="/assets/images/work/other/astronaut.gif"><img src="/assets/images/work/other/astronaut.gif"></a>
 </figure>
 
 My part for the second r/AfterEffects collaboration. One second walkcycle loop, it was a bit of challenge but fun!

@@ -16,16 +16,16 @@ You can read more about the project and find credits listed on the [vimeo page](
 ### The Details
 
 <figure class="third">
-	<a href="/images/work/other/motioncollab_sly2.png"><img src="/images/work/other/motioncollab_sly2.png"></a>
-	<a href="/images/work/other/motioncollab_sly3.png"><img src="/images/work/other/motioncollab_sly3.png"></a>
-	<a href="/images/work/other/motioncollab_sly5.png"><img src="/images/work/other/motioncollab_sly5.png"></a>
+	<a href="/assets/images/work/other/motioncollab_sly2.png"><img src="/assets/images/work/other/motioncollab_sly2.png"></a>
+	<a href="/assets/images/work/other/motioncollab_sly3.png"><img src="/assets/images/work/other/motioncollab_sly3.png"></a>
+	<a href="/assets/images/work/other/motioncollab_sly5.png"><img src="/assets/images/work/other/motioncollab_sly5.png"></a>
 	<figcaption>Early design sketches.</figcaption>
 </figure>
 
 I designed and animated the rooster. I originally set out to do an exaggerated, comical approach with a bigger comb and stubbier legs but went with a more realistic figure that turned out to be more fun to animate. I rigged up the tail with [a ton of duik bones](/assets/images/work/other/motioncollab_sly6.png) set to loop seamlessly with the wiggle() expression. The initial pass for the run cycle was blocked out with a reference video and refined towards the end of the deadline. Designing and animating the main scenes came hours before the deadline was over. If you're feeling nosy, [here's the 595 KB project file](https://www.dropbox.com/s/8epivixt5rqrffk/Rooster_sly2.rar?dl=0).
 
 <figure>
-	<a href="/images/work/other/motioncollab_sly4.gif"><img src="/images/work/other/motioncollab_sly4.gif"></a>
+	<a href="/assets/images/work/other/motioncollab_sly4.gif"><img src="/assets/images/work/other/motioncollab_sly4.gif"></a>
 	<figcaption>Run Cycle</figcaption>
 </figure>
 

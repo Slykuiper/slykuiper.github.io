@@ -25,9 +25,9 @@ I saw [this tweet](https://twitter.com/shiffman/status/836623202591862784) on my
 **revPerSecond** indiciated the number of revolutions per second. Setting it to 1 would make the object do one complete rotation every second. Each of these values are keyframe-able but numPoints creates interesting results when keyframed.
 
 <figure class="third">
-	<a href="/images/work/spirograph/numpoints3.png"><img src="/images/work/spirograph/numpoints3.png"></a>
-	<a href="/images/work/spirograph/numpoints6.png"><img src="/images/work/spirograph/numpoints6.png"></a>
-	<a href="/images/work/spirograph/numpoints14.png"><img src="/images/work/spirograph/numpoints14.png"></a>
+	<a href="/assets/images/work/spirograph/numpoints3.png"><img src="/assets/images/work/spirograph/numpoints3.png"></a>
+	<a href="/assets/images/work/spirograph/numpoints6.png"><img src="/assets/images/work/spirograph/numpoints6.png"></a>
+	<a href="/assets/images/work/spirograph/numpoints14.png"><img src="/assets/images/work/spirograph/numpoints14.png"></a>
 	<figcaption>numPoints 3, 6, and 14 respectively.</figcaption>
 </figure> 
 

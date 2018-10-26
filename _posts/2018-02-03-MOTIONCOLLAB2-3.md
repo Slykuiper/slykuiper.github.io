@@ -13,8 +13,8 @@ Our second collab was an exploration into character rigging. Each of us had the 
 Our third collab was a music video for Tame Impala's "Elephant". As they're a psychedelic rock band, there was a ton of variety and interesting effects. Each designer had a chance to express their unique style while the project as a whole had a cohesive and smooth feel to it. 
 
 <figure class="half">
-	<a href="/images/work/other/rAfterEffects-collab2-sly2.png"><img src="/images/work/other/rAfterEffects-collab2-sly2.png"></a>
-	<a href="/images/work/other/rAfterEffects-collab3-sly2.png"><img src="/images/work/other/rAfterEffects-collab3-sly2.png"></a>
+	<a href="/assets/images/work/other/rAfterEffects-collab2-sly2.png"><img src="/assets/images/work/other/rAfterEffects-collab2-sly2.png"></a>
+	<a href="/assets/images/work/other/rAfterEffects-collab3-sly2.png"><img src="/assets/images/work/other/rAfterEffects-collab3-sly2.png"></a>
 	<figcaption>Frames from my parts of the 2nd and 3rd collab respectively.</figcaption>
 </figure>
 
@@ -28,7 +28,7 @@ You can read more about the project and find credits listed on the [vimeo page](
 Organized and scheduled by Eric "Beef Boy!" Wilson, we made a lyric video to Tame Impala's "Elephant" with a limited color palette. As the song title details, elephants were the subject of the music video. We went with the same principal from the first collab: Our work starts at the end of the previous designer, meaning we'll work with the last frame they left off and transform it into our own. With 22 members divided into 3 groups, each member had 3-4 days to complete their part and we completed the project in 31 days. [Take a look at our schedule if you're interested.](/assets/images/work/other/rAfterEffects-collab3-schedule.png)
 
 <figure>
-	<a href="/images/work/other/rAfterEffects-collab3-sly3.gif"><img src="/images/work/other/rAfterEffects-collab3-sly3.gif"></a>
+	<a href="/assets/images/work/other/rAfterEffects-collab3-sly3.gif"><img src="/assets/images/work/other/rAfterEffects-collab3-sly3.gif"></a>
 	<figcaption>My part of the 3rd r/AfterEffects collab</figcaption>
 </figure>
 
@@ -44,7 +44,7 @@ You can read more about the project and find credits listed on the [vimeo page](
 This collab served as a chance to get more familiar with character rigging and animation. Provided with key poses 24 frames, we each illustrated a character and set it in motion to be timed evenly in the final production. 
 
 <figure class="half">
-	<a href="/images/work/other/rAfterEffects-collab2-sly3.gif"><img src="/images/work/other/rAfterEffects-collab2-sly3.gif"></a>
-	<a href="/images/work/other/rAfterEffects-collab2-sly4.gif"><img src="/images/work/other/rAfterEffects-collab2-sly4.gif"></a>
+	<a href="/assets/images/work/other/rAfterEffects-collab2-sly3.gif"><img src="/assets/images/work/other/rAfterEffects-collab2-sly3.gif"></a>
+	<a href="/assets/images/work/other/rAfterEffects-collab2-sly4.gif"><img src="/assets/images/work/other/rAfterEffects-collab2-sly4.gif"></a>
 	<figcaption>Closer shots of my character.</figcaption>
 </figure>

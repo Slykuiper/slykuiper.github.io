@@ -14,6 +14,6 @@ I used to stream on Twitch a while ago and plan on picking it back up. I figure 
 An embedded twitch player, if you want to see if I'm broadcasting live or want to watch from this page.
 
 <figure>
-	<a href="/images/work/overlays/slykuiper_twitch_followalert2.gif"><img src="/images/work/overlays/slykuiper_twitch_followalert2.gif"></a>
+	<a href="/assets/images/work/overlays/slykuiper_twitch_followalert2.gif"><img src="/assets/images/work/overlays/slykuiper_twitch_followalert2.gif"></a>
 	<figcaption>Follow Alert animation triggered when a viewer followers my stream.</figcaption>
 </figure>

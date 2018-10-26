@@ -16,9 +16,9 @@ For bulk download, here's the [dropbox folder](https://www.dropbox.com/sh/ik8v5y
 
 
 <figure class="third">
-	<a href="/images/work/mandelbulb/scarab1_800.jpg"><img src="https://www.dropbox.com/s/yhsdumrja39xvli/scarab1_2000.jpg?raw=1"></a>
-	<a href="/images/work/mandelbulb/scarab2_800.jpg"><img src="https://www.dropbox.com/s/68lorm2s2b9dv4c/scarab2_2000.jpg?raw=1"></a>
-	<a href="/images/work/mandelbulb/scarab3_800.jpg"><img src="https://www.dropbox.com/s/jz2v43bejzalabx/scarab3_2000.jpg?raw=1"></a>
+	<a href="/assets/images/work/mandelbulb/scarab1_800.jpg"><img src="https://www.dropbox.com/s/yhsdumrja39xvli/scarab1_2000.jpg?raw=1"></a>
+	<a href="/assets/images/work/mandelbulb/scarab2_800.jpg"><img src="https://www.dropbox.com/s/68lorm2s2b9dv4c/scarab2_2000.jpg?raw=1"></a>
+	<a href="/assets/images/work/mandelbulb/scarab3_800.jpg"><img src="https://www.dropbox.com/s/jz2v43bejzalabx/scarab3_2000.jpg?raw=1"></a>
 </figure>
 
 <iframe src="//slykuiper.com/vrview-master/index.html?image=//slykuiper.com/images/work/mandelbulb/mandelbulb_360.jpg&is_stereo=false" width="100%" height="600px" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
