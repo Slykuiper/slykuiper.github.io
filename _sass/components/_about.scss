@@ -59,8 +59,15 @@
     left: 50%;
 }
 
-.halve {
+.halve-left {
     display: inline-block;
+    margin: 1em;
+    max-width: 25em;
+}
+
+.halve-right {
+    display: inline-block;
+    margin: 1em;
     max-width: 25em;
 }
 
