@@ -55,10 +55,14 @@
         display: inline-block;
     }
 }
-
 .intro {
     left: 50%;
+
+    & li {
+        max-width: 25em;
+    }
 }
+
 .about-list {
     max-width: $mq-sm;
     margin: 2em auto 0;
