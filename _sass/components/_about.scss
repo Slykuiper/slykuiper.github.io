@@ -63,6 +63,27 @@
     border: 1px solid gray;
     margin: 2px;
     padding: 10px;
+    max-width: 20em;
+
+    p {
+        font-size: 0.9em;
+    }
+
+    &:first-child {
+        margin-left: 0;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.column-sm {
+    flex: 1;
+    border: 1px solid gray;
+    margin: 2px;
+    padding: 10px;
+    max-width: 10em;
 
     p {
         font-size: 0.9em;
@@ -78,8 +99,9 @@
 
     &__img {
         img {
-            height: 75%;
-            width: 75%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
     }
 }
