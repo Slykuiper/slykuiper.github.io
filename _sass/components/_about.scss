@@ -61,28 +61,29 @@
     margin: 2em auto 0;
     overflow: hidden;
     display: inline-block;
+}
 
-    ul {
-        list-style-type: none;
-        display: inline;
+.social {
 
-        & li {
+    list-style-type: none;
+    display: inline;
+
+    & li {
+    }
+
+    & > * {
+
+        &:not(:last-child) {
+            margin-right: 0.5em;
         }
 
-        & > * {
+        a {
+            transition: color 0.3s ease-in-out;
 
-            &:not(:last-child) {
-                margin-right: 0.5em;
-            }
-
-            a {
-                transition: color 0.3s ease-in-out;
-
-                &:hover,
-                &:active,
-                &:focus {
-                    color: $color-rm-red;
-                }
+            &:hover,
+            &:active,
+            &:focus {
+                color: $color-rm-red;
             }
         }
     }
