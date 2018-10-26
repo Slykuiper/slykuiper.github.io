@@ -27,13 +27,18 @@ For bulk download, here's the [dropbox folder](https://www.dropbox.com/sh/ik8v5y
 <section class="section-padding bg-black">
     <div class="grid">
         {% for rsc in page.rscs %}
+        <h2 class="section-header">{{ rsc.rsc-type }}</h2>
         <ul class="container-triple" itemscope itemtype="http://schema.org/Blog">
             {% for item in rsc.rsc-items %}
             <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
                 <a class="preview__link" href="{{ item.rsc-link }}" itemprop="url">
                     <div class="preview__img bg-white wow slideInUp">
-						<h3 class="wow fadeInUp" data-wow-delay="150ms" itemprop="name">{{ item.rsc-name }}</h4>
-                        <figure class="absolute-bg wow fadeIn" data-wow-delay="900ms" style="background-image: url('/assets/images/work/mandelbulb/{{ item.rsc-img }}');"></figure>
+                        <figure class="absolute-bg wow fadeIn" data-wow-delay="900ms" style="background-image: url('{{ item.rsc-img }}');"></figure>
+                    </div>
+                    <div class="preview__container bg-alpha">
+                        <div>
+                            <h4 class="wow fadeInUp" data-wow-delay="150ms" itemprop="name">{{ item.rsc-name }}</h4>
+                        </div>
                     </div>
                 </a>
             </li>
