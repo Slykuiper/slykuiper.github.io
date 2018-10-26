@@ -36,6 +36,7 @@
     p {
         text-align: left;
         left: 50%;
+        margin-bottom: 0.5em;
 
         & a {
             @include link-posts();
