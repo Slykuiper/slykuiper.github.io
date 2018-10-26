@@ -25,11 +25,13 @@ layout: default
                         {% for item in rsc.rsc-items %}
                         <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
                             <a class="preview__link" href="{{ item.rsc-link }}" itemprop="url">
-                                <div style="top: 0; left: 0; height: 100%; width: 100%; padding: 2em; text-align: center;">
-                                    <p itemprop="name">{{ item.rsc-name }}</p>
-                                </div>
                                 <div class="preview__img bg-white">
                                     <figure class="absolute-bg" style="background-image: url('{{ item.rsc-img }}');"></figure>
+                                </div>
+                                <div class="preview__container bg-alpha">
+                                    <div>
+                                        <p class="preview__excerpt" itemprop="description">{{ item.rsc-name }}</p>
+                                    </div>
                                 </div>
                             </a>
                         </li>
