@@ -195,12 +195,16 @@
         }
     }
 
-    &__name {
+    &__inner {
         top: 0;
         left: 0;
         height: $mq-xs;
         width: $mq-xs;
         text-align: center;
         padding: 2em;
+
+        p {
+            text-transform: uppercase;
+        }
     }
 }
