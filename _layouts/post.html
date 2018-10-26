@@ -39,6 +39,22 @@ layout: default
                     </ul>
                     {% endfor %}
                 </div>
+                <div id="postgrid">
+                    {% for rsc in page.rscs %}
+                        {% for item in rsc.rsc-items %}
+                        <article>
+                            <a href="{{ item.rsc-link }}">
+                                <figure>
+                                    <img src="{{ item.rsc-img }}" />
+                                </figure>
+                                <div>
+                                    <p>{{ item.rsc-name }}</p>
+                                </div>
+                            </a>
+                        </article>
+                        {% endfor %}
+                    {% endfor %}
+                </div>
             </section>
             {% endif %}
 
