@@ -47,13 +47,10 @@
     &__social {
         list-style-type: none;
 
-        & ul {
-            color: #00ff00;
-
             & li {
+                color: #00ff00;
                 display: inline;
             }
-        }
 
         & > * {
 
