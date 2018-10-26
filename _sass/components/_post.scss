@@ -201,10 +201,15 @@
         height: $mq-xs;
         width: $mq-xs;
         text-align: center;
-        padding: 2em;
+        opacity: 0;
 
         p {
             text-transform: uppercase;
+            padding-top: 6em;
+
+            &:focus {
+                opacity: 0.9;
+            }
         }
     }
 }
