@@ -2,8 +2,13 @@
 layout: post
 title:  "Mandelbulb"
 image: /assets/images/work/mandelbulb/scarab1_800.jpg
-grid:
-  - grid-type: "After Effects"
+tags:
+- motion graphics
+- blog
+- 3d
+- fractal
+grids:
+  - grid-type: "Mandelbulb"
     grid-items:
     - grid-name: "display"
       grid-link: "https://www.dropbox.com/s/cg0adocmejcschc/display_3200.png?raw=1"
@@ -70,7 +75,7 @@ For bulk download, here's the [dropbox folder](https://www.dropbox.com/sh/ik8v5y
 
 <section class="section-padding bg-black">
     <div class="grid">
-        {% for grid in page.grid %}
+        {% for grid in page.grids %}
         <ul class="container-triple" itemscope itemtype="http://schema.org/Blog">
             {% for item in grid.grid-items %}
             <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
