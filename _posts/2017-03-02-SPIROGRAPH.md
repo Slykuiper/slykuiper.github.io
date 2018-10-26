@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "SPIROGRAPH"
+image: /assets/images/work/spirograph/thumb.png
+tags:
+- motion graphics
+- blog
+- downloads 
+---
+
+## SPIROGRAPH
+
+I created a spirograph inside of After Effects, with some sliders for customizing the visuals. 
+
+[Project File for download](https://www.dropbox.com/s/t1acebe25pygyve/Spirograph.aep?dl=0){: .btn .btn_success}
+
+![image-right](/assets/images/work/spirograph/spirograph-motion.gif){: .align-right}
+
+I saw [this tweet](https://twitter.com/shiffman/status/836623202591862784) on my timeline and wondered how I could recreate it in After Effects. I created three shapelayers - once for each circle - with the inner two having lines. The small, outer circle is the indicator and most important null for drawing the spirographs. The way I visualized the spirograph was by parenting a point light to the outer circle, and using the light as an emitter in Trapcode Particular. 
+
+![image-center](/assets/images/work/spirograph/controls.png){: .align-center}
+
+**pathVisibility** is a checkbox that toggles the visibility of the shapelayers.  
+**numPoints** specifices the number of points or vertices you want the spirograph to have.  
+**revPerSecond** indiciated the number of revolutions per second. Setting it to 1 would make the object do one complete rotation every second. Each of these values are keyframe-able but numPoints creates interesting results when keyframed.
+
+<figure class="third">
+	<a href="/images/work/spirograph/numpoints3.png"><img src="/images/work/spirograph/numpoints3.png"></a>
+	<a href="/images/work/spirograph/numpoints6.png"><img src="/images/work/spirograph/numpoints6.png"></a>
+	<a href="/images/work/spirograph/numpoints14.png"><img src="/images/work/spirograph/numpoints14.png"></a>
+	<figcaption>numPoints 3, 6, and 14 respectively.</figcaption>
+</figure> 
+
+<figure class="third">
+	<a href="http://i.imgur.com/pTxDTp5.gif"><img src="http://i.imgur.com/pTxDTp5.gif"></a>
+	<a href="http://i.imgur.com/iQMjK8u.gif"><img src="http://i.imgur.com/iQMjK8u.gif"></a>
+	<a href="http://i.imgur.com/j5GG3WE.gif"><img src="http://i.imgur.com/j5GG3WE.gif"></a>
+	<figcaption>Playing with settings in Trapcode Particular, I created some interesting visuals.</figcaption>
+</figure> 
