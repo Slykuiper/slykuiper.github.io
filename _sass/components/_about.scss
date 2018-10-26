@@ -58,7 +58,7 @@
 .columns-wrapper {
     width: 95%;
     max-width: 960px;
-    margin: 2em auto;
+    margin: 0 auto;
 }
 
 .columns {
@@ -107,14 +107,13 @@
 }
 
 .about-list {
-    max-width: $mq-sm;
-    margin: 2em auto 0;
+    /*max-width: $mq-sm;
+    margin: 2em auto 0;*/
     overflow: hidden;
     display: inline-block;
 }
 
 .social {
-
     list-style-type: none;
     display: inline;
 
