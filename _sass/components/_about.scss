@@ -47,8 +47,12 @@
     &__social {
         list-style-type: none;
 
-        & li {
-            display: inline;
+        & ul {
+            color: #00ff00;
+
+            & li {
+                display: inline;
+            }
         }
 
         & > * {
