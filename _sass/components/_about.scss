@@ -57,11 +57,11 @@
 }
 .intro {
     left: 50%;
+}
 
-    & li {
-        display: inline-block;
-        max-width: 25em;
-    }
+.halve {
+    display: inline-block;
+    max-width: 25em;
 }
 
 .about-list {
