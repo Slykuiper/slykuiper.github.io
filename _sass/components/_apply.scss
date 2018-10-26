@@ -1,0 +1,75 @@
+/**
+ * Apply
+ */
+.apply {
+    max-width: 40em;
+    margin: 2em auto 0;
+    overflow: hidden;
+
+    @media (min-width: $mq-sm) {
+        margin-top: 3em;
+    }
+
+    &__text {
+        margin-bottom: 50px;
+        font-size: 1.5em;
+        text-align: center;
+        left: 50%;
+        text-transform: uppercase;
+    }
+
+    app_form {
+        margin-bottom: 50px;
+    }
+
+    form {
+        font-size: 1.5em;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+
+        & p {
+            margin-top: 0.2em;
+            margin-bottom: 0;
+            font-size: 0.75em;
+            text-align: left;
+        }
+    }
+
+    .form input {
+        font-size: 1.5em;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+
+    input[type=email], input[type=text], select {
+        border: 1px solid $color-white;
+        border-radius: 15px;
+        padding: 6px 10px;
+        margin: 8px 0;
+        width: 100%;
+    }
+
+    input[type=submit] {
+        background-color: $color-white;
+        border-radius: 15px;
+        color: $color-alpha;
+        padding: 5px 30px;
+        margin: 8px 0;
+        cursor: pointer;
+
+        @extend %card-shadow;
+
+        &:hover {
+            background-color: $color-rm-red;
+            color: $color-white;
+        }
+    }
+
+    button, input, optgroup, select, textarea {
+        font-family: $font-body;
+        font-size: 1em;
+    }
+}
