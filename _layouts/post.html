@@ -22,14 +22,12 @@ layout: default
                 <div id="postgrid" class="container-triple">
                     {% for rsc in page.rscs %}
                         {% for item in rsc.rsc-items %}
-                        <article>
                             <a href="{{ item.rsc-link }}">
-                                <figure class="postgrid-bg" style="background-image: url({{ item.rsc-img }})"></figure>
+                                <div class="postgrid-bg" style="background-image: url({{ item.rsc-img }})"></div>
                                 <div>
                                     <p>{{ item.rsc-name }}</p>
                                 </div>
                             </a>
-                        </article>
                         {% endfor %}
                     {% endfor %}
                 </div>
