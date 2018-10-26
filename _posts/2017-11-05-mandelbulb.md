@@ -9,6 +9,7 @@ rscs:
     - rsc-name: "display"
       rsc-link: "https://www.dropbox.com/s/cg0adocmejcschc/display_3200.png?raw=1"
       rsc-img: "display_1600.png"
+	  rsc-description: "Test test test test."
 ---
 
 Fractals are an interesting thing.
@@ -38,6 +39,7 @@ For bulk download, here's the [dropbox folder](https://www.dropbox.com/sh/ik8v5y
                     <div class="preview__container bg-alpha">
                         <div>
                             <h4 class="wow fadeInUp" data-wow-delay="150ms" itemprop="name">{{ item.rsc-name }}</h4>
+                            <p class="preview__excerpt wow fadeInUp" data-wow-delay="300ms" itemprop="description">{{ item.rsc-description | strip_html | truncatewords: 30 }}</p>
                         </div>
                     </div>
                 </a>
