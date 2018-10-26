@@ -24,9 +24,7 @@ layout: default
                         {% for item in rsc.rsc-items %}
                         <article>
                             <a href="{{ item.rsc-link }}">
-                                <figure>
-                                    <img src="{{ item.rsc-img }}" />
-                                </figure>
+                                <figure class="postgrid-bg" style="background-image: url({{ item.rsc-img }})"></figure>
                                 <div>
                                     <p>{{ item.rsc-name }}</p>
                                 </div>
