@@ -45,19 +45,9 @@
     }
 }
 
-.about-logo {
-    max-width: $mq-sm;
-    margin: 2em auto 0;
-    overflow: hidden;
-    display: inline-block;
-
-    & figure {
-        display: inline-block;
-    }
-}
 .columns-wrapper {
     width: 95%;
-    max-width: 960px;
+    max-width: $mq-lg;
     margin: 0 auto;
 }
 
@@ -74,6 +64,10 @@
     margin: 2px;
     padding: 10px;
 
+    p {
+        font-size: 0.9em;
+    }
+
     &:first-child {
         margin-left: 0;
     }
@@ -83,10 +77,9 @@
     }
 
     &__img {
-
         img {
-            height: 100%;
-            width: 100%;
+            height: 75%;
+            width: 75%;
         }
     }
 }
@@ -114,7 +107,7 @@
     }
 }
 
-.about-list {
+.intro-list {
     /*max-width: $mq-sm;
     margin: 2em auto 0;*/
     overflow: hidden;
