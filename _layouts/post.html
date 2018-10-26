@@ -26,7 +26,9 @@ layout: default
                         <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
                             <a class="preview__link" href="{{ item.rsc-link }}" itemprop="url">
                                 <div class="preview__img bg-white">
-                                    <h4 class="empty" itemprop="name">{{ item.rsc-name }}</h4>
+                                    <div style="top: 0; left: 0; height: 100%; width: 100%; padding: 2em; text-align: center;">
+                                        <p itemprop="name">{{ item.rsc-name }}</p>
+                                    </div>
                                     <figure class="absolute-bg" style="background-image: url('{{ item.rsc-img }}');"></figure>
                                 </div>
                                 <div class="preview__container bg-alpha">
