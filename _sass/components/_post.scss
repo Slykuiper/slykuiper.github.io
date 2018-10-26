@@ -167,10 +167,7 @@
     margin: 2px;
     padding: 10px;
     max-width: $mq-xs;
-
-    p {
-        font-size: 0.9em;
-    }
+    font-size: 0.9em;
 
     &:first-child {
         margin-left: 0;
@@ -182,6 +179,7 @@
 
     a {
         transition: color 0.3s ease-in-out;
+        margin: auto 0.5em;
 
         &:hover,
         &:active,

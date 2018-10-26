@@ -42,8 +42,8 @@ layout: default
                             {% for rsc in page.rscs %}
                                 {% for item in rsc.rsc-items %}
                                 <a href="{{ item.rsc-link }}">
-                                    <div class="postcolumn">
-                                        <div class="postcolumn__name"><p>{{ item.rsc-name }}</p></div>
+                                    <div class="postcolumn" style="background-image: url({{ item.rsc-img }})">
+                                        <div class="postcolumn__name"><a href="{{ item.rsc-link }}">{{ item.rsc-name }}</a></div>
                                     </div>
                                 </a>
                                 {% endfor %}
