@@ -19,23 +19,6 @@ layout: default
 
             {% if page.rscs.size > 0 %}
             <section class="section-padding bg-black">
-                <div id="postgrid" class="container-triple">
-                    {% for rsc in page.rscs %}
-                    {% for item in rsc.rsc-items %}
-                    <a href="{{ item.rsc-link }}">
-                        <div class="postgrid-bg" style="background-image: url({{ item.rsc-img }})"></div>
-                        <div>
-                            <p>{{ item.rsc-name }}</p>
-                        </div>
-                    </a>
-                    {% endfor %}
-                    {% endfor %}
-                </div>
-            </section>
-            {% endif %}
-
-            {% if page.rscs.size > 0 %}
-            <section class="section-padding bg-black">
                 <div class="postgrid">
                     <div class="columns-wrapper">
                         <div class="columns">
