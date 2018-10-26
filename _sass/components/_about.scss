@@ -114,6 +114,34 @@
     }
 }
 
+.column3 {
+    flex: 1;
+    margin: 2px;
+    padding: 10px;
+
+    p {
+        font-size: 0.9em;
+    }
+
+    &:first-child {
+        margin-left: 0;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    a {
+        transition: color 0.3s ease-in-out;
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: $color-rm-red;
+        }
+    }
+}
+
 @media screen and (max-width: 980px) {
     .columns .column {
         margin-bottom: 5px;
