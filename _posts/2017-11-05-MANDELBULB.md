@@ -21,4 +21,4 @@ For bulk download, here's the [dropbox folder](https://www.dropbox.com/sh/ik8v5y
 	<a href="/assets/images/work/mandelbulb/scarab3_800.jpg"><img src="https://www.dropbox.com/s/jz2v43bejzalabx/scarab3_2000.jpg?raw=1"></a>
 </figure>
 
-<iframe src="//slykuiper.com/vrview-master/index.html?image=//slykuiper.com/images/work/mandelbulb/mandelbulb_360.jpg&is_stereo=false" width="100%" height="600px" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+<iframe src="/vrview-master/index.html?image=//slykuiper.com/images/work/mandelbulb/mandelbulb_360.jpg&is_stereo=false" width="100%" height="600px" frameborder="0" allowfullscreen="allowfullscreen"></iframe>

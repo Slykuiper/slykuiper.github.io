@@ -9,7 +9,7 @@ tags:
 
 ## ALKAT - RE:INSANE
 
-<iframe src="https://player.vimeo.com/video/200781171" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="vid" style="padding-top: 25px; padding-bottom: 50px;"> <iframe width="640" height="360" src="https://player.vimeo.com/video/200781171" frameborder="0" allowfullscreen></iframe></div>
 I worked with [AlKaT](http://slykuiper.com/ALKAT) to create an animated music video for his release "Re:Insane", published through [Vocallective Records](http://store.vocallective.net/album/re-insane).
 
 The idea for the project was to create a western style AMV featuring Rei, AlKaT's character he designed to personify to the song. She's not the voice behind the vocals of the song, that's Daisy, a voicebank for Alter/Ego (a real-time voice synthesizer). This project was my first dive into character rigging/animation in After Effects.  

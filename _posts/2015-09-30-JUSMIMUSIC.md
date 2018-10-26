@@ -17,66 +17,66 @@ tags:
 * [Facebook](https://www.facebook.com/JusmiMusic)
 
 ### Hatemi - Terror 
-<iframe src="https://player.vimeo.com/video/192890990" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="vid" style="padding-top: 25px; padding-bottom: 50px;"> <iframe width="640" height="360" src="https://player.vimeo.com/video/192890990" frameborder="0" allowfullscreen></iframe></div>
 An animated music video created for Jusmi's alias "hatemi"'s release entitled "Terror". 
 
 ---
 
 ### Luvmi
-<iframe src="https://player.vimeo.com/video/183224374" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="vid" style="padding-top: 25px; padding-bottom: 50px;"> <iframe width="640" height="360" src="https://player.vimeo.com/video/183224374" frameborder="0" allowfullscreen></iframe></div>
 Cutesy audio reaction video for Jusmi's release titled "Luvmi".
 
 ---
 
 ### Glow 
-<iframe src="https://player.vimeo.com/video/184433721" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="vid" style="padding-top: 25px; padding-bottom: 50px;"> <iframe width="640" height="360" src="https://player.vimeo.com/video/184433721" frameborder="0" allowfullscreen></iframe></div>
 An emotional space audio reaction video for Jusmi's release entitled "Glow". 
 
 ---
 
 ### Self Like
-<iframe src="https://player.vimeo.com/video/183224379" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="vid" style="padding-top: 25px; padding-bottom: 50px;"> <iframe width="640" height="360" src="https://player.vimeo.com/video/183224379" frameborder="0" allowfullscreen></iframe></div>
 Music video created for Jusmi's release entitled "Self Like". 
 
 ---
 
 ### 17
-<iframe src="https://player.vimeo.com/video/192891053" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="vid" style="padding-top: 25px; padding-bottom: 50px;"> <iframe width="640" height="360" src="https://player.vimeo.com/video/192891053" frameborder="0" allowfullscreen></iframe></div>
 Video produced for Jusmi's chill track "17".
 
 ---
 
 ### Tonight Remix
-<iframe src="https://player.vimeo.com/video/183224378" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="vid" style="padding-top: 25px; padding-bottom: 50px;"> <iframe width="640" height="360" src="https://player.vimeo.com/video/183224378" frameborder="0" allowfullscreen></iframe></div>
 Video produced for Jusmi's remix titled "Tonight".
 
 ---
 
 ### Iruj
-<iframe src="https://player.vimeo.com/video/192891147" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="vid" style="padding-top: 25px; padding-bottom: 50px;"> <iframe width="640" height="360" src="https://player.vimeo.com/video/192891147" frameborder="0" allowfullscreen></iframe></div>
 Music video produced for Jusmi's glitch hop track titled "Iruj".
 
 ---
 
 ### Leaves
-<iframe src="https://player.vimeo.com/video/183224370" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="vid" style="padding-top: 25px; padding-bottom: 50px;"> <iframe width="640" height="360" src="https://player.vimeo.com/video/183224370" frameborder="0" allowfullscreen></iframe></div>
 Music video produced for Jusmi's progressive house release titled "Leaves".
 
 ---
 
 ### Hot Sauce
-<iframe src="https://player.vimeo.com/video/192891257" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="vid" style="padding-top: 25px; padding-bottom: 50px;"> <iframe width="640" height="360" src="https://player.vimeo.com/video/192891257" frameborder="0" allowfullscreen></iframe></div>
 Music video produced for Jusmi's Electro song entitled "Hot Sauce".
 
 ---
 
 ### Cake
-<iframe src="https://player.vimeo.com/video/183224369" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="vid" style="padding-top: 25px; padding-bottom: 50px;"> <iframe width="640" height="360" src="https://player.vimeo.com/video/183224369" frameborder="0" allowfullscreen></iframe></div>
 Music video for Jusmi's dubstep release "Cake" featuring Nori.
 
 ---
 
 ### Intros
-<iframe src="https://player.vimeo.com/video/183224373" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<iframe src="https://player.vimeo.com/video/183224371" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="vid" style="padding-top: 25px; padding-bottom: 50px;"> <iframe width="640" height="360" src="https://player.vimeo.com/video/183224373" frameborder="0" allowfullscreen></iframe></div>
+<div class="vid" style="padding-top: 25px; padding-bottom: 50px;"> <iframe width="640" height="360" src="https://player.vimeo.com/video/183224371" frameborder="0" allowfullscreen></iframe></div>
 Early on I created some intros for him using the logos he designed.
