@@ -2,11 +2,6 @@
 layout: post
 title:  "Mandelbulb"
 image: /assets/images/work/mandelbulb/scarab1_800.jpg
-tags:
-- motion graphics
-- blog
-- 3d
-- fractal
 grids:
   - grid-type: "Mandelbulb"
     grid-items:
