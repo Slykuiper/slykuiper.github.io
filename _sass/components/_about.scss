@@ -2,9 +2,10 @@
  * About
  */
 .about {
-    max-width: $mq-lg;
+    max-width: $mq-sm;
     margin: 2em auto 0;
     overflow: hidden;
+    display: inline-block;
 
     @media (min-width: $mq-sm) {
         margin-top: 3em;
@@ -67,5 +68,10 @@
 }
 
 .about-logo {
+    display: inline;
+    margin: 2em;
 
+    & figure {
+        display: inline-block;
+    }
 }
