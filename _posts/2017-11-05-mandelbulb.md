@@ -27,7 +27,6 @@ For bulk download, here's the [dropbox folder](https://www.dropbox.com/sh/ik8v5y
 <section class="section-padding bg-black">
     <div class="grid">
         {% for rsc in page.rscs %}
-		<h2 class="section-header">{{ rsc.rsc-type }}</h2>
         <ul class="container-triple" itemscope itemtype="http://schema.org/Blog">
             {% for item in rsc.rsc-items %}
             <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
