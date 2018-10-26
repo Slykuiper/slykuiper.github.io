@@ -31,11 +31,6 @@ layout: default
                                 <div class="preview__img bg-white">
                                     <figure class="absolute-bg" style="background-image: url('{{ item.rsc-img }}');"></figure>
                                 </div>
-                                <div class="preview__container bg-alpha">
-                                    <div>
-                                        <p class="preview__excerpt" itemprop="description">{{ item.rsc-description | strip_html | truncatewords: 30 }}</p>
-                                    </div>
-                                </div>
                             </a>
                         </li>
                         {% endfor %}
