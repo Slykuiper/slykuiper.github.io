@@ -43,14 +43,31 @@
             @include link-posts();
         }
     }
+}
 
-    &__social {
+.about-logo {
+    max-width: $mq-sm;
+    margin: 2em auto 0;
+    overflow: hidden;
+    display: inline-block;
+
+    & figure {
+        display: inline-block;
+    }
+}
+
+.about-list {
+    max-width: $mq-sm;
+    margin: 2em auto 0;
+    overflow: hidden;
+    display: inline-block;
+
+    ul {
         list-style-type: none;
+        display: inline;
 
-            & li {
-                color: #00ff00;
-                display: inline;
-            }
+        & li {
+        }
 
         & > * {
 
@@ -68,14 +85,5 @@
                 }
             }
         }
-    }
-}
-
-.about-logo {
-    display: inline;
-    margin: 2em;
-
-    & figure {
-        display: inline-block;
     }
 }
