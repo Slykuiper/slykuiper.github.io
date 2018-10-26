@@ -9,19 +9,15 @@ rscs:
     - rsc-name: "Spirograph Project File"
       rsc-link: "http://slykuiper.com/SPIROGRAPH/"
       rsc-img: "/assets/images/work/spirograph/thumb.png"
-      rsc-description: "An animated spirograph built in after effects with a few parameters."
     - rsc-name: "Floral Project File"
       rsc-link: "http://slykuiper.com/FLORAL/"
       rsc-img: "/assets/images/work/other/floral.png"
-      rsc-description: "An animated energy/flow effect using default plugins, inset any shape/logo/text."
     - rsc-name: "TOPO Preset"
       rsc-link: "http://slykuiper.com/TOPO/"
       rsc-img: "/assets/images/work/other/topo.png"
-      rsc-description: "Originally built for a topographic map design, I expanded on this to create cool trippy visuals."
     - rsc-name: "Slykuiper Toolkit Script"
       rsc-link: "https://github.com/Slykuiper/slykuipertoolkit"
       rsc-img: "/assets/images/work/other/toolkit.png"
-      rsc-description: "Personal script for easy access to my most used expressions and actions."
 ---
 
 Fractals are an interesting thing.

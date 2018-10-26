@@ -163,6 +163,7 @@
         position: relative;
         display: block;
         background-color: $color-white;
+        height: $mq-sm;
 
         &:hover,
         &:active,
@@ -190,7 +191,7 @@
         background-color: $color-black;
         text-align: center;
         will-change: opacity;
-        opacity: 0;
+        opacity: 0.8;
         transition: opacity 0.4s ease-in-out;
     }
 
