@@ -75,7 +75,6 @@ For bulk download, here's the [dropbox folder](https://www.dropbox.com/sh/ik8v5y
 <section class="section-padding bg-black">
     <div class="grid">
         {% for grid in page.grid %}
-        <h2 class="section-header">{{ grid.grid-type }}</h2>
         <ul class="container-triple" itemscope itemtype="http://schema.org/Blog">
             {% for item in grid.grid-items %}
             <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
