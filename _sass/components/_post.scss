@@ -201,17 +201,17 @@
         height: $mq-xs;
         width: $mq-xs;
         text-align: center;
+        opacity: 0;
+
+        &:hover,
+        &:active,
+        &:focus {
+            opacity: 0.9;
+        }
 
         p {
             text-transform: uppercase;
             padding-top: 6em;
-            opacity: 0;
-
-            &:hover,
-            &:active,
-            &:focus {
-                opacity: 0.9;
-                }
-            }
         }
     }
+}
