@@ -50,28 +50,3 @@ For bulk download, here's the [dropbox folder](https://www.dropbox.com/sh/ik8v5y
 	<a href="/assets/images/work/mandelbulb/scarab2_800.jpg"><img src="https://www.dropbox.com/s/68lorm2s2b9dv4c/scarab2_2000.jpg?raw=1"></a>
 	<a href="/assets/images/work/mandelbulb/scarab3_800.jpg"><img src="https://www.dropbox.com/s/jz2v43bejzalabx/scarab3_2000.jpg?raw=1"></a>
 </figure>
-
-<section class="section-padding bg-black">
-    <div class="grid">
-        {% for rsc in page.rscs %}
-        <h2 class="section-header">{{ rsc.rsc-type }}</h2>
-        <ul class="container-triple" itemscope itemtype="http://schema.org/Blog">
-            {% for item in rsc.rsc-items %}
-            <li class="preview" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-                <a class="preview__link" href="{{ item.rsc-link }}" itemprop="url">
-                    <div class="preview__img bg-white wow slideInUp">
-                        <figure class="absolute-bg wow fadeIn" data-wow-delay="900ms" style="background-image: url('{{ item.rsc-img }}');"></figure>
-                    </div>
-                    <div class="preview__container bg-alpha">
-                        <div>
-                            <h4 class="wow fadeInUp" data-wow-delay="150ms" itemprop="name">{{ item.rsc-name }}</h4>
-                            <p class="preview__excerpt wow fadeInUp" data-wow-delay="300ms" itemprop="description">{{ item.rsc-description | strip_html | truncatewords: 30 }}</p>
-                        </div>
-                    </div>
-                </a>
-            </li>
-            {% endfor %}
-        </ul>
-        {% endfor %}
-    </div>
-</section>
