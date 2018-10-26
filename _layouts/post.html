@@ -21,37 +21,56 @@ layout: default
             <section class="section-padding bg-black">
                 <div id="postgrid" class="container-triple">
                     {% for rsc in page.rscs %}
-                        {% for item in rsc.rsc-items %}
-                            <a href="{{ item.rsc-link }}">
-                                <div class="postgrid-bg" style="background-image: url({{ item.rsc-img }})"></div>
-                                <div>
-                                    <p>{{ item.rsc-name }}</p>
-                                </div>
-                            </a>
-                        {% endfor %}
+                    {% for item in rsc.rsc-items %}
+                    <a href="{{ item.rsc-link }}">
+                        <div class="postgrid-bg" style="background-image: url({{ item.rsc-img }})"></div>
+                        <div>
+                            <p>{{ item.rsc-name }}</p>
+                        </div>
+                    </a>
+                    {% endfor %}
                     {% endfor %}
                 </div>
             </section>
             {% endif %}
 
-            <!-- 
-               {% if page.tags.size > 0 %}
-                   <span class="post-content__tags">
-                        Tags
-                        {% for tag in page.tags %}
-                        <a href="{{ site.baseurl }}/tag/{{ tag | downcase | slugify }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}
-                        {% endfor %}
-                    </span>
-                {% endif %}
-            -->
-            <div class="container-btn">
-                <a class="btn" href="/archive">
-                    <div>
-                        <span>Archive</span>
-                        <span>Archive</span>
+            {% if page.rscs.size > 0 %}
+            <section class="section-padding bg-black">
+                <div class="postgrid">
+                    <div class="columns-wrapper">
+                        <div class="columns">
+                            {% for rsc in page.rscs %}
+                            {% for item in rsc.rsc-items %}
+                            <div class="postcolumn">
+                                <p>Motion Designer. Working at <a data-scroll href="https://streamlabs.com/">reStreamlabsp></a>re.p></p>
+                                <p>If you're interested in working together or have a question to ask, please reach out to me at <a data-scroll href="mailto:corbin@slykuiper.com">corbin@slykuiper.com</a> and we can talk more.</p>
+                            </div>
+                            {% endfor %}
+                            {% endfor %}
+                        </div>
                     </div>
-                </a>
-            </div>
-        </section>
-    </div>
+                </div>
+            </section>
+            {% endif %}
+
+                <!--
+           {% if page.tags.size > 0 %}
+               <span class="post-content__tags">
+                    Tags
+                    {% for tag in page.tags %}
+                    <a href="{{ site.baseurl }}/tag/{{ tag | downcase | slugify }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}
+                    {% endfor %}
+                </span>
+            {% endif %}
+        -->
+                <div class="container-btn">
+                    <a class="btn" href="/archive">
+                        <div>
+                            <span>Archive</span>
+                            <span>Archive</span>
+                        </div>
+                    </a>
+                </div>
+            </section>
+</div>
 </article>

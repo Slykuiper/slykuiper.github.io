@@ -158,56 +158,35 @@
 
 #postgrid {
 
+
+}
+
+.postcolumn {
+    flex: 1;
+    border: 1px solid gray;
+    margin: 2px;
+    padding: 10px;
+    max-width: 20em;
+
+    p {
+        font-size: 0.9em;
+    }
+
+    &:first-child {
+        margin-left: 0;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+
     a {
-        @extend %box-shadow;
-        position: relative;
-        display: block;
-        background-color: $color-white;
-        height: $mq-sm;
+        transition: color 0.3s ease-in-out;
 
         &:hover,
         &:active,
         &:focus {
-
-            div {
-                opacity: 0.9;
-            }
+            color: $color-rm-red;
         }
     }
-
-    img {
-        width: 100%;
-    }
-
-    div {
-        @extend %flex-center;
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        padding: 2em;
-        color: $color-white;
-        background-color: $color-black;
-        text-align: center;
-        will-change: opacity;
-        opacity: 0.8;
-        transition: opacity 0.4s ease-in-out;
-    }
-
-    p {
-        margin-bottom: 0;
-        font-size: 1.25em;
-    }
-}
-
-.postgrid-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50%;
 }
