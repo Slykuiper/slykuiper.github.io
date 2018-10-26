@@ -166,7 +166,7 @@
     border: 1px solid gray;
     margin: 2px;
     padding: 10px;
-    max-width: 20em;
+    max-width: $mq-xs;
 
     p {
         font-size: 0.9em;
@@ -188,5 +188,14 @@
         &:focus {
             color: $color-rm-red;
         }
+    }
+
+    &__name {
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+        padding: 2em;
     }
 }

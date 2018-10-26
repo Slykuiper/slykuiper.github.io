@@ -40,12 +40,13 @@ layout: default
                     <div class="columns-wrapper">
                         <div class="columns">
                             {% for rsc in page.rscs %}
-                            {% for item in rsc.rsc-items %}
-                            <div class="postcolumn">
-                                <p>Motion Designer. Working at <a data-scroll href="https://streamlabs.com/">reStreamlabsp></a>re.p></p>
-                                <p>If you're interested in working together or have a question to ask, please reach out to me at <a data-scroll href="mailto:corbin@slykuiper.com">corbin@slykuiper.com</a> and we can talk more.</p>
-                            </div>
-                            {% endfor %}
+                                {% for item in rsc.rsc-items %}
+                                <a href="{{ item.rsc-link }}">
+                                    <div class="postcolumn">
+                                        <div class="postcolumn__name"><p>{{ item.rsc-name }}</p></div>
+                                    </div>
+                                </a>
+                                {% endfor %}
                             {% endfor %}
                         </div>
                     </div>
