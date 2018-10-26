@@ -53,6 +53,28 @@
         text-align: center;
         transform: translate(-50%, -50%);
 
+        h1 {
+            font-size: 3.75em;
+            font-weight: 500;
+            animation: fadeIn 3s both 0.6s;
+            text-shadow: 0px 0px 1px $color-black;
+
+            @media (min-width: $mq-md) {
+                font-size: 5.5em;
+            }
+        }
+
+        span {
+            display: block;
+            margin-top: 0.25em;
+            font-size: 1.1em;
+            animation: fadeInUp 3s both 0.9s;
+            text-transform: none;
+
+            @media (min-width: $mq-sm) {
+                font-size: 1.25em;
+            }
+        }
     }
 
     &__img {
