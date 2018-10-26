@@ -81,6 +81,14 @@
     &:last-child {
         margin-right: 0;
     }
+
+    &__img {
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
 }
 
 @media screen and (max-width: 980px) {
