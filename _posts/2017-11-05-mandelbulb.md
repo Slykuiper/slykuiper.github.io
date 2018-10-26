@@ -2,12 +2,8 @@
 layout: post
 title:  "Mandelbulb"
 image: /assets/images/work/mandelbulb/scarab1_800.jpg
-tags:
-- motion graphics
-- blog
-- 3d
-- fractal
 grid:
+  - grid-type: "After Effects"
     grid-items:
     - grid-name: "display"
       grid-link: "https://www.dropbox.com/s/cg0adocmejcschc/display_3200.png?raw=1"
@@ -57,6 +53,11 @@ grid:
 	- grid-name: "scarab 01"
       grid-link: "https://www.dropbox.com/s/yhsdumrja39xvli/scarab1_2000.jpg?raw=1"
       grid-img: "scarab1_800.jpg"
+tags:
+- motion graphics
+- blog
+- 3d
+- fractal
 ---
 
 Fractals are an interesting thing.
