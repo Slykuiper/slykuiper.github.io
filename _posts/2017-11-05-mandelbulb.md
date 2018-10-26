@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mandelbulb"
-image: "/assets/images/work/mandelbulb/scarab1_800.jpg""
+image: "/assets/images/work/mandelbulb/scarab1_800.jpg"
 rscs:
   - rsc-type: "Mandelbulb"
     rsc-items:
