@@ -59,6 +59,7 @@
     left: 50%;
 
     & li {
+        display: inline;
         max-width: 25em;
     }
 }
