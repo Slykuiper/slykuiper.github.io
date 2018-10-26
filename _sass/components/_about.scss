@@ -47,6 +47,12 @@
     &__social {
         list-style-type: none;
 
+        ul {
+            li {
+                display: inline;
+            }
+        }
+
         & > * {
 
             &:not(:last-child) {
