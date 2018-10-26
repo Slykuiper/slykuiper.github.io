@@ -55,20 +55,55 @@
         display: inline-block;
     }
 }
-.intro {
-    left: 50%;
+.columns-wrapper {
+    width: 95%;
+    max-width: 960px;
+    margin: 2em auto;
 }
 
-.halve-left {
-    display: inline-block;
-    margin: 1em;
-    max-width: 25em;
+.columns {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px 0;
 }
 
-.halve-right {
-    display: inline-block;
-    margin: 1em;
-    max-width: 25em;
+.column {
+    flex: 1;
+    border: 1px solid gray;
+    margin: 2px;
+    padding: 10px;
+
+    &:first-child {
+        margin-left: 0;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .columns .column {
+        margin-bottom: 5px;
+        flex-basis: 40%;
+
+        &:nth-last-child(2) {
+            margin-right: 0;
+        }
+
+        &:last-child {
+            flex-basis: 100%;
+            margin: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .columns .column {
+        flex-basis: 100%;
+        margin: 0 0 5px 0;
+    }
 }
 
 .about-list {
