@@ -3,6 +3,12 @@ layout: post
 title:  "Mandelbulb"
 image: /assets/images/work/mandelbulb/scarab1_800.jpg
 
+rscs:
+  - rsc-type: "Mandelbulb"
+    rsc-items:
+    - rsc-name: "display"
+      rsc-link: "https://www.dropbox.com/s/cg0adocmejcschc/display_3200.png?raw=1"
+      rsc-img: "display_1600.png"
 ---
 
 Fractals are an interesting thing.
