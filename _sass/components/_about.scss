@@ -60,7 +60,6 @@
 
 .column {
     flex: 1;
-    border: 1px solid gray;
     margin: 2px;
     padding: 10px;
     max-width: 20em;
@@ -75,6 +74,16 @@
 
     &:last-child {
         margin-right: 0;
+    }
+
+    a {
+        transition: color 0.3s ease-in-out;
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: $color-rm-red;
+        }
     }
 }
 
@@ -159,6 +168,10 @@
             &:focus {
                 color: $color-rm-red;
             }
+        }
+
+        span {
+            margin-right: 0.25em;
         }
     }
 }
