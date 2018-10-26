@@ -47,10 +47,8 @@
     &__social {
         list-style-type: none;
 
-        & ul {
-            & li {
-                display: inline;
-            }
+        & li {
+            display: inline;
         }
 
         & > * {
