@@ -7,29 +7,22 @@ tags:
 - motion graphics
 - motioncollabs
 ---
-
-<h3>MOTIONCOLLAB FOUR</h3>
-
-With **forty** participants this time around, we present the fourth motioncollab! This one is Quilts, where we divided into nine groups and explored various movie genres. The genres we chose for this collaboration were 80s Action Movies, Adventure, Crime, Fantasy, Horror, Romantic-Comedy, Superhero, Science-Fiction, and Western.
+With **forty** participants this time around, we present the fourth motioncollab! This one is Quilts, where we divided into nine groups and explored various movie genres. The genres we chose for this collaboration were 80s Action Movies, Adventure, Crime, Fantasy, Horror, Romantic-Comedy, Superhero, Science-Fiction, and Western. You can read more about the project and find credits listed on the [vimeo page](https://vimeo.com/265902525). Give the [motioncollabs](https://vimeo.com/motioncollabs) channel a follow as well!
 
 <div class="vid" style="padding-top: 25px; padding-bottom: 50px;"> <iframe width="640" height="360" src="https://player.vimeo.com/video/265902525" frameborder="0" allowfullscreen></iframe></div>
-
-You can read more about the project and find credits listed on the [vimeo page](https://vimeo.com/265902525). Give the [motioncollabs](https://vimeo.com/motioncollabs) channel a follow as well!
-
----
 
 ### The Details
 
 We worked out of a new Discord server with every genre having their own assigned channels. Big props to Caspar Brown, Laura Porat, Jeremy Mann, and Bent Hillerkus for wrangling forty of us together and keeping it running smoothly. I was a part of the Adventure collab alongside Bent Hillerkus, Handarand, Nils, and UNIQ. 
 
 <figure>
-	<a href="/images/work/other/motioncollab4_1.png"><img src="/images/work/other/motioncollab4_1.png"></a>
+	<a href="assets/images/work/other/motioncollab4_1.png"><img src="assets/images/work/other/motioncollab4_1.png"></a>
 </figure>
 
 We speculated for a while with a bunch of ideas for our genre. We wanted to tell some sort of story with a main character and progression. It was a challenge to develop something with depth in only 5 second loops, so we stuck with a safe trope of an adventurer hearing of news treasure in an ancient temple on a mysterious deserted island. My group set up a Pinterest Board to gather inspiration and settle into an art style. 
 
 <figure>
-	<a href="/images/work/other/motioncollab4_sly.gif"><img src="/images/work/other/motioncollab4_sly.gif"></a>
+	<a href="assets/images/work/other/motioncollab4_sly.gif"><img src="assets/images/work/other/motioncollab4_sly.gif"></a>
 	<figcaption>My frame.</figcaption>
 </figure>
 
@@ -41,4 +34,4 @@ My only regret is not painting my scene in a higher resolution, I'd love to shar
 
 Here's the Adventure genre's standalone 4K video:
 
-<iframe src="https://player.vimeo.com/video/265977230" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<div class="vid" style="padding-top: 25px; padding-bottom: 50px;"> <iframe width="640" height="360" src="https://player.vimeo.com/video/265977230" frameborder="0" allowfullscreen></iframe></div>
