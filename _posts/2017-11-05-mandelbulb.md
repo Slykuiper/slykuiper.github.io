@@ -4,9 +4,9 @@ title:  Mandelbulb
 image: /assets/images/work/mandelbulb/scarab1_800.jpg
 
 fruit:
-  - name: apple
-    cost: $1
-    color: red
+  - name: display
+    cost: https://www.dropbox.com/s/cg0adocmejcschc/display_3200.png?raw=1
+    color: /assets/images/work/mandelbulb/display_1600.png
   - name: banana
     cost: $2
     color: yellow
