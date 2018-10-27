@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  AlKaT - Re:Insane
+title:  AlKaT - ReInsane
 image: /assets/images/work/musicvideos/alkat_insane.png
 tags:
 - motion graphics
