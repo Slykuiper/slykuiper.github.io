@@ -49,9 +49,6 @@ fruit:
   - var1: scarab 02
     var2: $1.50
     var3: orange
-  - var1: apple
-    var2: $1
-    var3: red
   - var1: scarab 01
     var2: $2
     var3: yellow
