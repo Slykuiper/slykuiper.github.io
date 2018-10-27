@@ -1,5 +1,3 @@
-
-
 ---
 layout: post
 title:  Everydays
@@ -55,4 +53,5 @@ mandelbulbgrid:
     var2: https://www.dropbox.com/s/yhsdumrja39xvli/scarab1_2000.jpg?raw=1
     var3: /assets/images/work/mandelbulb/scarab1_800.jpg
 ---
+
 I recently started a series where I'll create a piece of artwork (motion graphics, 3d renders, animations, whatever else) every day. The aim of this project is to learn new technical and design skills with programs I'm experimenting with.  As of writing this I'm starting out with after effects and slowly learning cinema4d. It's a challenging but fun project.  
