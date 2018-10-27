@@ -7,13 +7,23 @@ rscs:
   - rsc-type: "After Effects"
     rsc-items:
     - rsc-name: "Spirograph Project File"
-	  rsc-link: "http://slykuiper.com/SPIROGRAPH/"
+      rsc-link: "http://slykuiper.com/SPIROGRAPH/"
       rsc-img: "/assets/images/work/spirograph/thumb.png"
-	- rsc-name: "Spirograph Project File"
-	- rsc-name: "Spirograph Project File"
-	- rsc-name: "Spirograph Project File"
-	- rsc-name: "Spirograph Project File"
-
+    - rsc-name: "Floral Project File"
+      rsc-link: "http://slykuiper.com/FLORAL/"
+      rsc-img: "/assets/images/work/other/floral.png"
+    - rsc-name: "TOPO Preset"
+      rsc-link: "http://slykuiper.com/TOPO/"
+      rsc-img: "/assets/images/work/other/topo.png"
+    - rsc-name: "Slykuiper Toolkit Script"
+      rsc-link: "https://github.com/Slykuiper/slykuipertoolkit"
+      rsc-img: "/assets/images/work/other/toolkit.png"
+    - rsc-name: "MW2 MVM Mod"
+      rsc-link: "https://www.dropbox.com/s/kc62cs7txv3f3ku/slysmvmmod.rar?dl=0"
+      rsc-img: "/assets/images/videos/edits/sly_amen1.jpg"
+    - rsc-name: "BO1 SP MVM Mod"
+      rsc-link: "https://www.dropbox.com/s/8fdulf2nyqm8lk9/sp_sly.rar?dl=0"
+      rsc-img: "/assets/images/videos/edits/t5sp.jpg"
 ---
 
 Fractals are an interesting thing.
