@@ -17,12 +17,12 @@ layout: default
                 {{ content }}
             </div>
 
-            {% if page.3colgrid-mandelbulb.size > 0 %}
+            {% if page.mandelbulbgrid.size > 0 %}
             <section class="section-padding bg-black">
                 <div class="postgrid">
                     <div class="columns-wrapper">
                         <div class="columns">
-                            {% for item in page.3colgrid %}
+                            {% for item in page.mandelbulbgrid %}
                             <a href="{{ item.var2 }}">
                                 <div class="postcolumn" style="background-image: url({{ item.var3 }})">
                                     <div class="postcolumn__inner"><p> {{ item.var1 }} </p></div>
@@ -35,12 +35,12 @@ layout: default
             </section>
             {% endif %}
 
-            {% if page.3colgrid-everydays.size > 0 %}
+            {% if page.everydaysgrid.size > 0 %}
             <section class="section-padding bg-black">
                 <div class="postgrid">
                     <div class="columns-wrapper">
                         <div class="columns">
-                            {% for item in page.3colgrid %}
+                            {% for item in page.everydaysgrid %}
                             <a href="{{ item.var2 }}">
                                 <div class="postcolumn" style="background-image: url({{ item.var3 }})">
                                     <div class="postcolumn__inner"><p> {{ item.var1 }} </br> {{ item.var4 }} </p></div>
