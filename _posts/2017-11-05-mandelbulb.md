@@ -8,14 +8,14 @@ fruit:
     var2: https://www.dropbox.com/s/cg0adocmejcschc/display_3200.png?raw=1
     var3: /assets/images/work/mandelbulb/display_1600.png
   - var1: airway
-    var2: $2
-    var3: yellow
+    var2: https://www.dropbox.com/s/tcgm9d5k84gq932/airway_2160.png?raw=1
+    var3: /assets/images/work/mandelbulb/airway_1080.png
   - var1: tristar
-    var2: $1.50
-    var3: orange
+    var2: https://www.dropbox.com/s/6xgzbk31ktwuag6/tristar_2160.png?raw=1
+    var3: /assets/images/work/mandelbulb/tristar_1080.png
   - var1: target
-    var2: $1
-    var3: red
+    var2: https://www.dropbox.com/s/3gdizieadimhunj/target_2160.png?raw=1
+    var3: /assets/images/work/mandelbulb/target_1080.png
   - var1: spacemine 03
     var2: $2
     var3: yellow
