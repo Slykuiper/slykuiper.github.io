@@ -17,33 +17,51 @@ layout: default
                 {{ content }}
             </div>
 
-            {% if page.3colgrid.size > 0 %}
-                <section class="section-padding bg-black">
-                    <div class="postgrid">
-                        <div class="columns-wrapper">
-                            <div class="columns">
-                                {% for item in page.3colgrid %}
-                                <a href="{{ item.var2 }}">
-                                    <div class="postcolumn" style="background-image: url({{ item.var3 }})">
-                                        <div class="postcolumn__inner"><p> {{ item.var1 }} </p></div>
-                                    </div>
-                                </a>
-                                {% endfor %}
-                            </div>
+            {% if page.3colgrid-mandelbulb.size > 0 %}
+            <section class="section-padding bg-black">
+                <div class="postgrid">
+                    <div class="columns-wrapper">
+                        <div class="columns">
+                            {% for item in page.3colgrid %}
+                            <a href="{{ item.var2 }}">
+                                <div class="postcolumn" style="background-image: url({{ item.var3 }})">
+                                    <div class="postcolumn__inner"><p> {{ item.var1 }} </p></div>
+                                </div>
+                            </a>
+                            {% endfor %}
                         </div>
                     </div>
-                </section>
+                </div>
+            </section>
+            {% endif %}
+
+            {% if page.3colgrid-everydays.size > 0 %}
+            <section class="section-padding bg-black">
+                <div class="postgrid">
+                    <div class="columns-wrapper">
+                        <div class="columns">
+                            {% for item in page.3colgrid %}
+                            <a href="{{ item.var2 }}">
+                                <div class="postcolumn" style="background-image: url({{ item.var3 }})">
+                                    <div class="postcolumn__inner"><p> {{ item.var1 }} </br> {{ item.var4 }} </p></div>
+                                </div>
+                            </a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </section>
             {% endif %}
             <!--
-               {% if page.tags.size > 0 %}
-                   <span class="post-content__tags">
-                        Tags
-                        {% for tag in page.tags %}
-                        <a href="{{ site.baseurl }}/tag/{{ tag | downcase | slugify }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}
-                        {% endfor %}
-                    </span>
-                {% endif %}
-            -->
+       {% if page.tags.size > 0 %}
+           <span class="post-content__tags">
+                Tags
+                {% for tag in page.tags %}
+                <a href="{{ site.baseurl }}/tag/{{ tag | downcase | slugify }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}
+                {% endfor %}
+            </span>
+        {% endif %}
+    -->
             <div class="container-btn">
                 <a class="btn" href="/portfolio">
                     <div>

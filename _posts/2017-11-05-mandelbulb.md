@@ -3,7 +3,7 @@ layout: post
 title:  Mandelbulb
 image: /assets/images/work/mandelbulb/scarab1_800.jpg
 
-3colgrid:
+3colgrid-mandelbulb:
   - var1: display
     var2: https://www.dropbox.com/s/cg0adocmejcschc/display_3200.png?raw=1
     var3: /assets/images/work/mandelbulb/display_1600.png
