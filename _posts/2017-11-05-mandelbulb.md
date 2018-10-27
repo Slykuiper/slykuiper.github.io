@@ -4,60 +4,60 @@ title:  Mandelbulb
 image: /assets/images/work/mandelbulb/scarab1_800.jpg
 
 fruit:
-  - name: display
-    cost: https://www.dropbox.com/s/cg0adocmejcschc/display_3200.png?raw=1
-    color: /assets/images/work/mandelbulb/display_1600.png
-  - name: banana
-    cost: $2
-    color: yellow
-  - name: orange
-    cost: $1.50
-    color: orange
-  - name: apple
-    cost: $1
-    color: red
-  - name: banana
-    cost: $2
-    color: yellow
-  - name: orange
-    cost: $1.50
-    color: orange
-  - name: apple
-    cost: $1
-    color: red
-  - name: banana
-    cost: $2
-    color: yellow
-  - name: orange
-    cost: $1.50
-    color: orange
-  - name: apple
-    cost: $1
-    color: red
-  - name: banana
-    cost: $2
-    color: yellow
-  - name: orange
-    cost: $1.50
-    color: orange
-  - name: apple
-    cost: $1
-    color: red
-  - name: banana
-    cost: $2
-    color: yellow
-  - name: orange
-    cost: $1.50
-    color: orange
-  - name: apple
-    cost: $1
-    color: red
-  - name: banana
-    cost: $2
-    color: yellow
-  - name: orange
-    cost: $1.50
-    color: orange
+  - var1: display
+    var2: https://www.dropbox.com/s/cg0adocmejcschc/display_3200.png?raw=1
+    var3: /assets/images/work/mandelbulb/display_1600.png
+  - var1: banana
+    var2: $2
+    var3: yellow
+  - var1: orange
+    var2: $1.50
+    var3: orange
+  - var1: apple
+    var2: $1
+    var3: red
+  - var1: banana
+    var2: $2
+    var3: yellow
+  - var1: orange
+    var2: $1.50
+    var3: orange
+  - var1: apple
+    var2: $1
+    var3: red
+  - var1: banana
+    var2: $2
+    var3: yellow
+  - var1: orange
+    var2: $1.50
+    var3: orange
+  - var1: apple
+    var2: $1
+    var3: red
+  - var1: banana
+    var2: $2
+    var3: yellow
+  - var1: orange
+    var2: $1.50
+    var3: orange
+  - var1: apple
+    var2: $1
+    var3: red
+  - var1: banana
+    var2: $2
+    var3: yellow
+  - var1: orange
+    var2: $1.50
+    var3: orange
+  - var1: apple
+    var2: $1
+    var3: red
+  - var1: banana
+    var2: $2
+    var3: yellow
+  - var1: orange
+    var2: $1.50
+    var3: orange
 ---
 
 Fractals are an interesting thing.
