@@ -17,14 +17,11 @@ layout: default
                 {{ content }}
             </div>
 
-
-            {% if page.rscs.size > 0 %}
             <ul>
                 {% for item in page.rscs %}
                 <li>{{item.name}}, thumb: {{item.thumb}}, link: {{item.link}}</li>
                 {% endfor %}
             </ul>
-            {% endif %}
 
             <!-- {% if page.rscs.size > 0 %}
      <section class="section-padding bg-black">

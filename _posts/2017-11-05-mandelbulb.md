@@ -4,24 +4,24 @@ title:  "Mandelbulb"
 image: /assets/images/work/mandelbulb/scarab1_800.jpg
 
 rscs:
-	- name: "Spirograph Project File"
-	  link: "http://slykuiper.com/SPIROGRAPH/"
-	  thumb: "/assets/images/work/spirograph/thumb.png"
-	- name: "Floral Project File"
-	  link: "http://slykuiper.com/FLORAL/"
-	  thumb: "/assets/images/work/other/floral.png"
-	- name: "TOPO Preset"
-	  link: "http://slykuiper.com/TOPO/"
-	  thumb: "/assets/images/work/other/topo.png"
-	- name: "Slykuiper Toolkit Script"
-	  link: "https://github.com/Slykuiper/slykuipertoolkit"
-	  thumb: "/assets/images/work/other/toolkit.png"
-	- name: "MW2 MVM Mod"
-	  link: "https://www.dropbox.com/s/kc62cs7txv3f3ku/slysmvmmod.rar?dl=0"
-	  thumb: "/assets/images/videos/edits/sly_amen1.jpg"
-	- name: "BO1 SP MVM Mod"
-	  link: "https://www.dropbox.com/s/8fdulf2nyqm8lk9/sp_sly.rar?dl=0"
-	  thumb: "/assets/images/videos/edits/t5sp.jpg"
+  - name: Spirograph Project File
+	link: http://slykuiper.com/SPIROGRAPH/
+	thumb: /assets/images/work/spirograph/thumb.png
+  - name: Floral Project File
+	link: http://slykuiper.com/FLORAL/
+	thumb: /assets/images/work/other/floral.png
+  - name: TOPO Preset
+	link: http://slykuiper.com/TOPO/
+	thumb: /assets/images/work/other/topo.png
+  - name: Slykuiper Toolkit Script
+	link: https://github.com/Slykuiper/slykuipertoolkit
+	thumb: /assets/images/work/other/toolkit.png
+  - name: MW2 MVM Mod
+	link: https://www.dropbox.com/s/kc62cs7txv3f3ku/slysmvmmod.rar?dl=0
+	thumb: /assets/images/videos/edits/sly_amen1.jpg
+  - name: BO1 SP MVM Mod
+	link: "https://www.dropbox.com/s/8fdulf2nyqm8lk9/sp_sly.rar?dl=0
+	thumb: /assets/images/videos/edits/t5sp.jpg
 ---
 
 Fractals are an interesting thing.
