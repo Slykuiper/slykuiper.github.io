@@ -3,7 +3,26 @@ layout: post
 title:  "Mandelbulb"
 image: /assets/images/work/mandelbulb/scarab1_800.jpg
 permalink: /mandelbulb/
+
 fruit:
+  - name: apple
+    cost: $1
+    color: red
+  - name: banana
+    cost: $2
+    color: yellow
+  - name: orange
+    cost: $1.50
+    color: orange
+  - name: apple
+    cost: $1
+    color: red
+  - name: banana
+    cost: $2
+    color: yellow
+  - name: orange
+    cost: $1.50
+    color: orange
   - name: apple
     cost: $1
     color: red
