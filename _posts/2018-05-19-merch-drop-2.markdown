@@ -15,7 +15,7 @@ With a short deadline of 9 days, members designed apparel with the goal of getti
 <h3>Launch</h3>
 We wrapped up our designs on April 25th and the <a data-scroll href="https://www.youtube.com/watch?v=JFpWIChS_XU">promotional video</a> by va7iik went live the next day. The contest concluded on May 17th with Gmzorz earning first place.
 
-<div class="vid" style="padding-top: 25px; padding-bottom: 50px;"> <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/JFpWIChS_XU?controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+<div class="vid" > <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/JFpWIChS_XU?controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
 <h3>Giveaway</h3>
 The only events ran in the community are editing contests, where talent is the deciding factor for winning small cash prizes. As a first for the community, we ran a short giveaway as an opportunity for editors and fans alike to win free merch. We gave away six products at random to those participating, which were shipped to Italy, Germany, and Saudi Arabia. It felt rewarding to give away physical products instead of the typical small cash prizes or digital editing packs that are standard for events. 

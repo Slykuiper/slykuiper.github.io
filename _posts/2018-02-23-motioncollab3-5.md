@@ -8,7 +8,7 @@ tags:
 ---
 Back again in celebration of the Chinese New Year, [Laura](https://twitter.com/lauraporat) organized 10 of us from the motioncollabs group to animate the 12 Chinese zodiac animals. The idea was for each of us to animate a zodiac animal in the style of a badass video game character intro. Our restrictions were a 4-color palette and 5 seconds to express our character.
 
-<div class="vid" style="padding-top: 25px; padding-bottom: 50px;"> <iframe width="640" height="360" src="https://player.vimeo.com/video/256087216" frameborder="0" allowfullscreen></iframe></div>
+<div class="vid" > <iframe width="640" height="360" src="https://player.vimeo.com/video/256087216" frameborder="0" allowfullscreen></iframe></div>
 
 You can read more about the project and find credits listed on the [vimeo page](https://vimeo.com/256087216). Give the [motioncollabs](https://vimeo.com/motioncollabs) channel a follow as well!
 

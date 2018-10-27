@@ -22,7 +22,7 @@ Our third collab was a music video for Tame Impala's "Elephant". As they're a ps
 
 ### Collab 3
 
-<div class="vid" style="padding-top: 25px; padding-bottom: 50px;"> <iframe width="640" height="360" src="https://player.vimeo.com/video/249711405" frameborder="0" allowfullscreen></iframe></div>
+<div class="vid" > <iframe width="640" height="360" src="https://player.vimeo.com/video/249711405" frameborder="0" allowfullscreen></iframe></div>
 You can read more about the project and find credits listed on the [vimeo page](https://vimeo.com/249711405).  
 
 Organized and scheduled by Eric "Beef Boy!" Wilson, we made a lyric video to Tame Impala's "Elephant" with a limited color palette. As the song title details, elephants were the subject of the music video. We went with the same principal from the first collab: Our work starts at the end of the previous designer, meaning we'll work with the last frame they left off and transform it into our own. With 22 members divided into 3 groups, each member had 3-4 days to complete their part and we completed the project in 31 days. [Take a look at our schedule if you're interested.](/assets/images/work/other/rAfterEffects-collab3-schedule.png)
@@ -38,7 +38,7 @@ Going off of the Cadillac theme started in the beginning of the video by Beef Bo
 
 ### Collab 2
 
-<div class="vid" style="padding-top: 25px; padding-bottom: 50px;"> <iframe width="640" height="360" src="https://player.vimeo.com/video/234838557" frameborder="0" allowfullscreen></iframe></div>
+<div class="vid" > <iframe width="640" height="360" src="https://player.vimeo.com/video/234838557" frameborder="0" allowfullscreen></iframe></div>
 You can read more about the project and find credits listed on the [vimeo page](https://vimeo.com/234838557).  
 
 This collab served as a chance to get more familiar with character rigging and animation. Provided with key poses 24 frames, we each illustrated a character and set it in motion to be timed evenly in the final production. 

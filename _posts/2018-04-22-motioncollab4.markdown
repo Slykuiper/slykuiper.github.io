@@ -9,7 +9,7 @@ tags:
 ---
 With **forty** participants this time around, we present the fourth motioncollab! This one is Quilts, where we divided into nine groups and explored various movie genres. The genres we chose for this collaboration were 80s Action Movies, Adventure, Crime, Fantasy, Horror, Romantic-Comedy, Superhero, Science-Fiction, and Western. You can read more about the project and find credits listed on the [vimeo page](https://vimeo.com/265902525). Give the [motioncollabs](https://vimeo.com/motioncollabs) channel a follow as well!
 
-<div class="vid" style="padding-top: 25px; padding-bottom: 50px;"> <iframe width="640" height="360" src="https://player.vimeo.com/video/265902525" frameborder="0" allowfullscreen></iframe></div>
+<div class="vid" > <iframe width="640" height="360" src="https://player.vimeo.com/video/265902525" frameborder="0" allowfullscreen></iframe></div>
 
 ### The Details
 
@@ -34,4 +34,4 @@ My only regret is not painting my scene in a higher resolution, I'd love to shar
 
 Here's the Adventure genre's standalone 4K video:
 
-<div class="vid" style="padding-top: 25px; padding-bottom: 50px;"> <iframe width="640" height="360" src="https://player.vimeo.com/video/265977230" frameborder="0" allowfullscreen></iframe></div>
+<div class="vid" > <iframe width="640" height="360" src="https://player.vimeo.com/video/265977230" frameborder="0" allowfullscreen></iframe></div>

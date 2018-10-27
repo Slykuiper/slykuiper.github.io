@@ -9,7 +9,7 @@ tags:
 
 ## ALKAT - BREAK
 
-<div class="vid" style="padding-top: 25px; padding-bottom: 50px;"> <iframe width="640" height="360" src="https://player.vimeo.com/video/192876775" frameborder="0" allowfullscreen></iframe></div>
+<div class="vid" > <iframe width="640" height="360" src="https://player.vimeo.com/video/192876775" frameborder="0" allowfullscreen></iframe></div>
 I created a gritty lyric video for the release of "Break", [AlKaT](http://slykuiper.com/ALKAT)'s newest metal song. AlKaT made this song for Tora's Alter/Ego (a real-time voice synthesizer) Bones contest.
 
 <figure class="half">

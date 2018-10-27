@@ -11,7 +11,7 @@ tags:
 
 Members of the [aftereffects subreddit](https://www.reddit.com/r/AfterEffects/comments/6hchsy/raftereffects_collaboration_animation/) came together to produce collaborative animation. With no experienced required to participate, each member had 72 hours to complete a 3 second animation, starting where the last member left off.
 
-<div class="vid" style="padding-top: 25px; padding-bottom: 50px;"> <iframe width="640" height="360" src="https://player.vimeo.com/video/221627291" frameborder="0" allowfullscreen></iframe></div>
+<div class="vid" > <iframe width="640" height="360" src="https://player.vimeo.com/video/221627291" frameborder="0" allowfullscreen></iframe></div>
 
 
 You can read more about the project and find credits listed on the [vimeo page](https://vimeo.com/221627291). I'd love to give a huge shoutout to the director and organizer of the project, Eric "Beef Boy" Wilson. It was a really great experience working with people all over the world with different skill levels, taking their vision and transforming it into your own, for the next member to build on and express theirselves.

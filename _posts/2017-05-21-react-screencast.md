@@ -8,7 +8,7 @@ tags:
 ---
 I created an intro for [React Screencast](https://www.reactscreencast.com/), an online video series educating people about advanced Javascript and React topics.
 
-<div class="vid" style="padding-top: 25px; padding-bottom: 50px;"> <iframe width="640" height="360" src="https://player.vimeo.com/video/218412605" frameborder="0" allowfullscreen></iframe></div>
+<div class="vid" > <iframe width="640" height="360" src="https://player.vimeo.com/video/218412605" frameborder="0" allowfullscreen></iframe></div>
 
 Music provided by Kai Engel
 
