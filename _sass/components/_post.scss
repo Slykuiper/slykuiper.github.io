@@ -123,7 +123,7 @@
 
         &.half {
             @media (min-width: $mq-md) {
-                img {
+                > a, > img {
                     width: calc(50% - 4px);
                     float: left;
                     margin-left: 1px;
@@ -138,7 +138,7 @@
 
         &.third {
             @media (min-width: $mq-sm) {
-                img {
+                > a, > img {
                     width: calc(33.3% - 6px);
                     float: left;
                     margin-left: 1px;
