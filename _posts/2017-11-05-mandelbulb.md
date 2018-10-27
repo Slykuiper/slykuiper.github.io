@@ -7,6 +7,8 @@ rscs:
   - rsc-type: "After Effects"
     rsc-items:
     - rsc-name: "Spirograph Project File"
+	  rsc-link: "http://slykuiper.com/SPIROGRAPH/"
+      rsc-img: "/assets/images/work/spirograph/thumb.png"
 	- rsc-name: "Spirograph Project File"
 	- rsc-name: "Spirograph Project File"
 	- rsc-name: "Spirograph Project File"
