@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "REACT SCREENCAST INTRO"
+title:  React Screencast
 image: /assets/images/work/intros/react-screencast.png
 tags:
 - motion graphics
