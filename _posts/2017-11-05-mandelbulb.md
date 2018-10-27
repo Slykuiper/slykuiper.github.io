@@ -7,57 +7,54 @@ fruit:
   - var1: display
     var2: https://www.dropbox.com/s/cg0adocmejcschc/display_3200.png?raw=1
     var3: /assets/images/work/mandelbulb/display_1600.png
-  - var1: banana
+  - var1: airway
     var2: $2
     var3: yellow
-  - var1: orange
+  - var1: tristar
+    var2: $1.50
+    var3: orange
+  - var1: target
+    var2: $1
+    var3: red
+  - var1: spacemine 03
+    var2: $2
+    var3: yellow
+  - var1: spacemine 02
+    var2: $1.50
+    var3: orange
+  - var1: spacemine 01
+    var2: $1
+    var3: red
+  - var1: arbiter 03
+    var2: $2
+    var3: yellow
+  - var1: arbiter 02
+    var2: $1.50
+    var3: orange
+  - var1: arbiter 01
+    var2: $1
+    var3: red
+  - var1: royal 03
+    var2: $2
+    var3: yellow
+  - var1: royal 02
+    var2: $1.50
+    var3: orange
+  - var1: royal 01
+    var2: $1
+    var3: red
+  - var1: scarab 03
+    var2: $2
+    var3: yellow
+  - var1: scarab 02
     var2: $1.50
     var3: orange
   - var1: apple
     var2: $1
     var3: red
-  - var1: banana
+  - var1: scarab 01
     var2: $2
     var3: yellow
-  - var1: orange
-    var2: $1.50
-    var3: orange
-  - var1: apple
-    var2: $1
-    var3: red
-  - var1: banana
-    var2: $2
-    var3: yellow
-  - var1: orange
-    var2: $1.50
-    var3: orange
-  - var1: apple
-    var2: $1
-    var3: red
-  - var1: banana
-    var2: $2
-    var3: yellow
-  - var1: orange
-    var2: $1.50
-    var3: orange
-  - var1: apple
-    var2: $1
-    var3: red
-  - var1: banana
-    var2: $2
-    var3: yellow
-  - var1: orange
-    var2: $1.50
-    var3: orange
-  - var1: apple
-    var2: $1
-    var3: red
-  - var1: banana
-    var2: $2
-    var3: yellow
-  - var1: orange
-    var2: $1.50
-    var3: orange
 ---
 
 Fractals are an interesting thing.
