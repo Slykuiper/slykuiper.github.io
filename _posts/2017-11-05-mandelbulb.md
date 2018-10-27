@@ -21,7 +21,6 @@ rscs:
     - rsc-name: "MW2 MVM Mod"
       rsc-link: "https://www.dropbox.com/s/kc62cs7txv3f3ku/slysmvmmod.rar?dl=0"
       rsc-img: "/assets/images/videos/edits/sly_amen1.jpg"
-      rsc-description: "Modern Warfare 2 movie mod"
     - rsc-name: "BO1 SP MVM Mod"
       rsc-link: "https://www.dropbox.com/s/8fdulf2nyqm8lk9/sp_sly.rar?dl=0"
       rsc-img: "/assets/images/videos/edits/t5sp.jpg"
