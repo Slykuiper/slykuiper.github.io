@@ -1,10 +1,13 @@
 ---
 layout: post
-title:  Character Rigs
+title:  "CHARACTER RIGS"
 image: /assets/images/work/other/city_skate.png
 tags:
 - motion graphics
 ---
+
+## CHARACTER RIGS
+
 A deeper dive of character rigging from my [earlier post](http://slykuiper.com/DUIK/), here are a few more advanced examples of character rigs I've created recently.
 
 The run cycle was achieved by centering a circle with the lower body and parenting each foot on opposite sides of the circle. I rototated the circle, resulting in the feet rotating. It's an easy setup, similar to the older bicycle rig I've done.

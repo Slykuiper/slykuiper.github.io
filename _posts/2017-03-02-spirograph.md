@@ -1,12 +1,15 @@
 ---
 layout: post
-title:  Spirograph
+title:  "SPIROGRAPH"
 image: /assets/images/work/spirograph/thumb.png
 tags:
 - motion graphics
 - blog
 - downloads 
 ---
+
+## SPIROGRAPH
+
 I created a spirograph inside of After Effects, with some sliders for customizing the visuals. 
 
 [Project File for download](https://www.dropbox.com/s/t1acebe25pygyve/Spirograph.aep?dl=0){: .btn .btn_success}

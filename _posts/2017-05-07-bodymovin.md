@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Bodymovin
+title:  "BODYMOVIN"
 image: /assets/images/work/other/bodymovin.png
 tags:
 - motion graphics
