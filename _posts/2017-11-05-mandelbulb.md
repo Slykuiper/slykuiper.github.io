@@ -9,21 +9,15 @@ rscs:
     - rsc-name: "Spirograph Project File"
       rsc-link: "http://slykuiper.com/SPIROGRAPH/"
       rsc-img: "/assets/images/work/spirograph/thumb.png"
-      rsc-description: "An animated spirograph built in after effects with a few parameters."
     - rsc-name: "Floral Project File"
       rsc-link: "http://slykuiper.com/FLORAL/"
       rsc-img: "/assets/images/work/other/floral.png"
-      rsc-description: "An animated energy/flow effect using default plugins, inset any shape/logo/text."
     - rsc-name: "TOPO Preset"
       rsc-link: "http://slykuiper.com/TOPO/"
       rsc-img: "/assets/images/work/other/topo.png"
-      rsc-description: "Originally built for a topographic map design, I expanded on this to create cool trippy visuals."
     - rsc-name: "Slykuiper Toolkit Script"
       rsc-link: "https://github.com/Slykuiper/slykuipertoolkit"
       rsc-img: "/assets/images/work/other/toolkit.png"
-      rsc-description: "Personal script for easy access to my most used expressions and actions."
-  - rsc-type: "Game Mods"
-    rsc-items:
     - rsc-name: "MW2 MVM Mod"
       rsc-link: "https://www.dropbox.com/s/kc62cs7txv3f3ku/slysmvmmod.rar?dl=0"
       rsc-img: "/assets/images/videos/edits/sly_amen1.jpg"
@@ -31,11 +25,9 @@ rscs:
     - rsc-name: "BO1 SP MVM Mod"
       rsc-link: "https://www.dropbox.com/s/8fdulf2nyqm8lk9/sp_sly.rar?dl=0"
       rsc-img: "/assets/images/videos/edits/t5sp.jpg"
-      rsc-description: "Black Ops 1 singleplayer movie mod"
     - rsc-name: "BO1 ZM MVM Mod"
       rsc-link: "https://www.dropbox.com/s/rjx40dbcgiakuik/zm_sly.rar?dl=0"
       rsc-img: "/assets/images/videos/edits/t5zm.jpg"
-      rsc-description: "Black Ops 1 zombies movie mod"
 ---
 
 Fractals are an interesting thing.
