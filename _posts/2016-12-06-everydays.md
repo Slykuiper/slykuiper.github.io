@@ -110,29 +110,29 @@ everydaysgrid:
     var2: /assets/images/work/everydays/2016/12-10-2016.gif
     var3: /assets/images/work/everydays/2016/12-10-2016.png
   - var1: wreath</br>12/9/2016
-    var2: /assets/images/work/everydays/2016/12-9-2016.gif
-    var3: /assets/images/work/everydays/2016/12-9-2016.png
+    var2: /assets/images/work/everydays/2016/12-09-2016.gif
+    var3: /assets/images/work/everydays/2016/12-09-2016.png
   - var1: 001nautical</br>12/8/2016
-    var2: /assets/images/work/everydays/2016/12-8-2016.gif
-    var3: /assets/images/work/everydays/2016/12-8-2016.png
+    var2: /assets/images/work/everydays/2016/12-08-2016.gif
+    var3: /assets/images/work/everydays/2016/12-08-2016.png
   - var1: lowpoly</br>12/7/2016
-    var2: /assets/images/work/everydays/2016/12-7-2016.gif
-    var3: /assets/images/work/everydays/2016/12-7-2016.png
+    var2: /assets/images/work/everydays/2016/12-07-2016.gif
+    var3: /assets/images/work/everydays/2016/12-07-2016.png
   - var1: ASTARIS</br>12/6/2016
-    var2: /assets/images/work/everydays/2016/12-6-2016.png
-    var3: /assets/images/work/everydays/2016/12-6-2016.png
+    var2: /assets/images/work/everydays/2016/12-06-2016.png
+    var3: /assets/images/work/everydays/2016/12-06-2016.png
   - var1: GANGSTA PUFFS</br>12/5/2016
-    var2: /assets/images/work/everydays/2016/12-5-2016.png
-    var3: /assets/images/work/everydays/2016/12-5-2016.png
+    var2: /assets/images/work/everydays/2016/12-05-2016.png
+    var3: /assets/images/work/everydays/2016/12-05-2016.png
   - var1: SHANG</br>12/4/2016
-    var2: /assets/images/work/everydays/2016/12-4-2016.png
-    var3: /assets/images/work/everydays/2016/12-4-2016.png
+    var2: /assets/images/work/everydays/2016/12-04-2016.png
+    var3: /assets/images/work/everydays/2016/12-04-2016.png
   - var1: velvet</br>12/3/2016
-    var2: /assets/images/work/everydays/2016/12-3-2016.png
-    var3: /assets/images/work/everydays/2016/12-3-2016.png
+    var2: /assets/images/work/everydays/2016/12-03-2016.png
+    var3: /assets/images/work/everydays/2016/12-03-2016.png
   - var1: ice ballz</br>12/2/2016
-    var2: /assets/images/work/everydays/2016/12-2-2016.png
-    var3: /assets/images/work/everydays/2016/12-2-2016.png
+    var2: /assets/images/work/everydays/2016/12-02-2016.png
+    var3: /assets/images/work/everydays/2016/12-02-2016.png
   - var1: Bubbles</br>12/1/2016
     var2: /assets/images/work/everydays/2016/12-1-2016.png
     var3: /assets/images/work/everydays/2016/12-1-2016.png
