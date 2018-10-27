@@ -3,10 +3,11 @@ layout: post
 title:  Everydays
 image: /assets/images/work/everydays/2016/12-14-2016.png
 
-mandelbulbgrid:
-  - var1: display
-    var2: https://www.dropbox.com/s/cg0adocmejcschc/display_3200.png?raw=1
-    var3: /assets/images/work/mandelbulb/display_1600.png
+everydaysgrid:
+  - var1: rm circuit 02
+    var2: /assets/images/work/everydays/2017/1-13-2017.gif
+    var3: /assets/images/work/everdays/2017/1-13-2017.png
+	var4: 1.13.2017
   - var1: airway
     var2: https://www.dropbox.com/s/tcgm9d5k84gq932/airway_2160.png?raw=1
     var3: /assets/images/work/mandelbulb/airway_1080.png
