@@ -19,11 +19,19 @@ layout: default
 
             {% if page.3colgrid.size > 0 %}
                 <section class="section-padding bg-black">
-                    <ul>
-                        {% for item in page.3colgrid %}
-                        <li>{{ item.var1 }}, {{ item.var2 }}, {{ item.var3 }}</li>
-                        {% endfor %}
-                    </ul>
+                    <div class="postgrid">
+                        <div class="columns-wrapper">
+                            <div class="columns">
+                                {% for item in page.3colgrid %}
+                                <a href="{{ item.var2 }}">
+                                    <div class="postcolumn" style="background-image: url({{ item.var3 }})">
+                                        <div class="postcolumn__inner"><p> {{ item.var1 }} </p></div>
+                                    </div>
+                                </a>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
                 </section>
             {% endif %}
 
