@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Merch Drop #2"
+title: Merch Drop #2
 date: 2018-05-19
 description: 
 image: /assets/images/blog/merchdrop-2/thumbnail.png
