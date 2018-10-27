@@ -43,7 +43,7 @@ layout: default
                             {% for item in page.everydaysgrid %}
                             <a href="{{ item.var2 }}">
                                 <div class="postcolumn" style="background-image: url({{ item.var3 }})">
-                                    <div class="postcolumn__inner"><p> {{ item.var1 }} </p></div>
+                                    <div class="postcolumn__inner"><p> {{ item.var1 }} </p><p class="date"> {{ item.var4 }} </p></div>
                                 </div>
                             </a>
                             {% endfor %}

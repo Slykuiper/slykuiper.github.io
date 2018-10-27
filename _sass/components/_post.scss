@@ -223,6 +223,10 @@
 
         p {
             padding-top: 9em;
+
+            .date {
+                padding-top: 0em;
+            }
         }
     }
 }
