@@ -18,8 +18,8 @@ layout: default
             </div>
             <section class="section-padding bg-black">
                 <ul>
-                    {% for item in page.postcolumn %}
-                    <li>name: {{ item.name }}, link: {{ item.link }}, thumbnail: {{ item.thumb }}</li>
+                    {% for item in page.fruit %}
+                    <li>{{ item.name }}, cost: {{ item.cost }}, color: {{ item.color }}</li>
                     {% endfor %}
                 </ul>
             </section>
