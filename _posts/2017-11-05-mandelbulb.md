@@ -11,7 +11,6 @@ rscs:
 	- rsc-name: "Spirograph Project File"
 	- rsc-name: "Spirograph Project File"
 	- rsc-name: "Spirograph Project File"
-	- rsc-name: "Spirograph Project File"
 
 ---
 
