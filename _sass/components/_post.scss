@@ -103,17 +103,13 @@
     }
 
     figure {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        flex-wrap: wrap;
         margin-top: 2em;
         margin-bottom: 2em;
         background-color: $color-black;
 
         @media (min-width: $mq-sm) {
-            margin-top: 3em;
-            margin-bottom: 3em;
+            margin-top: 2em;
+            margin-bottom: 2em;
         }
 
         img {
@@ -122,6 +118,11 @@
         }
 
         &.half {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+
             @media (min-width: $mq-md) {
                 > a, > img {
                     width: calc(50% - 4px);
@@ -138,6 +139,11 @@
         }
 
         &.third {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+
             @media (min-width: $mq-sm) {
                 > a, > img {
                     width: calc(33.3% - 6px);
