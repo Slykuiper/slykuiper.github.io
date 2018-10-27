@@ -21,12 +21,9 @@ rscs:
     - rsc-name: "MW2 MVM Mod"
       rsc-link: "https://www.dropbox.com/s/kc62cs7txv3f3ku/slysmvmmod.rar?dl=0"
       rsc-img: "/assets/images/videos/edits/sly_amen1.jpg"
-    - rsc-name: "BO1 SP MVM Mod"
+    - rsc-name: "BO1 SP MVM hMod"
       rsc-link: "https://www.dropbox.com/s/8fdulf2nyqm8lk9/sp_sly.rar?dl=0"
-      rsc-img: "/assets/images/videos/edits/t5sp.jpg"
-	- rsc-name: "BfdO1 SP MVM Mod"
-      rsc-link: "https://www.dropbox.com/s/8fdulf2nyqm8lk9/sp_slfy.rar?dl=0"
-      rsc-img: "/assets/images/videos/edits/t5gsp.jpg"
+      rsc-img: "/assets/images/videos/edits/t5hsp.jpg"
 ---
 
 Fractals are an interesting thing.
