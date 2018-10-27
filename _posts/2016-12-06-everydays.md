@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Everydays
-image: /assets/images/work/everydays/2016/12-14-2016.png
+image: /assets/images/work/everydays/2016/12-24-2016.png
 
 everydaysgrid:
   - var1: rm circuit 02</br>1/13/2017
@@ -134,8 +134,8 @@ everydaysgrid:
     var2: /assets/images/work/everydays/2016/12-02-2016.png
     var3: /assets/images/work/everydays/2016/12-02-2016.png
   - var1: Bubbles</br>12/1/2016
-    var2: /assets/images/work/everydays/2016/12-1-2016.png
-    var3: /assets/images/work/everydays/2016/12-1-2016.png
+    var2: /assets/images/work/everydays/2016/12-01-2016.png
+    var3: /assets/images/work/everydays/2016/12-01-2016.png
   - var1: hypnosis</br>11/30/2016
     var2: /assets/images/work/everydays/2016/11-30-2016.png
     var3: /assets/images/work/everydays/2016/11-30-2016.png
