@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  Quilts
+date: 2018-04-22
 image: /assets/images/work/other/motioncollab4.png
 tags:
 - motion graphics

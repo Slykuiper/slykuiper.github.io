@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Merch Drop 2
+title: Merch Drop #2
+date: 2018-05-19
+description: 
 image: /assets/images/blog/merchdrop-2/thumbnail.png
 ---
 Following the success of our initial merch drop last october, we decided to host another internal design contest featuring exclusive, limited time apparel for members of the community. The winner is the designer with the highest selling product, which will be permanently displayed on our storefront. The winner of this contest was Gmzorz, check out his design on our storefront <a data-scroll href="https://teespring.com/en-GB/stores/relative-minds-apparel">here</a>. 
