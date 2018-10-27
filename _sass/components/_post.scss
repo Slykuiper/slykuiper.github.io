@@ -123,7 +123,7 @@
 
         &.half {
             @media (min-width: $mq-md) {
-                > a, > img {
+                img {
                     width: calc(50% - 4px);
                     float: left;
                     margin-left: 1px;
@@ -138,7 +138,7 @@
 
         &.third {
             @media (min-width: $mq-sm) {
-                > a, > img {
+                img {
                     width: calc(33.3% - 6px);
                     float: left;
                     margin-left: 1px;
@@ -195,9 +195,6 @@
         .container-btn {
             margin-top: 3em;
         }
-    }
-
-    #postgrid {
     }
 
     .postcolumn {
@@ -257,3 +254,4 @@
             }
         }
     }
+}
