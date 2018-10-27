@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Walkcycles and Psychedelics
+title:  "Walkcycles and Psychedelics"
 image: /assets/images/work/other/rAfterEffects-collab3-sly1.png
 tags:
 - motion graphics

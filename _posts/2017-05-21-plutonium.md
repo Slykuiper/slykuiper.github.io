@@ -1,12 +1,15 @@
 ---
 layout: post
-title:  Plutonium
+title:  "PLUTONIUM"
 image: /assets/images/work/intros/pluto_bg_smg.png
 tags:
 - motion graphics
 - intro
 - gaming
 ---
+
+## PLUTONIUM
+
 I created a set of graphics for a game-modification project called Plutonium. Going with the style of dark, tech inspired visuals.
 An intro video was designed to be played during the game client's launch. To create the atomic structure, a "controller" was made out of a series of parented nulls traveling in an elliptic path using expressions. Lights were parented to the outermost nulls and served as emitters for Particular. The text was animated with Saber.
 

@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  Calling Tutorial
+title:  "CALLING TUTORIAL"
 image: /assets/images/work/everydays/2016/12-14-2016.png
 tags:
 - motion graphics
 - tutorial
 ---
+
 This is an Adobe After Effects/Trapcode Mir tutorial for creating the canyon/iceberg effect I used in two of my [daily artworks](http://slykuiper.com/EVERYDAYS/).
 
 <figure class="half">
