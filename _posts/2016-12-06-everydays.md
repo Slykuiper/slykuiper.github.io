@@ -3,7 +3,7 @@ layout: post
 title:  Everydays
 image: /assets/images/work/everydays/2016/12-14-2016.png
 
-3colgrid-everydays:
+everydaysgrid:
   - var1: rm circuit 02
     var2: http://slykuiper.com/images/work/everydays/2017/1-13-2017.gif
     var3: /assets/images/work/everydays/2017/1-13-2017.png
