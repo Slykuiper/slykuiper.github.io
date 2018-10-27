@@ -1,0 +1,57 @@
+---
+layout: post
+title: "Merch Drop #2"
+date: 2018-05-19
+description: 
+image: /assets/images/blog/merchdrop-2/thumbnail.png
+---
+Following the success of our initial merch drop last october, we decided to host another internal design contest featuring exclusive, limited time apparel for members of the community. The winner is the designer with the highest selling product, which will be permanently displayed on our storefront. The winner of this contest was Gmzorz, check out his design on our storefront <a data-scroll href="https://teespring.com/en-GB/stores/relative-minds-apparel">here</a>. 
+
+
+<h3>Design</h3>
+With a short deadline of 9 days, members designed apparel with the goal of getting their design permanently featured on the storefront. All proceeds from each product purchased went towards the respctive designer. We could each design 2 products to be featured on the storefront, some of us came up with two unique designs while others used one design on two different products (like a shirt and a hoodie).
+
+
+<h3>Launch</h3>
+We wrapped up our designs on April 25th and the <a data-scroll href="https://www.youtube.com/watch?v=JFpWIChS_XU">promotional video</a> by va7iik went live the next day. The contest concluded on May 17th with Gmzorz earning first place.
+
+<div class="vid" style="padding-top: 25px; padding-bottom: 50px;"> <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/JFpWIChS_XU?controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+
+<h3>Giveaway</h3>
+The only events ran in the community are editing contests, where talent is the deciding factor for winning small cash prizes. As a first for the community, we ran a short giveaway as an opportunity for editors and fans alike to win free merch. We gave away six products at random to those participating, which were shipped to Italy, Germany, and Saudi Arabia. It felt rewarding to give away physical products instead of the typical small cash prizes or digital editing packs that are standard for events. 
+
+<div class="twitter-wrap">
+    <blockquote class="twitter-tweet" data-lang="en">
+        <p lang="en" dir="ltr">🎨</p>&mdash; Relative Minds (@Relative_Minds)
+        <a href="https://twitter.com/Relative_Minds/status/996300315384168448">May 15, 2018</a>
+    </blockquote>
+    <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+
+
+<section id="merch2" class="section-padding bg-alpha">
+    <div class="grid--double">
+        <h1 class="section-header">Products</h1>
+        <div class="portfolio-carousel owl-carousel wow fadeIn">
+            <div><figure><img src="/assets/images/blog/merchdrop-2/d3.jpg" alt="Merch Product" /></figure></div>
+			<div><figure><img src="/assets/images/blog/merchdrop-2/gmzorz1-2.jpg" alt="Merch Product" /></figure></div>
+			<div><figure><img src="/assets/images/blog/merchdrop-2/gmzorz2-2black.jpg" alt="Merch Product" /></figure></div>
+			<div><figure><img src="/assets/images/blog/merchdrop-2/gmzorz2-2white.jpg" alt="Merch Product" /></figure></div>
+			<div><figure><img src="/assets/images/blog/merchdrop-2/moe.jpg" alt="Merch Product" /></figure></div>
+			<div><figure><img src="/assets/images/blog/merchdrop-2/redrum1-2.jpg" alt="Merch Product" /></figure></div>
+			<div><figure><img src="/assets/images/blog/merchdrop-2/redrum2-2.jpg" alt="Merch Product" /></figure></div>
+			<div><figure><img src="/assets/images/blog/merchdrop-2/selektor1-2.jpg" alt="Merch Product" /></figure></div>
+			<div><figure><img src="/assets/images/blog/merchdrop-2/selektor2-2.jpg" alt="Merch Product" /></figure></div>
+			<div><figure><img src="/assets/images/blog/merchdrop-2/sly.jpg" alt="Merch Product" /></figure></div>
+			<div><figure><img src="/assets/images/blog/merchdrop-2/static2black.jpg" alt="Merch Product" /></figure></div>
+			<div><figure><img src="/assets/images/blog/merchdrop-2/static2white.jpg" alt="Merch Product" /></figure></div>
+			<div><figure><img src="/assets/images/blog/merchdrop-2/tadji1-2.jpg" alt="Merch Product" /></figure></div>
+			<div><figure><img src="/assets/images/blog/merchdrop-2/tadji2-2.jpg" alt="Merch Product" /></figure></div>
+			<div><figure><img src="/assets/images/blog/merchdrop-2/va7iik1-2.jpg" alt="Merch Product" /></figure></div>
+			<div><figure><img src="/assets/images/blog/merchdrop-2/va7iik2-2.jpg" alt="Merch Product" /></figure></div>
+			<div><figure><img src="/assets/images/blog/merchdrop-2/warz1-2.jpg" alt="Merch Product" /></figure></div>
+			<div><figure><img src="/assets/images/blog/merchdrop-2/warz2-2.jpg" alt="Merch Product" /></figure></div>
+			
+        </div>
+    </div>
+</section>
