@@ -41,8 +41,3 @@ sass:
 
 # Gems
 gems: [jekyll-sitemap, octopress-autoprefixer]
-
-collections:
-    bio:
-        output: true
-        permalink: /roster/:name/
