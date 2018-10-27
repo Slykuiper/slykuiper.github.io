@@ -31,6 +31,33 @@ fruit:
   - name: orange
     cost: $1.50
     color: orange
+  - name: apple
+    cost: $1
+    color: red
+  - name: banana
+    cost: $2
+    color: yellow
+  - name: orange
+    cost: $1.50
+    color: orange
+  - name: apple
+    cost: $1
+    color: red
+  - name: banana
+    cost: $2
+    color: yellow
+  - name: orange
+    cost: $1.50
+    color: orange
+  - name: apple
+    cost: $1
+    color: red
+  - name: banana
+    cost: $2
+    color: yellow
+  - name: orange
+    cost: $1.50
+    color: orange
 ---
 
 Fractals are an interesting thing.
