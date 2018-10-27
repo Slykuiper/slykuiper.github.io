@@ -3,10 +3,10 @@ layout: post
 title:  Mandelbulb
 image: /assets/images/work/mandelbulb/scarab1_800.jpg
 
-postcolumn:
+fruit:
   - name: apple
-    link: $1
-    img: red
+    cost: $1
+    color: red
   - name: banana
     cost: $2
     color: yellow
