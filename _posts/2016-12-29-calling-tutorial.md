@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "CALLING TUTORIAL"
+title:  Calling Tutorial
 image: /assets/images/work/everydays/2016/12-14-2016.png
 tags:
 - motion graphics
