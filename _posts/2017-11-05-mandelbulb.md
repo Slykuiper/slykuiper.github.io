@@ -2,7 +2,7 @@
 layout: post
 title:  "Mandelbulb"
 image: /assets/images/work/mandelbulb/scarab1_800.jpg
-
+permalink: /mandelbulb/
 fruit:
   - name: apple
     cost: $1
