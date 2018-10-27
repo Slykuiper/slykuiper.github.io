@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Chinese Zodiac Collab"
+title:  Chinese Zodiac Collab
 image: /assets/images/work/other/motioncollab_sly1.png
 tags:
 - motion graphics

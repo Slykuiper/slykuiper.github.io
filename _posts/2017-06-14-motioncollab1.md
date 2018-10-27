@@ -1,13 +1,11 @@
 ---
 layout: post
-title:  "MOTIONCOLLAB ONE"
+title:  Motioncollab one
 image: /assets/images/work/other/rAfterEffects.png
 tags:
 - motion graphics
 - motioncollabs
 ---
-
-## MOTIONCOLLAB ONE
 
 Members of the [aftereffects subreddit](https://www.reddit.com/r/AfterEffects/comments/6hchsy/raftereffects_collaboration_animation/) came together to produce collaborative animation. With no experienced required to participate, each member had 72 hours to complete a 3 second animation, starting where the last member left off.
 
