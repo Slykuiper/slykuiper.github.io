@@ -27,12 +27,12 @@ section {
 }
 
 .section-padding {
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 
   @media (min-width: $mq-sm) {
-    padding-top: 6em;
-    padding-bottom: 6em;
+    padding-top: 2em;
+    padding-bottom: 2em;
   }
 
   &--half {
@@ -40,8 +40,8 @@ section {
     padding-bottom: 2em;
 
     @media (min-width: $mq-sm) {
-      padding-top: 3em;
-      padding-bottom: 3em;
+      padding-top: 2em;
+      padding-bottom: 2em;
     }
   }
 }
