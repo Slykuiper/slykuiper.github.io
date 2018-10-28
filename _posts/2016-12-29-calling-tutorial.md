@@ -15,7 +15,7 @@ This is an Adobe After Effects/Trapcode Mir tutorial for creating the canyon/ice
 	<figcaption>December 14th, 2016 "CALLING" & December 18th, 2016 "ROGUE"</figcaption>
 </figure>
 
-<figure class="sm-center">
+<figure class="sm-right">
 	<a href="/assets/images/work/tutorials/calling/initial-geometry.png"><img src="/assets/images/work/tutorials/calling/initial-geometry.png"></a>
 </figure>
 
@@ -31,7 +31,7 @@ Under the **Material** tab, change Diffuse, Specular, and Specular Shininess to 
 	<figcaption>Shader & Material settings.</figcaption>
 </figure>
 
-<figure class="sm-center">
+<figure class="sm-left">
 	<a href="/assets/images/work/tutorials/calling/brush-settings.png"><img src="/assets/images/work/tutorials/calling/brush-settings.png"></a>
 </figure>
 
