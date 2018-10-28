@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Bodymovin
+title:  Bodymovin/Lottie
 image: /assets/images/work/other/bodymovin.png
 bodymovin: true
 ---
