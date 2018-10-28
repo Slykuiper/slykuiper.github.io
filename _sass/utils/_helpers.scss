@@ -118,3 +118,29 @@
 .bg-black {
   background-color: $color-black;
 }
+
+#bodymovin {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    text-align: center;
+    opacity: 1;
+}
+
+.intro-bm {
+    width: 20em;
+}
+
+#lottie {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    text-align: center;
+    opacity: 1;
+}
