@@ -74,11 +74,11 @@ layout: default
             {% if page.bodymovin %}
             <section class="section-padding bg-black">
                 <script src="/assets/js/lottie.js" type="text/javascript"></script>
-                <div id="lottie"></div>
+                <div class="lottie" id="namereveal"></div>
                 <script>
                     function playLottie() {
                         var params = {
-                            container: document.getElementById('lottie'),
+                            container: document.getElementById('namereveal'),
                             renderer: 'svg',
                             loop: false,
                             autoplay: true,
