@@ -16,7 +16,9 @@ I created a spirograph inside of After Effects, with some sliders for customizin
 
 I saw [this tweet](https://twitter.com/shiffman/status/836623202591862784) on my timeline and wondered how I could recreate it in After Effects. I created three shapelayers - once for each circle - with the inner two having lines. The small, outer circle is the indicator and most important null for drawing the spirographs. The way I visualized the spirograph was by parenting a point light to the outer circle, and using the light as an emitter in Trapcode Particular. 
 
-![image-center](/assets/images/work/spirograph/controls.png){: .align-center}
+<figure>
+	<a href="/assets/images/work/spirograph/controls.png"><img src="/assets/images/work/spirograph/controls.png"></a>
+</figure> 
 
 **pathVisibility** is a checkbox that toggles the visibility of the shapelayers.  
 **numPoints** specifices the number of points or vertices you want the spirograph to have.  
