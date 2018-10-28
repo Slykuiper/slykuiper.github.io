@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Everydays
+title:  Experiments
 image: /assets/images/work/everydays/2016/12-24-2016.png
 
 everydaysgrid:
@@ -156,4 +156,4 @@ everydaysgrid:
     var3: /assets/images/work/everydays/2016/11-25-2016.png
 ---
 
-I recently started a series where I'll create a piece of artwork (motion graphics, 3d renders, animations, whatever else) every day. The aim of this project is to learn new technical and design skills with programs I'm experimenting with.  As of writing this I'm starting out with after effects and slowly learning cinema4d. It's a challenging but fun project.  
+Starting in late November, I challenged myself to create a piece of art every day. The aim of the project was to learn new technical  and design skills through various mediums such as motion graphics, graphic design, and 3d modeling/rendering. A daily series was a good excercise to allocate a chunk of time each day without getting too involved in any one project. I could comfortably challenge myself to try something new without diving too deep into the rabbit hole. Below are the collection of my experiments.  
