@@ -204,66 +204,65 @@
             margin-top: 3em;
         }
     }
-
-
-    .postcolumn {
-        flex: 1;
-        /* border: 1px solid gray;*/
-        margin: 2px;
-        padding: 10px;
-        max-width: $mq-xs;
-        font-size: 0.9em;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 50%;
-
-        &:first-child {
-            margin-left: 0;
-        }
-
-        &:last-child {
-            margin-right: 0;
-        }
-
-        a {
-            transition: color 0.3s ease-in-out;
-            margin: auto 0.5em;
-
-            &:hover,
-            &:active,
-            &:focus {
-                color: $color-rm-red;
-            }
-        }
-
-        &__inner {
-            top: 0;
-            left: 0;
-            height: $mq-xs;
-            width: $mq-xs;
-            text-align: center;
-            text-transform: uppercase;
-            font-weight: 300;
-            text-shadow: 0 0 3px #000;
-            opacity: 0;
-            transition: opacity 0.4s ease-in-out;
-
-            &:hover,
-            &:active,
-            &:focus {
-                opacity: 0.9;
-            }
-
-            p {
-                padding-top: 9em;
-            }
-        }
-    }
 }
 
 #postgrid {
+}
+
+.postcolumn {
+    flex: 1;
+    /* border: 1px solid gray;*/
+    margin: 2px;
+    padding: 10px;
+    max-width: $mq-xs;
+    font-size: 0.9em;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+
+    &:first-child {
+        margin-left: 0;
+    }
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    a {
+        transition: color 0.3s ease-in-out;
+        margin: auto 0.5em;
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: $color-rm-red;
+        }
+    }
+
+    &__inner {
+        top: 0;
+        left: 0;
+        height: $mq-xs;
+        width: $mq-xs;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 300;
+        text-shadow: 0 0 3px #000;
+        opacity: 0;
+        transition: opacity 0.4s ease-in-out;
+
+        &:hover,
+        &:active,
+        &:focus {
+            opacity: 0.9;
+        }
+
+        p {
+            padding-top: 9em;
+        }
+    }
 }
