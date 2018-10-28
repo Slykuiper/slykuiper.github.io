@@ -30,8 +30,8 @@ I saw [this tweet](https://twitter.com/shiffman/status/836623202591862784) on my
 </figure> 
 
 <figure class="third">
-	<a href="http://i.imgur.com/pTxDTp5.gif"><img src="http://i.imgur.com/pTxDTp5.gif"></a>
-	<a href="http://i.imgur.com/iQMjK8u.gif"><img src="http://i.imgur.com/iQMjK8u.gif"></a>
-	<a href="http://i.imgur.com/j5GG3WE.gif"><img src="http://i.imgur.com/j5GG3WE.gif"></a>
+	<a href="https://www.dropbox.com/s/aracahpyachl4z8/spirograph1.gif?raw=1"><img src="https://www.dropbox.com/s/aracahpyachl4z8/spirograph1.gif?raw=1"></a>
+	<a href="https://www.dropbox.com/s/11zpt9sg0nbsl9a/spirograph2.gif?raw=1"><img src="https://www.dropbox.com/s/11zpt9sg0nbsl9a/spirograph2.gif?raw=1"></a>
+	<a href="https://www.dropbox.com/s/y2ffsuxhktdpob6/spirograph3.gif?raw=1"><img src="https://www.dropbox.com/s/y2ffsuxhktdpob6/spirograph3.gif?raw=1"></a>
 	<figcaption>Playing with settings in Trapcode Particular, I created some interesting visuals.</figcaption>
 </figure> 
