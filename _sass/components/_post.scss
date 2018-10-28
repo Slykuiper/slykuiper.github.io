@@ -117,7 +117,46 @@
             margin-bottom: 1em;
         }
 
-      
+        &.half {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+
+            @media (min-width: $mq-md) {
+                > a, > img {
+                    width: calc(50% - 4px);
+                    float: left;
+                    margin-left: 1px;
+                    margin-right: 1px;
+                    box-shadow: inset 0 0px 0 #00ff00;
+                }
+
+                figcaption {
+                    clear: left;
+                }
+            }
+        }
+
+        &.third {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+
+            @media (min-width: $mq-sm) {
+                > a, > img {
+                    width: calc(33.3% - 6px);
+                    float: left;
+                    margin-left: 1px;
+                    margin-right: 1px;
+                    box-shadow: inset 0 0px 0 #00ff00;
+                }
+
+                figcaption {
+                    clear: left;
+                }
+            }
         }
 
         figcaption {
