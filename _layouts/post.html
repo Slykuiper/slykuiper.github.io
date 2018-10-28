@@ -70,24 +70,6 @@ layout: default
                 </div>
             </section>
             {% endif %}
-
-            {% if page.bodymovingrid.size > 0 %}
-            <section class="section-padding bg-black">
-                <div class="postgrid">
-                    <div class="columns-wrapper">
-                        <div class="columns">
-                            {% for item in page.bodymovingrid %}
-                            <a href="{{ item.var2 }}">
-                                <div class="postcolumn" style="background-image: url({{ item.var3 }})">
-                                    <div class="postcolumn__inner"><p> {{ item.var1 }} </p></div>
-                                </div>
-                            </a>
-                            {% endfor %}
-                        </div>
-                    </div>
-                </div>
-            </section>
-            {% endif %}
             <!--
        {% if page.tags.size > 0 %}
            <span class="post-content__tags">
