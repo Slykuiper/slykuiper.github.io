@@ -27,8 +27,8 @@ section {
 }
 
 .section-padding {
-  padding-top: 4em;
-  padding-bottom: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
 
   @media (min-width: $mq-sm) {
     padding-top: 4em;
@@ -49,6 +49,8 @@ section {
 .grid {
     margin-right: 1em;
     margin-left: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 
     @media (min-width: $mq-md) {
         margin-right: 4em;
