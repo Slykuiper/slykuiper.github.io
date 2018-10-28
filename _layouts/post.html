@@ -4,6 +4,27 @@ layout: default
 <article class="bg-black" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
 
     <header class="post-mast bg-alpha">
+        {% if page.bodymovin %}
+        <section class="section-padding bg-black">
+            <script src="/assets/js/lottie.js" type="text/javascript"></script>
+            <div class="lottie intro-bm" id="bm_namereveal"></div>
+            <script>
+                function nameReveal() {
+                    var anim;
+                    var namereveal = {
+                        container: document.getElementById('bm_namereveal'),
+                        renderer: 'svg',
+                        loop: false,
+                        autoplay: true,
+                        path: 'assets/bodymovin/namereveal.json'
+                    };
+                    anim = lottie.loadAnimation(namereveal);
+                    anim.play();
+                }
+                nameReveal();
+            </script>
+        </section>
+        {% endif %}
         <figure class="absolute-bg" style="background-image: url('{{ page.image }}');"></figure>
     </header>
 
@@ -68,28 +89,6 @@ layout: default
                         </div>
                     </div>
                 </div>
-            </section>
-            {% endif %}
-
-            {% if page.bodymovin %}
-            <section class="section-padding bg-black">
-                <script src="/assets/js/lottie.js" type="text/javascript"></script>
-                <div class="lottie intro-bm" id="bm_namereveal"></div>
-                <script>
-                    function nameReveal() {
-                        var anim;
-                        var namereveal = {
-                            container: document.getElementById('bm_namereveal'),
-                            renderer: 'svg',
-                            loop: false,
-                            autoplay: true,
-                            path: 'assets/bodymovin/namereveal.json'
-                        };
-                        anim = lottie.loadAnimation(namereveal);
-                        anim.play();
-                    }
-                    nameReveal();
-                </script>
             </section>
             {% endif %}
 
