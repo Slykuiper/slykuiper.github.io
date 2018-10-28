@@ -74,20 +74,21 @@ layout: default
             {% if page.bodymovin %}
             <section class="section-padding bg-black">
                 <script src="/assets/js/lottie.js" type="text/javascript"></script>
-                <div class="lottie" id="namereveal"></div>
+                <div class="lottie intro-bm" id="bm_namereveal"></div>
                 <script>
-                    function playLottie() {
-                        var params = {
-                            container: document.getElementById('namereveal'),
+                    function nameReveal() {
+                        var anim;
+                        var namereveal = {
+                            container: document.getElementById('bm_namereveal'),
                             renderer: 'svg',
                             loop: false,
                             autoplay: true,
                             path: 'assets/bodymovin/namereveal.json'
                         };
-                        var anim;
-                        anim = lottie.loadAnimation(params);
+                        anim = lottie.loadAnimation(namereveal);
+                        anim.play();
                     }
-                    playLottie();
+                    nameReveal();
                 </script>
             </section>
             {% endif %}
