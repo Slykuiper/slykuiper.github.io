@@ -8,9 +8,7 @@ tags:
 - downloads 
 ---
 
-I created a spirograph inside of After Effects, with some sliders for customizing the visuals. 
-
-[Project File for download](https://www.dropbox.com/s/t1acebe25pygyve/Spirograph.aep?dl=0)
+I created a spirograph inside of After Effects, with some sliders for customizing the visuals. [Project File for download](https://www.dropbox.com/s/t1acebe25pygyve/Spirograph.aep?dl=0)
 
 <figure class="sm-center">
 	<a href="/assets/images/work/spirograph/spirograph-motion.gif"><img src="/assets/images/work/spirograph/spirograph-motion.gif"></a>

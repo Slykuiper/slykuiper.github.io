@@ -22,7 +22,9 @@ I've heard the next collaboration will have the theme of "Walk Cycle", giving pe
 
 Beef Boy was the mastermind of the project, here's the [reddit thread](https://www.reddit.com/r/AfterEffects/comments/5zdqyz/raftereffects_collaboration/) where he posted his ideas for the project and organized us. In order to maximize efficiencey, we were divided into three groups. Each group was given a still frame to start off of, which would be the last frame of the previous group. Group C's starting image was the final frame of Group B, and Group B's starting image was the last frame of group A. Each group was given a DropBox folder to upload their projects file.
 
-![image-left](/assets/images/work/other/rAfterEffects_file1.png){: .align-left}
+<figure class="sm-center">
+	<a href="/assets/images/work/other/rAfterEffects_file1.png"><img src="/assets/images/work/other/rAfterEffects_file1.png"></a>
+</figure>
 
 I was 2nd in Group A (0:03 - 0:06), transforming Beef Boy's character into a desert scene. I was 3rd in Group B (0:38 - 0:42), expanding Paul Oom's solar system into a universe with an asteroid field and huge gas giants. I rigged an astronaut with duik and animated it solely with wiggle expressions.
 

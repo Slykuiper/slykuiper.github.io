@@ -119,7 +119,7 @@
 
         &.sm-center {
             img {
-                width: $mq-sm;
+                width: $mq-xs;
                 margin: 0 auto;
             }
         }
@@ -137,10 +137,6 @@
                     margin-left: 1px;
                     margin-right: 1px;
                     box-shadow: inset 0 0px 0 #00ff00;
-                }
-
-                figcaption {
-                    clear: left;
                 }
             }
         }
@@ -160,15 +156,14 @@
                     box-shadow: inset 0 0px 0 #00ff00;
                 }
 
-                figcaption {
-                    clear: left;
-                }
             }
         }
 
         figcaption {
             margin-top: 0.5em;
             text-align: center;
+            margin: 0 auto;
+            font-size: 0.75em;
         }
 
         & figure.large-img {

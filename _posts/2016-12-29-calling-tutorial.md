@@ -15,7 +15,9 @@ This is an Adobe After Effects/Trapcode Mir tutorial for creating the canyon/ice
 	<figcaption>December 14th, 2016 "CALLING" & December 18th, 2016 "ROGUE"</figcaption>
 </figure>
 
-![image-right](/assets/images/work/tutorials/calling/initial-geometry.png){: .align-right}
+<figure class="sm-center">
+	<a href="/assets/images/work/tutorials/calling/initial-geometry.png"><img src="/assets/images/work/tutorials/calling/initial-geometry.png"></a>
+</figure>
 
 Create a new composition with your desired dimensions, I went with 1080 x 1080. Create a Camera. Create a solid and apply Trapcode Mir to the layer. Under the **Geometry** tab set Rotate X to 90. Change Size X and Size Y to 10,000 or another high value. Set Vertices X and Vertices Y to 500. Change **Tessellate** from Triangles to Quads. Settings your vertices to 500 can be intensive on your system so you may want to change the "Reduce Geometry" value to 2x or more until you're ready to render. You'll need to adjust Far, Fog Start, and Fog End values under the **Visibility** Tab in order to see the entire mesh. I set these values to the max value (1,000,000).
 
@@ -29,7 +31,9 @@ Under the **Material** tab, change Diffuse, Specular, and Specular Shininess to 
 	<figcaption>Shader & Material settings.</figcaption>
 </figure>
 
-![image-left](/assets/images/work/tutorials/calling/brush-settings.png){: .align-left}
+<figure class="sm-center">
+	<a href="/assets/images/work/tutorials/calling/brush-settings.png"><img src="/assets/images/work/tutorials/calling/brush-settings.png"></a>
+</figure>
 
 In order to create the canyon look, you'll need to create a texture, and later tweak it to also be used as an amplitude map to displace the mesh's geometry. Create a new composition and call it "texture", same dimensions as before, and create a black (#000000) solid. Select the **Brush Tool** then double-click on your layer in the timeline to open the layer in the Layer Panel. In the Brushes Panel, create a round brush with a Diameter of 100 px and a Hardness of 100%. In the Paint Panel, make sure the color of the brush is white. Draw a path using the Brush Tool, it can be any shape you like. Check out the examples below for ideas.
 
