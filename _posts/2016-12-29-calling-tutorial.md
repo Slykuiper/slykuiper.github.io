@@ -56,7 +56,7 @@ On the Mir layer under the **Texture** tab, set the Texture Layer to your textur
 
 That's all there is to create the effect, you could add color correction effects like Curves and Glow to make it pop, or tweak the Mir settings to create your own look. Remove the Invert effect from the amplitude composition to create a raised, "iceberg" look. To color the slopes of the mesh, you want to color the grey area in the texture composition. Add a Curves effect on the adjustment layer in the texture composition and bring up the Blue Channel in the middle of the curve graph.
 
-<figure>
+<figure class="sm-center">
 	<a href="/assets/images/work/tutorials/calling/texture-curves.png"><img src="/assets/images/work/tutorials/calling/texture-curves.png"></a>
 	<figcaption>Curves settings in the texture composition.</figcaption>
 </figure>

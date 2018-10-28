@@ -148,7 +148,7 @@
         }
 
         &.half {
-            display: flex;
+            display: inline-block;
             justify-content: space-between;
             align-items: flex-start;
             flex-wrap: wrap;
@@ -165,7 +165,7 @@
         }
 
         &.third {
-            display: flex;
+            display: inline-block;
             justify-content: space-between;
             align-items: flex-start;
             flex-wrap: wrap;
@@ -182,9 +182,10 @@
         }
 
         figcaption {
+            display: inline-block;
             margin-top: 0.5em;
             text-align: center;
-            margin: 0 auto;
+            width: 100%;
             font-size: 0.75em;
         }
 
