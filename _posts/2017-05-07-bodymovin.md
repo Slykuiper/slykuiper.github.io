@@ -53,7 +53,4 @@ bodymovingrid:
     var2: https://www.dropbox.com/s/yhsdumrja39xvli/scarab1_2000.jpg?raw=1
     var3: /assets/images/work/mandelbulb/scarab1_800.jpg
 ---
-[Bodymovin](https://github.com/bodymovin/bodymovin) is an After Effects extension for exporting animations to the web by converting them into json. Json has several advantages over gifs and videos for web animation.
-An insanely low filesize is probably the most attractive feature for me. With simple animations being as low as 2kb, and more complex animations (like the name reveal on my home page) around 100kb, there's no worry of animations being slow or laggy on mobile devices or slow connections. Bodymovin exports to a .json file rendered in svg, meaning they're infinitely scalable without quality loss. 
-
-Now it's much easier to create a variety of web based animations. If you're interested, you can download the animations I've created on [lottiefiles.com](http://www.lottiefiles.com/slykuiper). 
+aaaaa
