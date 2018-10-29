@@ -11,7 +11,7 @@ bodymovins:
   - pencilwrite2
   - pentool
   - curlyhairguy1
-  - volume
+  - volume_shake_indicator
   - namereveal
   - eye
   - searchq
@@ -32,42 +32,46 @@ bodymovins:
         <div class="absolute-bg2" style="background-image: url('/assets/images/work/aeflame/img_03.png');"></div>
     </div>
 </section>
+<div class="grid--double">
+    <section class="post section-padding--half bg-black" itemprop="articleBody">
 
-{% if page.bodymovins.size > 0 %}
-<section class="section-padding bg-black">
-    <div class="postgrid">
-        <div class="columns-wrapper">
-            <div class="columns">
-                {% for bodymovin in page.bodymovins %}
-                <div class="postcolumn2">
-                    <div class="postcolumn2__lottie">
-                        <div class="lottie" id="{{ bodymovin }}"></div>
+        {% if page.bodymovins.size > 0 %}
+        <section class="section-padding bg-black">
+            <div class="postgrid">
+                <div class="columns-wrapper">
+                    <div class="columns">
+                        {% for bodymovin in page.bodymovins %}
+                        <div class="postcolumn2">
+                            <div class="postcolumn2__lottie">
+                                <div class="lottie" id="{{ bodymovin }}"></div>
+                            </div>
+                        </div>
+                        {% endfor %}
                     </div>
                 </div>
-                {% endfor %}
             </div>
-        </div>
-    </div>
-    <div id="bodymovinArraySize" style="display: none;"> {{ page.bodymovins.size }} </div>
-    <div id="bodymovinArray" style="display: none;"> [{% for bodymovin in page.bodymovins %}'{{ bodymovin }}'{% if forloop.last == false %}, {% endif %}{% endfor %}]</div>
-</section>
+            <div id="bodymovinArraySize" style="display: none;"> {{ page.bodymovins.size }} </div>
+            <div id="bodymovinArray" style="display: none;"> [{% for bodymovin in page.bodymovins %}'{{ bodymovin }}'{% if forloop.last == false %}, {% endif %}{% endfor %}]</div>
+        </section>
 
-<script>
-    function buildIcons() {
-        var bmArray = ['4bar', 'switch', 'daynight', 'pencilwrite', 'pencilwrite2', 'pentool', 'curlyhairguy1', 'volume', 'namereveal', 'eye', 'searchq', 'steam', '1bar', '2bar', '5stars', 'burst2', 'timer', 'volume_indicator'];
-        var anim;
-        for (var i = 0; i < bmArray.length; i += 1) {
-            var bmArrayData = {
-                container: document.getElementById(bmArray[i]),
-                renderer: 'svg',
-                loop: true,
-                autoplay: true,
-                path: '/assets/bodymovin/' + bmArray[i] + '.json'
-            };
-            anim = bodymovin.loadAnimation(bmArrayData);
-            anim.play();
-        }
-    }
-    buildIcons();
-</script>
-            {% endif %}
+        <script>
+            function buildIcons() {
+                var bmArray = ['4bar', 'switch', 'daynight', 'pencilwrite', 'pencilwrite2', 'pentool', 'curlyhairguy1', 'volume', 'namereveal', 'eye', 'searchq', 'steam', '1bar', '2bar', '5stars', 'burst2', 'timer', 'volume_indicator'];
+                var anim;
+                for (var i = 0; i < bmArray.length; i += 1) {
+                    var bmArrayData = {
+                        container: document.getElementById(bmArray[i]),
+                        renderer: 'svg',
+                        loop: true,
+                        autoplay: true,
+                        path: '/assets/bodymovin/' + bmArray[i] + '.json'
+                    };
+                    anim = bodymovin.loadAnimation(bmArrayData);
+                    anim.play();
+                }
+            }
+            buildIcons();
+        </script>
+        {% endif %}
+    </section>
+</div>

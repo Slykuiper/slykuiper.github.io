@@ -14,7 +14,7 @@ bodymovins:
   - pencilwrite2
   - pentool
   - curlyhairguy1
-  - volume
+  - volume_shake_indicator
   - namereveal
   - eye
   - searchq
