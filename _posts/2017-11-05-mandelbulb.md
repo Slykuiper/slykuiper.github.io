@@ -55,7 +55,7 @@ mandelbulbgrid:
 	
 tags:
 - motion graphics
-- downloads
+- fractal
 ---
 
 Fractals are an interesting thing.

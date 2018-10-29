@@ -4,7 +4,6 @@ title:  Spirograph
 image: /assets/images/work/spirograph/thumb.png
 tags:
 - motion graphics
-- blog
 - downloads 
 ---
 
