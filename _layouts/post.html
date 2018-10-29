@@ -82,14 +82,13 @@ layout: default
                         </div>
                     </div>
                 </div>
-                <div id="bodymovinArraySize"> {{ page.bodymovins.size }} </div>
-                <div id="bodymovinArray"> {{ page.bodymovins }} </div>
-                <div id="bodymovinArray2"> [{% for bodymovin in page.bodymovins %}'{{ bodymovin }}'{% if forloop.last == false %}, {% endif %}{% endfor %}]</div>
+                <div id="bodymovinArraySize" style="display: none;"> {{ page.bodymovins.size }} </div>
+                <div id="bodymovinArray" style="display: none;"> [{% for bodymovin in page.bodymovins %}'{{ bodymovin }}'{% if forloop.last == false %}, {% endif %}{% endfor %}]</div>
             </section>
 
-                <!--<script>
+                <script>
                 function buildIcons() {
-                    var bmArray = ['2bar', '4bar', 'switch', 'daynight', 'pencilwrite', 'pencilwrite2', 'pentool', 'curlyhairguy1', 'volume', 'homename4', 'homename5', 'eye', 'volume', 'searchq'];
+                    var bmArray = document.getElementById("bodymovinArray");
                     var bmArrayLength = document.getElementById("bodymovinArraySize");
                     var anim;
                     for (var i = 0; i < bmArrayLength; i += 1) {
@@ -103,7 +102,7 @@ layout: default
                         anim = bodymovin.loadAnimation(bmArrayData);
                         anim.play();
                     }
-
+                    /*
                     var bmArray = ['2bar', '4bar', 'switch', 'daynight', 'pencilwrite', 'pencilwrite2', 'pentool', 'curlyhairguy1', 'volume', 'homename4', 'homename5', 'eye', 'volume', 'searchq'];
                     var anim;
                     for (var i = 0; i < bmElements.length; i += 1) {
@@ -116,10 +115,10 @@ layout: default
                         };
                         anim = bodymovin.loadAnimation(bmArrayData);
                         anim.play();
-                    }
+                    }*/
                 }
                 buildIcons();
-                </script> -->
+                </script>
             {% endif %}
 
             {% if page.tags.size > 0 %}
