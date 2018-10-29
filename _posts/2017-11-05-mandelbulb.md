@@ -68,4 +68,5 @@ For bulk download, here's the [dropbox folder](https://www.dropbox.com/sh/ik8v5y
 	<a href="/assets/images/work/mandelbulb/scarab1_800.jpg"><img src="https://www.dropbox.com/s/yhsdumrja39xvli/scarab1_2000.jpg?raw=1"></a>
 	<a href="/assets/images/work/mandelbulb/scarab2_800.jpg"><img src="https://www.dropbox.com/s/68lorm2s2b9dv4c/scarab2_2000.jpg?raw=1"></a>
 	<a href="/assets/images/work/mandelbulb/scarab3_800.jpg"><img src="https://www.dropbox.com/s/jz2v43bejzalabx/scarab3_2000.jpg?raw=1"></a>
+	<figcaption>3-part Scarab series</figcaption>
 </figure>
