@@ -52,6 +52,10 @@ mandelbulbgrid:
   - var1: scarab 01
     var2: https://www.dropbox.com/s/yhsdumrja39xvli/scarab1_2000.jpg?raw=1
     var3: /assets/images/work/mandelbulb/scarab1_800.jpg
+	
+tags:
+- motion graphics
+- downloads
 ---
 
 Fractals are an interesting thing.

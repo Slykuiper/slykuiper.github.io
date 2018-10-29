@@ -3,6 +3,10 @@ layout: post
 title:  Bodymovin'
 image: /assets/images/work/other/bodymovin.png
 bodymovin: true
+
+tags:
+- motion graphics
+- downloads
 ---
 Bodymovin is an <a data-scroll href="https://aescripts.com/bodymovin/">After Effects extension</a> for exporting animations to the web by converting them into json. Json has several advantages over gifs and videos for web animation.
 An insanely low filesize is probably the most attractive feature for me. With simple animations being as low as 2kb, and more complex animations (like the name reveal on my home page) around 100kb, there's no worry of animations being slow or laggy on mobile devices or slow connections. Bodymovin exports to a .json file rendered in svg, meaning they're infinitely scalable without quality loss.

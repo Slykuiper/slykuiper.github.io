@@ -154,6 +154,9 @@ everydaysgrid:
   - var1: particular</br>11/25/2016
     var2: /assets/images/work/everydays/2016/11-25-2016.png
     var3: /assets/images/work/everydays/2016/11-25-2016.png
+	
+tags:
+- motion graphics
 ---
 
 Starting in late November and ending mid-January, I challenged myself to create a piece of art every day. The aim of the project was to learn new technical  and design skills through various mediums such as motion graphics, graphic design, and 3d modeling/rendering. A daily series was a good excercise to allocate a chunk of time each day without getting too involved in any one project. I could comfortably challenge myself to try something new without diving too deep into the rabbit hole. Below are the collection of my experiments.  
