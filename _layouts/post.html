@@ -72,19 +72,20 @@ layout: default
             {% endif %}
 
             {% if page.bodymovins.size > 0 %}
-                <section class="section-padding bg-black">
-                    <div class="postgrid">
-                        <div class="columns-wrapper">
-                            <div class="columns">
-                                {% for bodymovin in page.bodymovins %}
-                                    <div class="lottie" id="{{ bodymovin }}"></div>
-                                {% endfor %}
-                            </div>
+            <section class="section-padding bg-black">
+                <div class="postgrid">
+                    <div class="columns-wrapper">
+                        <div class="columns">
+                            {% for bodymovin in page.bodymovins %}
+                            <div class="lottie" id="{{ bodymovin }}"></div>
+                            {% endfor %}
                         </div>
                     </div>
-                    <div id="bodymovinArraySize"> {{ page.bodymovins.size }} </div>
-                    <div id="bodymovinArray"> {{ page.bodymovins }} </div>
-                </section>
+                </div>
+                <div id="bodymovinArraySize"> {{ page.bodymovins.size }} </div>
+                <div id="bodymovinArray"> {{ page.bodymovins }} </div>
+                <div id="bodymovinArray2"> [ {% for bodymovin in page.bodymovins %}'{{ bodymovin }}', {% endfor %} ]</div>
+            </section>
 
                 <!--<script>
                 function buildIcons() {
