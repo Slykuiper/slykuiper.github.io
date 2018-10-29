@@ -33,5 +33,25 @@ permalink: /bmtest/
             nameReveal();
         </script>
 
+        <script src="https://www.michalhotovec.com/extra/loader/bodymovin.js" type="text/javascript"></script>
+        <div id="lottie_codepen"></div>
+        <script>
+            var count = 0;
+            var container = document.getElementById('lottie_codepen');
+            var animData = {
+                container: lottie_codepen,
+                renderer: 'svg',
+                loop: true,
+                prerender: false,
+                autoplay: true,
+                autoloadSegments: false,
+                path: 'https://www.michalhotovec.com/extra/loader/loader.json'
+            };
+
+            var anim;
+
+            anim = bodymovin.loadAnimation(animData);
+        </script>
+
     </div>
 </section>
