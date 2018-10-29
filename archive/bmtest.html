@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Bodymovin test
-permalink: /bmtags/
+permalink: /bmtest/
 ---
 <section class="mast">
     <header class="mast__header">
@@ -17,18 +17,18 @@ permalink: /bmtags/
     <div class="grid">
 
         <script src="/assets/js/lottie.js" type="text/javascript"></script>
-        <div class="lottie intro-bm" id="bm_namereveal"></div>
+        <div class="lottie" id="bm_curlyhairguy1"></div>
         <script>
             function nameReveal() {
                 var anim;
-                var namereveal = {
-                    container: document.getElementById('bm_namereveal'),
+                var curlyboi = {
+                    container: document.getElementById('bm_curlyhairguy1'),
                     renderer: 'svg',
                     loop: false,
                     autoplay: true,
-                    path: 'assets/bodymovin/namereveal.json'
+                    path: 'assets/bodymovin/curlyhairguy1.json'
                 };
-                anim = lottie.loadAnimation(namereveal);
+                anim = lottie.loadAnimation(curlyboi);
                 anim.play();
             }
             nameReveal();
