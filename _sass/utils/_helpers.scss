@@ -170,12 +170,12 @@
     text-transform: uppercase;
     padding-left: 0;
     display: none; // hide header meta on small screens
-    @media screen and (min-width: $small) {
+    @media screen and (min-width: $mq-xs) {
         display: block;
     }
 
     a {
-        color: lighten($black, 45);
+        color: lighten($color-black, 45);
     }
 
     li {
@@ -186,7 +186,7 @@
     .tag,
     .category {
         display: inline-block;
-        background-color: darken($white, 3%);
+        background-color: darken($color-white, 3%);
         border-radius: 2px;
         text-decoration: none;
         transition: all 0.3s ease-in-out;
@@ -200,11 +200,11 @@
         }
 
         .count {
-            background-color: darken($white, 8%);
+            background-color: darken($color-white, 8%);
         }
 
         &:hover {
-            background-color: darken($white, 8%);
+            background-color: darken($color-white, 8%);
         }
     }
 }
