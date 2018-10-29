@@ -4,7 +4,6 @@ title:  Personal Intros
 image: /assets/images/work/intros/sly_6k.png
 tags:
 - motion graphics
-- personal
 - intro
 ---
 This is a collection of personal intros I've created for myself over the years. They were created for editing contests, personal edits, and subscriber milestones.

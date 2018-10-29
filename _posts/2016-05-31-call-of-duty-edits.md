@@ -6,7 +6,6 @@ tags:
 - motion graphics
 - gaming
 - edits
-- vfx
 ---
 <blockquote>
   However, video editing for me is an escape from real life, it is something I consider to be sacred and of sentimental value as it has allowed me to express myself artistically like nothing else.
