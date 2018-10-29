@@ -177,6 +177,7 @@
 
     a {
         transition: color 0.3s ease-in-out;
+        font-size: 1em;
 
         &:hover,
         &:active,
@@ -226,6 +227,7 @@
 
     ul {
         list-style-type: none;
+        text-transform: lowercase;
     }
 }
 
