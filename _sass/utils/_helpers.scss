@@ -169,13 +169,20 @@
     font-size: .75rem;
     text-transform: uppercase;
     padding-left: 0;
+    text-align: center;
     display: none; // hide header meta on small screens
     @media screen and (min-width: $mq-xs) {
         display: block;
     }
 
     a {
-        color: lighten($color-black, 45);
+        transition: color 0.3s ease-in-out;
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: $color-rm-red;
+        }
     }
 
     li {
