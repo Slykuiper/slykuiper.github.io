@@ -166,7 +166,7 @@
 
 // entry meta used in tags and categories page
 .entry-meta {
-    font-size: .75rem;
+    font-size: 1.5em;
     text-transform: uppercase;
     padding-left: 0;
     text-align: center;
@@ -193,7 +193,7 @@
     .tag,
     .category {
         display: inline-block;
-        background-color: darken($color-white, 3%);
+        background-color: darken($color-grey, 3%);
         border-radius: 2px;
         text-decoration: none;
         transition: all 0.3s ease-in-out;
@@ -207,15 +207,29 @@
         }
 
         .count {
-            background-color: darken($color-white, 8%);
+            background-color: darken($color-grey, 8%);
         }
 
         &:hover {
-            background-color: darken($color-white, 8%);
+            background-color: darken($color-grey, 8%);
         }
     }
 }
 
 .entry-title > a {
     border: none !important;
+}
+
+.entry-content {
+    margin-left: 3em;
+    margin-right: 3em;
+
+    ul {
+        list-style-type: none;
+    }
+}
+
+.entry-section {
+    padding-bottom: 1em;
+
 }
