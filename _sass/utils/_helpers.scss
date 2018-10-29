@@ -104,12 +104,11 @@
 .container-tags {
     max-width: $mq-md;
     margin: 1em auto 0;
-    padding-top: 2em;
+    padding-top: 1em;
     text-align: center;
-    border-top: 1px solid rgba($color-white, 0.1);
 
     a {
-        text-transform: uppercase;
+        @include link-posts();
     }
 }
 
