@@ -232,6 +232,16 @@
 }
 
 .entry-section {
-    padding-bottom: 1em;
+    padding-bottom: 2em;
 
+    a {
+        transition: color 0.3s ease-in-out;
+        font-size: 1em;
+
+        &:hover,
+        &:active,
+        &:focus {
+            color: $color-rm-red;
+        }
+    }
 }
