@@ -77,10 +77,12 @@ layout: default
                     <div class="columns-wrapper">
                         <div class="columns">
                             {% for bodymovin in page.bodymovins %}
-                            <div class="lottie" id="{{ bodymovin }}"></div>
+                            <div class="postcolumn__lottie">
+                                <div class="lottie" id="{{ bodymovin }}"></div>
+                            </div>
                             {% endfor %}
                         </div>
-                    </div>
+                     </div>
                 </div>
                 <div id="bodymovinArraySize" style="display: none;"> {{ page.bodymovins.size }} </div>
                 <div id="bodymovinArray" style="display: none;"> [{% for bodymovin in page.bodymovins %}'{{ bodymovin }}'{% if forloop.last == false %}, {% endif %}{% endfor %}]</div>
