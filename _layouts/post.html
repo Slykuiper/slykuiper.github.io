@@ -41,7 +41,7 @@ layout: default
                     <div class="columns-wrapper">
                         <div class="columns">
                             {% for item in page.everydaysgrid %}
-                            <a href="{{ item.var2 }}">
+                            <a href="{{ item.var2 }}" class="spacer">
                                 <div class="postcolumn" style="background-image: url({{ item.var3 }})">
                                     <div class="postcolumn__inner"><p> {{ item.var1 }} </p></div>
                                 </div>
@@ -59,7 +59,7 @@ layout: default
                     <div class="columns-wrapper">
                         <div class="columns">
                             {% for item in page.alphabetgrid %}
-                            <a href="{{ item.var2 }}">
+                            <a href="{{ item.var2 }}" class="spacer">
                                 <div class="postcolumn" style="background-image: url({{ item.var3 }})">
                                     <div class="postcolumn__inner"><p> {{ item.var1 }} </p></div>
                                 </div>
