@@ -84,7 +84,7 @@ layout: default
                 </div>
                 <div id="bodymovinArraySize"> {{ page.bodymovins.size }} </div>
                 <div id="bodymovinArray"> {{ page.bodymovins }} </div>
-                <div id="bodymovinArray2"> [ {% for bodymovin in page.bodymovins %}'{{ bodymovin }}', {% endfor %} ]</div>
+                <div id="bodymovinArray2"> [{% for bodymovin in page.bodymovins %}'{{ bodymovin }}'{% if forloop.last == false %}, {% endif %}{% endfor %}]</div>
             </section>
 
                 <!--<script>
