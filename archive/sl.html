@@ -6,23 +6,23 @@ permalink: /sl/
 
 slgrid:
   - var1: /assets/images/work/slpitch/1-mic_setup.png
-    var2: Frame 1</br>mic setup
+    var2: Frame 1</br>mic plug in and adjustment
   - var1: /assets/images/work/slpitch/2-webcam_setup.png
     var2: Frame 2</br>webcam adjustment
   - var1: /assets/images/work/slpitch/3-slobs_setup.png
-    var2: Frame 3</br>slobs setup
+    var2: Frame 3</br>slobs scene setup
   - var1: /assets/images/work/slpitch/4-golive1.png
-    var2: Frame 4</br>anticipation
+    var2: Frame 4</br>nervous anticipation to go live
   - var1: /assets/images/work/slpitch/5-golive2.gif
     var2: Frame 5</br>go live
   - var1: /assets/images/work/slpitch/6-chat1.png
-    var2: Frame 6</br>first chatters
+    var2: Frame 6</br>first chatters showing up
   - var1: /assets/images/work/slpitch/7-chat2.png
-    var2: Frame 7</br>chat active
+    var2: Frame 7</br>chat scrolling with activity
   - var1: /assets/images/work/slpitch/8-happy.png
     var2: Frame 8</br>happy streamer
   - var1: /assets/images/work/slpitch/9-alerts.png
-    var2: Frame 9</br>alerts
+    var2: Frame 9</br>alerts popping out of screen
 ---
 <header class="bio-mast bg-alpha">
     <figure class="absolute-bg" style="background-image: url('/assets/images/videos/edits/sly_amen1.jpg');"></figure>
@@ -31,14 +31,14 @@ slgrid:
 <div class="grid--double">
     <section class="bio section-padding--half bg-black" itemprop="articleBody">
         <header class="bio-header">
-            <h1 itemprop="name headline">STREAMLABS</h1>
-            <h4 itemprop="name subtitle">STREAMER IN ALL OF US</h4>
+            <h1 itemprop="name headline">STREAMER IN ALL OF US</h1>
+            <h4 itemprop="name subtitle">STREAMLABS CAMPAIGN</h4>
         </header>
         <div class="bio-content">
             <div class="bio-block">
                 <h3>Intent</h3>
                 <p>
-                    Instead of directly promoting streamlabs products/features, this would be an animated storytelling sequence that appeals to streamers on a more personal level. The intent is to relate to streamers' personal experiences and feelings, as well as subtely tie in our products (slobs, alerts, facemasks, whatever else). The mood is more genuine and wholesome rather than flashy/salesy, meaning the products will show up naturally to appear as routine features that streamers commonly use and not presented as something new to try out. For example, in the last slide, alerts are popping out of the screen and the streamer glances at the screen and acknowledges the event. Another example slide could be a facemask popping up over the streamers face - on top of the figure as if it's really in the environment, not code appearing on top of a webcam filter inside slobs.
+                    Instead of directly promoting streamlabs products/features, this would be an animated storytelling sequence that appeals to streamers on a more personal level. The intent is to relate to streamers' personal experiences and feelings, as well as subtely tie in our products (slobs, alerts, facemasks, whatever else). The mood is more genuine and wholesome rather than flashy/salesy, meaning the products will show up naturally to appear as routine features that streamers commonly use and not presented as something new to try out. For example, in the last slide, alerts are popping out of the screen and the streamer glances at the screen and acknowledges the event. Another example slide could be a facemask popping up over the streamers face - on top of the figure as if it's really in the environment, not code appearing on top of a webcam filter inside slobs. Hover over each frame to see the scene's direction.
                 </p>
             </div>
 
@@ -55,9 +55,10 @@ slgrid:
             <div class="postgrid">
                 <div class="columns-wrapper">
                     <div class="columns">
+                        <p>Hover over each frame to see the scene's direction.</p>
                         {% for item in page.slgrid %}
                         <a href="" class="spacer">
-                            <div class="postcolumn" style="background-image: url({{ item.var1 }})">
+                            <div class="slcolumn" style="background-image: url({{ item.var1 }})">
                                 <div class="postcolumn__inner"><p> {{ item.var2 }} </p></div>
                             </div>
                         </a>
