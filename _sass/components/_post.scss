@@ -47,6 +47,11 @@
 }
 
 .post-content {
+    @media (min-width: $mq-xs) {
+        margin-right: 2em;
+        margin-left: 2em;
+        background-color: #171717;
+    }
 
     @media (min-width: $mq-md) {
         margin-right: 8em;
@@ -54,11 +59,7 @@
         background-color: #333333;
     }
 
-    @media (max-width: $mq-xs) {
-        margin-right: 2em;
-        margin-left: 2em;
-        background-color: #171717;
-    }
+
 
     hr {
         margin-top: 2em;
