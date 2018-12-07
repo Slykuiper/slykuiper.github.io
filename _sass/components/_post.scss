@@ -51,11 +51,13 @@
     @media (min-width: $mq-md) {
         margin-right: 8em;
         margin-left: 8em;
+        background-color: #6d6d6d;
     }
 
     @media (max-width: $mq-sm) {
         margin-right: 2em;
         margin-left: 2em;
+        background-color: #171717;
     }
 
     hr {
