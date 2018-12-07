@@ -47,7 +47,7 @@
 }
 
 .post-content {
-    @media (min-width: $mq-xs) {
+    @media (min-width: $mq-sm) {
         margin-right: 2em;
         margin-left: 2em;
         background-color: #171717;
