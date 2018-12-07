@@ -17,13 +17,10 @@ This music video was a fun challenge that marks the first of many 3D animated mu
 
 ### Details
 
-<figure>
+<figure class="half">
 	<a href="https://www.dropbox.com/s/zihk3lwyy88ewat/ngedrone1.gif?raw=1"><img src="https://www.dropbox.com/s/zihk3lwyy88ewat/ngedrone1.gif?raw=1"></a>
-</figure>
-
-<figure>
 	<a href="https://www.dropbox.com/s/cu4g2147oa8550x/nge1.gif?raw=1"><img src="https://www.dropbox.com/s/cu4g2147oa8550x/nge1.gif?raw=1"></a>
-	<figcaption>Initial Blocking Pass</figcaption>
+	<figcaption>Final shot & initial Blocking Pass</figcaption>
 </figure>
 
 The drone idea was inspired by the drone cameras in Rocket League following the movement of the ball as the matches play out. I knew that was possible in Cinema4D with the **target tag** and used it as an excuse to develop an entire video. 
@@ -45,9 +42,7 @@ Most of the work for the visuals was done in After Effects, the scene in Cinema4
 	<a href="/assets/images/work/musicvideos/alkatnge/6.jpg"><img src="/assets/images/work/musicvideos/alkatnge/6.jpg"></a>
 </figure>
 
-<figure>
+<figure class="half">
 	<a href="https://www.dropbox.com/s/pqc0d22bffxfx4x/ngephone.gif?raw=1"><img src="https://www.dropbox.com/s/pqc0d22bffxfx4x/ngephone.gif?raw=1"></a>
-</figure>
-<figure>
 	<a href="hhttps://www.dropbox.com/s/pvuxiygkv0rmeo8/ngedrone2.gif?raw=1"><img src="https://www.dropbox.com/s/pvuxiygkv0rmeo8/ngedrone2.gif?raw=1"></a>
 </figure>
