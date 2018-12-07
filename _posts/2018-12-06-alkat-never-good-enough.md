@@ -9,9 +9,9 @@ tags:
 
 2 years ago [AlKaT](https://slykuiper.com/alkat/) released [Never Good Enough Ft. Daisy](https://soundcloud.com/4lka7/never-good-enough-ft-daisy), a dark electronic track conveying the idea that no matter what you do, you're never good enough. I tried to capture that feeling with a moody cityscape featuring a drone tracking the character's movements.
 
-This music video was a fun challenge that marks the first of many 3D animated music videos I'll be making. The idea is to loop short animated scenes together as a visual incentive to listen to the music. This project spanned across 5 days, here's my insight.
-
 <div class="vid" > <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/fzhXtYXFwtw?controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+
+This music video was a fun challenge that marks the first of many 3D animated music videos I'll be making. The idea is to loop short animated scenes together as a visual incentive to listen to the music. This project spanned across 5 days, here's my insight.
 
 ---
 
