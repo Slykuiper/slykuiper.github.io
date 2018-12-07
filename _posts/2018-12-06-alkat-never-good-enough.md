@@ -15,7 +15,7 @@ This music video was a fun challenge that marks the first of many 3D animated mu
 
 ---
 
-### The Details
+### Details
 
 <figure>
 	<a href="https://www.dropbox.com/s/cu4g2147oa8550x/nge1.gif?raw=1"><img src="https://www.dropbox.com/s/cu4g2147oa8550x/nge1.gif?raw=1"></a>
