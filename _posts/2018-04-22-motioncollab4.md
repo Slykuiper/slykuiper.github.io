@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Quilts
-image: /assets/images/work/other/motioncollab4.png
+image: /assets/images/work/other/motioncollab4.jpg
 tags:
 - motion graphics
 - motioncollabs
