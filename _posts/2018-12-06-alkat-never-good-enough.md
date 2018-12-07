@@ -18,6 +18,10 @@ This music video was a fun challenge that marks the first of many 3D animated mu
 ### Details
 
 <figure>
+	<a href="https://www.dropbox.com/s/zihk3lwyy88ewat/ngedrone1.gif?raw=1"><img src="https://www.dropbox.com/s/zihk3lwyy88ewat/ngedrone1.gif?raw=1"></a>
+</figure>
+
+<figure>
 	<a href="https://www.dropbox.com/s/cu4g2147oa8550x/nge1.gif?raw=1"><img src="https://www.dropbox.com/s/cu4g2147oa8550x/nge1.gif?raw=1"></a>
 	<figcaption>Initial Blocking Pass</figcaption>
 </figure>
@@ -39,4 +43,11 @@ Most of the work for the visuals was done in After Effects, the scene in Cinema4
 <figure class="half">
 	<a href="/assets/images/work/musicvideos/alkatnge/5.png"><img src="/assets/images/work/musicvideos/alkatnge/5.png"></a>
 	<a href="/assets/images/work/musicvideos/alkatnge/6.jpg"><img src="/assets/images/work/musicvideos/alkatnge/6.jpg"></a>
+</figure>
+
+<figure>
+	<a href="https://www.dropbox.com/s/pqc0d22bffxfx4x/ngephone.gif?raw=1"><img src="https://www.dropbox.com/s/pqc0d22bffxfx4x/ngephone.gif?raw=1"></a>
+</figure>
+<figure>
+	<a href="hhttps://www.dropbox.com/s/pvuxiygkv0rmeo8/ngedrone2.gif?raw=1"><img src="https://www.dropbox.com/s/pvuxiygkv0rmeo8/ngedrone2.gif?raw=1"></a>
 </figure>
