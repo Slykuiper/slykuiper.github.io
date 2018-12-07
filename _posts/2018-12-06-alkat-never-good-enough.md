@@ -24,7 +24,7 @@ This music video was a fun challenge that marks the first of many 3D animated mu
 
 The drone idea was inspired by the drone cameras in Rocket League following the movement of the ball as the matches play out. I knew that was possible in Cinema4D with the **target tag** and used it as an excuse to develop an entire video. 
 
-Most of the work for the visuals was done in After Effects, the scene in Cinema4D is pretty simple. The scene is low poly and rendered with Cel materials for a flat look. 
+Most of the work for the visuals was done in After Effects, the scene in Cinema4D is pretty simple. The scene is low poly and rendered with Cel materials for a flat look. I think the visuals turned out great, the fast render time of cel shading outweighs my preference for ambient occlusion. I've got several ideas saved for future music videos that will utilize this format, I'm psyched to turn my friends' music into visuals. 
 
 <figure class="half">
 	<a href="/assets/images/work/musicvideos/alkatnge/1.png"><img src="/assets/images/work/musicvideos/alkatnge/1.png"></a>
