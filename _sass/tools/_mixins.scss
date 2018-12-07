@@ -1,9 +1,7 @@
 /**
  * Flex Grid
  */
-@mixin flex-grid($sm: n
-    
-    l, $md: null, $lg: null, $xl: null, $xxl: null, $pad: 0) {
+@mixin flex-grid($sm: null, $md: null, $lg: null, $xl: null, $xxl: null, $pad: 0) {
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
