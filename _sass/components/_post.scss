@@ -47,16 +47,14 @@
 }
 
 .post-content {
-    @media (min-width: $mq-md) {
+    @media (min-width: $mq-lg) {
         margin-right: 2em;
         margin-left: 2em;
-        background-color: #171717;
     }
 
-    @media (min-width: $mq-lg) {
+    @media (min-width: $mq-xl) {
         margin-right: 8em;
         margin-left: 8em;
-        background-color: #333333;
     }
 
 
