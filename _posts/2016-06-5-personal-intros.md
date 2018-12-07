@@ -15,7 +15,7 @@ Layered style intro that would've served as the name reveal for the main site pa
 
 ### Showreel Intro
 <div class="vid" > <iframe width="640" height="360" src="https://player.vimeo.com/video/201792679" frameborder="0" allowfullscreen></iframe></div>
-Intro designed for the intro of my [showreel.](http://slykuiper.com/SHOWREEL/)
+Intro designed for the intro of my showreel.
 
 
 
@@ -27,13 +27,13 @@ When I reached 6,000 subscribers on my [main youtube channel](http://youtube.com
 
 ### T3C Slykuiper 2016
 <div class="vid" > <iframe width="640" height="360" src="https://player.vimeo.com/video/184432380" frameborder="0" allowfullscreen></iframe></div>
-This was a one-off intro created specifically for my edit [Kingdom](http://slykuiper.com/CALL-OF-DUTY-EDITS). I submitted this edit to [T3C™](https://www.youtube.com/user/the3n19ma), a community editing channel. One of the requirements for submitting your video to the channel is to include the T3C™ intro in your video. I created a unique, low-fi flower intro to fit with the mood of my edit.
+This was a one-off intro created specifically for my edit [Kingdom](https://slykuiper.com/call-of-duty-edits/). I submitted this edit to [T3C™](https://www.youtube.com/user/the3n19ma), a community editing channel. One of the requirements for submitting your video to the channel is to include the T3C™ intro in your video. I created a unique, low-fi flower intro to fit with the mood of my edit.
 
 ---
 
 ### Swoosh Intro
 <div class="vid" > <iframe width="640" height="360" src="https://player.vimeo.com/video/192887831" frameborder="0" allowfullscreen></iframe></div>
-An old intro I mainly used for my [Toribash edits](http://slykuiper.com/TORIBASH-EDITS).
+An old intro I mainly used for my [Toribash edits](http://slykuiper.com/toribash-edits).
 
 ---
 

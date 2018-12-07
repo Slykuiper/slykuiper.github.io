@@ -7,7 +7,7 @@ tags:
 - tutorial
 ---
 
-This is an Adobe After Effects/Trapcode Mir tutorial for creating the canyon/iceberg effect I used in two of my [daily artworks](http://slykuiper.com/EVERYDAYS/).
+This is an Adobe After Effects/Trapcode Mir tutorial for creating the canyon/iceberg effect I used in two of my [daily artworks](http://slykuiper.com/experiments/).
 
 <figure class="half">
 	<a href="/assets/images/work/everydays/2016/12-14-2016.png"><img src="/assets/images/work/everydays/2016/12-14-2016.png"></a>
