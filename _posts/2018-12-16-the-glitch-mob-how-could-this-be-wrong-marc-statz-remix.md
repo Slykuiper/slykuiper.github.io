@@ -5,6 +5,44 @@ image: /assets/images/work/musicvideos/marcstatz-hctbw/1.jpg
 tags:
 - motion graphics
 - music video
+
+hctbwgrid:
+  - var1:
+    var2: https://www.dropbox.com/s/tt67vez4nnjl1cy/1.png?raw=1
+    var3: https://www.dropbox.com/s/tt67vez4nnjl1cy/1.png?raw=1
+  - var1: 
+    var2: https://www.dropbox.com/s/5jp486o6bxab9ry/2.png?raw=1
+    var3: https://www.dropbox.com/s/5jp486o6bxab9ry/2.png?raw=1
+  - var1: 
+    var2: https://www.dropbox.com/s/671vfct18hwnjgb/3.png?raw=1
+    var3: https://www.dropbox.com/s/671vfct18hwnjgb/3.png?raw=1
+  - var1: 
+    var2: https://www.dropbox.com/s/gmmkbuijnrd54dq/4.png?raw=1
+    var3: https://www.dropbox.com/s/gmmkbuijnrd54dq/4.png?raw=1
+  - var1: 
+    var2: https://www.dropbox.com/s/m4sqh6iji6othis/5.png?raw=1
+    var3: https://www.dropbox.com/s/m4sqh6iji6othis/5.png?raw=1
+  - var1: 
+    var2: https://www.dropbox.com/s/prndmxb9cyqw9mx/6.png?raw=1
+    var3: https://www.dropbox.com/s/prndmxb9cyqw9mx/6.png?raw=1
+  - var1: 
+    var2: https://www.dropbox.com/s/d9xwzw8k6qh3fn4/7.png?raw=1
+    var3: https://www.dropbox.com/s/d9xwzw8k6qh3fn4/7.png?raw=1
+  - var1: 
+    var2: https://www.dropbox.com/s/ksm3rzantm7ldcq/8.png?raw=1
+    var3: https://www.dropbox.com/s/ksm3rzantm7ldcq/8.png?raw=1
+  - var1: 
+    var2: https://www.dropbox.com/s/e01sz80e74dzdnk/9.png?raw=1
+    var3: https://www.dropbox.com/s/e01sz80e74dzdnk/9.png?raw=1
+  - var1: 
+    var2: https://www.dropbox.com/s/fjl1fnzzwmp84sy/10.png?raw=1
+    var3: https://www.dropbox.com/s/fjl1fnzzwmp84sy/10.png?raw=1
+  - var1: 
+    var2: https://www.dropbox.com/s/j1n0uleyqkpyquo/11.png?raw=1
+    var3: https://www.dropbox.com/s/j1n0uleyqkpyquo/11.png?raw=1
+  - var1: 
+    var2: https://www.dropbox.com/s/0803i0wsnplq7em/12.png?raw=1
+    var3: https://www.dropbox.com/s/0803i0wsnplq7em/12.png?raw=1
 ---
 
 [Marc Statz](https://www.marcstatz.com/), a talented artist and close friend of mine is serving as my muse for my newest music video. He released [his remix of The Glitch Mob - How Could This Be Wrong](https://soundcloud.com/marcstatz/how-could-this-be-wrong-the-glitch-mob-marc-statz-remix) a month ago and I tried to capture the adventurous explorer mood I got from listening to it. A simple low poly desert scene littered with ancient pylons and a vehicle scouting the area.
@@ -24,6 +62,12 @@ This was a quickie but very fun to make. There's no post production/color correc
 </figure>
 
 At first I wanted to make an "epic" scene, where a traveler stood at the edge of a cliff and overlooked a horizon. This was problematic for a few reasons, mainly because there isn't much I could do with an idle character for 3 minutes besides a few different camera angles. I feel like the ruined desert scene had more potential to tell a story and I got to play more with Cinema4D's **Sketch and Toon renderer**. 
+
+<figure class="half">
+	<a href="/assets/images/work/musicvideos/marcstatz-hctbw/scene2-01.jpg"><img src="/assets/images/work/musicvideos/marcstatz-hctbw/scene2-01.jpg"></a>
+	<a href="/assets/images/work/musicvideos/marcstatz-hctbw/scene2-02.jpg"><img src="/assets/images/work/musicvideos/marcstatz-hctbw/scene2-02.jpg"></a>
+	<figcaption>Rejected landscape</figcaption>
+</figure>
 
 The landscape is shaped with a few noise shaders layered together for displacement. The pylons are voronoi'd shapes with a Plain effector as the child of the inner orb to transform the shards. The orb has a **Vibrate** tag to animate the orb's vertical movement. 
 

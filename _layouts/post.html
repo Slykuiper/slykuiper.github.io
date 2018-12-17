@@ -52,6 +52,23 @@ layout: default
                 </div>
             </section>
             {% endif %}
+			
+			{% if page.hctbwgrid.size > 0 %}
+            <section class="section-padding bg-black">
+                <div class="postgrid">
+                    <div class="columns-wrapper">
+                        <div class="columns">
+                            {% for item in page.hctbwgrid %}
+                            <a href="{{ item.var2 }}" class="spacer">
+                                <div class="postcolumn" style="background-image: url({{ item.var3 }})">
+                                </div>
+                            </a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {% endif %}
 
             {% if page.alphabetgrid.size > 0 %}
             <section class="section-padding bg-black">
