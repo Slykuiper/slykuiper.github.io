@@ -61,6 +61,7 @@ layout: default
                             {% for item in page.hctbwgrid %}
                             <a href="{{ item.var2 }}" class="spacer">
                                 <div class="postcolumn" style="background-image: url({{ item.var3 }})">
+                                    <div class="postcolumn__inner"><p> {{ item.var1 }} </p></div>
                                 </div>
                             </a>
                             {% endfor %}
