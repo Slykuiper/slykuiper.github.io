@@ -49,7 +49,7 @@ hctbwgrid:
 
 <div class="vid" > <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/nZP8zXx-qTw?controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
-This was a quickie but very fun to make. There's no post production/color correction/effects done in AE unlike the [previous video](https://slykuiper.com/alkat-never-good-enough/) where most of the visuals came from composition. Rendering was fairly fast because of the low poly cel shaded visuals, at most a frame took 28 seconds but averaged around 8 seconds per frame. From start to finish this scene was made in 2 days, but the total project expands to about a week from playing around with various ideas for visuals before landing on this. I plan on creating visuals for several of Marc's songs, as well as a few other artists I know. 
+This was a quickie but very fun to make. There's no post production/color correction/effects done in AE unlike the [previous video](https://slykuiper.com/alkat-never-good-enough/) where most of the visuals came from compositing. Rendering was fairly fast because of the low poly cel shaded visuals, at most a frame took 28 seconds but averaged around 8 seconds per frame. From start to finish this scene was made in 2 days, but the total project expands to about a week from playing around with various ideas for visuals before landing on this. I plan on creating visuals for several of Marc's songs, as well as a few other artists I know. 
 
 ---
 
