@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  How Could This Be Wrong - The Glitch Mob (STATZ remix)
+title:  How Could This Be Wrong - The Glitch Mob (Marc Statz remix)
 image: /assets/images/work/musicvideos/marcstatz-hctbw/1.jpg
 tags:
 - motion graphics
@@ -45,7 +45,7 @@ hctbwgrid:
     var3: https://www.dropbox.com/s/0803i0wsnplq7em/12.png?raw=1
 ---
 
-[Marc Statz](https://www.marcstatz.com/), a talented artist and close friend of mine is serving as my muse for my newest music video. He released his [remix of The Glitch Mob - How Could This Be Wrong](https://soundcloud.com/marcstatz/how-could-this-be-wrong-the-glitch-mob-marc-statz-remix) a month ago and I tried to capture the adventurous explorer mood I got from listening to it. A simple low poly desert scene littered with ancient pylons and a vehicle scouting the area.
+[Marc Statz](https://www.marcstatz.com/), a multi-talented artist and friend of mine is serving as my muse for my newest music video. He released his [remix of The Glitch Mob - How Could This Be Wrong](https://soundcloud.com/marcstatz/how-could-this-be-wrong-the-glitch-mob-marc-statz-remix) a month ago and I tried to capture the adventurous explorer mood I got from listening to it. A simple low poly desert scene littered with ancient pylons and a vehicle scouting the area.
 
 <div class="vid" > <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/nZP8zXx-qTw?controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
