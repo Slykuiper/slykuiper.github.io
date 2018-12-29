@@ -8,7 +8,7 @@ tags:
 
 ---
 
-This music video is a visualization of the second song [Marc Statz](https://www.marcstatz.com/), sent me. When I first [listened to it](https://soundcloud.com/marcstatz/2018-11-13-dark-trap-beat-02/s-pyEHO), I immediately imagined a dark subway scene and got to work building it. This project is a little more indepth than the previous music video and went through a few iterations, I'm happy with the mixed combination of realistic and cartoon visuals. I plan to further develop this visual style in future 3D projects.
+This music video is a visualization of the second song [Marc Statz](https://www.marcstatz.com/), sent me. When I first [listened](https://soundcloud.com/marcstatz/2018-11-13-dark-trap-beat-02/s-pyEHO) to it, I immediately imagined a dark subway scene and got to work building it. This project is a little more indepth than the previous music video and went through a few iterations, I'm happy with the mixed combination of realistic and cartoon visuals. I plan to further develop this visual style in future 3D projects.
 
 <div class="vid" > <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/nZP8zXx-qTw?controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
