@@ -8,9 +8,9 @@ tags:
 
 ---
 
-This music video is a visualization of the second song [Marc Statz](https://www.marcstatz.com/), sent me. When I first [listened](https://soundcloud.com/marcstatz/2018-11-13-dark-trap-beat-02/s-pyEHO) to it, I immediately imagined a dark subway scene and got to work building it. This project is a little more indepth than the previous music video and went through a few iterations, I'm happy with the mixed combination of realistic and cartoon visuals. I plan to further develop this visual style in future 3D projects.
+This music video is a visualization of the second song [Marc Statz](https://www.marcstatz.com/), sent me. When I first [listened](https://soundcloud.com/marcstatz/catharsis) to it, I immediately imagined a dark subway scene and got to work building it. This project is a little more indepth than the previous music video and went through a few iterations, I'm happy with the mixed combination of realistic and cartoon visuals. I plan to further develop this visual style in future 3D projects.
 
-<div class="vid" > <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/aWqMkVZpOMU?controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+<div class="vid" > <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/XHJ1_UoQ7Ik?controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
 The majority of the work for the visuals came out of C4D. After Effects was used to create audio visualizer on the windows as well as the audio sync of the glow on the windows with Trapcode Soundkeys. The scene was rendered with the Standard renderer, Sketch and Toon was used for the subway car and simple materials were used for the rest of the scene. Render time was about 4-8 seconds per frame with a total of 4583 frames.
 
