@@ -4,14 +4,15 @@ permalink: 404.html
 ---
 <section class="mast">
     <header class="mast__header">
-        <div class="lottie" id="bm_4042"></div>
+        <div class="lottie fourohfour" id="bm_4042"></div>
+        <span>I probably fucked something up.</span>
         <script>
             function play404() {
                 var anim;
                 var load404 = {
                     container: document.getElementById('bm_4042'),
                     renderer: 'svg',
-                    loop: false,
+                    loop: true,
                     autoplay: true,
                     path: '/assets/bodymovin/4042.json'
                 };
@@ -21,4 +22,14 @@ permalink: 404.html
             play404();
         </script>
     </header>
+</section>
+
+<section class="mast">
+    <header class="mast__header">
+        <h1>Resources</h1>
+        <span>Here you'll find downloads to resources I've created and publicly released.</span>
+    </header>
+    <div class="mast__img bg-black">
+        <div class="absolute-bg2" style="background-image: url('/assets/images/videos/edits/sly_amen7.jpg');"></div>
+    </div>
 </section>
