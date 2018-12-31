@@ -70,6 +70,11 @@
 .mast-fourohfour {
     position: relative;
 
+    @media (min-width: $mq-sm) {
+        display: flex;
+        height: 40vh;
+    }
+
     @media (min-width: $mq-md) {
         display: flex;
         height: 80vh;
