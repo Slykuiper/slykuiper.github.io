@@ -2,13 +2,26 @@
 layout: default
 permalink: 404.html
 ---
-
 <section class="mast">
     <header class="mast__header">
-        <h1>404</h1>
-        <span>I probably messed something up, sorry.</span>
+        <div class="lottie intro-bm" id="bm_namereveal"></div>
+        <script>
+            function 404Reveal() {
+                var anim;
+                var 404anim = {
+                    container: document.getElementById('bm_404'),
+                    renderer: 'svg',
+                    loop: false,
+                    autoplay: true,
+                    path: '/assets/bodymovin/404.json'
+                };
+                anim = lottie.loadAnimation(404anim);
+                anim.play();
+            }
+            404Reveal();
+        </script>
     </header>
     <div class="mast__img bg-black">
-        <div class="absolute-bg2" style="background-image: url('/assets/images/videos/edits/sly_amen3.jpg');"></div>
+        <div class="absolute-bg2" style="background-image: url('/assets/images/videos/edits/sly_amen7.jpg');"></div>
     </div>
 </section>
