@@ -2,9 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\archive",
+    "\\assets",
     "\\_includes",
+    "\\_layouts",
     "\\_posts"
   ],
-  "SelectedNode": "\\archive\\about.html",
+  "SelectedNode": "\\_posts\\2017-05-26-floral.md",
   "PreviewInSolutionExplorer": false
 }
