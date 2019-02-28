@@ -397,29 +397,6 @@
             color: $color-rm-red;
         }
     }
-
-    &__inner {
-        top: 0;
-        left: 0;
-        height: $mq-xxs;
-        width: $mq-xxs;
-        text-align: center;
-        text-transform: uppercase;
-        font-weight: 300;
-        text-shadow: 0 0 3px #000;
-        opacity: 0;
-        transition: opacity 0.4s ease-in-out;
-
-        &:hover,
-        &:active,
-        &:focus {
-            opacity: 0.9;
-        }
-
-        p {
-            padding-top: 9em;
-        }
-    }
 }
 
 .slcolumn {
