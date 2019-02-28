@@ -368,7 +368,6 @@
     flex: 1;
     /* border: 1px solid gray;*/
     margin: 2px;
-    padding: 10px;
     max-width: $mq-xxs;
     font-size: 0.9em;
     top: 0;
@@ -414,10 +413,6 @@
         &:active,
         &:focus {
             opacity: 0.9;
-        }
-
-        p {
-            padding-top: 9em;
         }
     }
 }
