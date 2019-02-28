@@ -369,7 +369,7 @@
     /* border: 1px solid gray;*/
     margin: 2px;
     padding: 10px;
-    max-width: $mq-xxs;
+    max-width: 10em;
     font-size: 0.9em;
     top: 0;
     left: 0;
@@ -401,8 +401,8 @@
     &__inner {
         top: 0;
         left: 0;
-        height: $mq-xxs;
-        width: $mq-xxs;
+        height: 10em;
+        width: 10em;
         text-align: center;
         text-transform: uppercase;
         font-weight: 300;
