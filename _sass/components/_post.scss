@@ -307,6 +307,11 @@
     margin: 0.3em;
     box-shadow: none;
 
+    &:hover,
+    &:focus {
+        color: $color-black;
+        background-color: $color-black;
+    }
 }
 
 .postcolumn2 {
