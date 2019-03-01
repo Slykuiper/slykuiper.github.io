@@ -29,3 +29,27 @@
         $('iframe[src*="player.vimeo.com"]').parent().fitVids();
     });
 </script>
+
+<script>
+    $('.webicons_day_switch').click(function () {
+        $('html').toggleClass('no-scroll');
+        $(this).toggleClass('active');
+
+        $('.webicons_night_switch').removeClass('show')
+        $('.webicons_day_switch').removeClass('hide');
+
+        $('.webicons_night_switch').addClass('hide');
+        $('.webicons_day_switch').addClass('show');
+    });
+
+    $('.webicons_night_switch').click(function () {
+        $('html').toggleClass('no-scroll');
+        $(this).toggleClass('active');
+
+        $('.webicons_day_switch').removeClass('show')
+        $('.webicons_night_switch').removeClass('hide');
+
+        $('.webicons_day_switch').addClass('hide');
+        $('.webicons_night_switch').addClass('show');
+    });
+</script>
