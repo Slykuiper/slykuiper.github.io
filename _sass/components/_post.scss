@@ -307,21 +307,6 @@
     margin: 0.3em;
     box-shadow: none;
 
-    &:hover,
-    &:focus {
-        color: none;
-        background-color: none;
-    }
-
-    a {
-        box-shadow: none;
-
-        &:hover,
-        &:focus {
-            color: none;
-            background-color: none;
-        }
-    }
 }
 
 .postcolumn2 {
