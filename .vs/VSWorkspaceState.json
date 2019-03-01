@@ -1,12 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\archive",
     "\\assets",
-    "\\_includes",
-    "\\_layouts",
-    "\\_posts"
+    "\\assets\\css",
+    "\\_sass",
+    "\\_sass\\base",
+    "\\_sass\\components",
+    "\\_sass\\regions",
+    "\\_sass\\tools",
+    "\\_sass\\utils",
+    "\\_sass\\vendor"
   ],
-  "SelectedNode": "\\_posts\\2017-05-26-floral.md",
+  "SelectedNode": "\\_sass\\components\\_post.scss",
   "PreviewInSolutionExplorer": false
 }
