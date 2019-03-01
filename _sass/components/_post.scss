@@ -247,6 +247,23 @@
 
 #webicons_night {
     position: relative;
+    
+}
+
+#webicons_day_switch {
+    position: relative;
+    width: 100px;
+    height: 25px;
+    background-color: #ffe87d;
+    margin: 0.3em;
+}
+
+#webicons_night_switch {
+    position: relative;
+    width: 100px;
+    height: 25px;
+    background-color: #3276e1;
+    margin: 0.3em;
 }
 
 .postcolumn {
