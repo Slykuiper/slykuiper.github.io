@@ -247,22 +247,22 @@
 
 .webicons_night {
     position: relative;
-    
 }
 
-.hide {
+.webicons_hide {
     display: none;
 }
 
-.show {
-    display: block;
+.webicons_show {
+    display: flex;
 }
 
 .switches {
     text-transform: uppercase;
     font-weight: bold;
-    margin: 0 auto;
-    width: 50%;
+    position: relative;
+    display: block;
+    left: 37.25%;
 }
 
 .webicons_day_switch {

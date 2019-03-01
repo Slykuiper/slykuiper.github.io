@@ -35,21 +35,21 @@
         $('html').toggleClass('no-scroll');
         $(this).toggleClass('active');
 
-        $('.webicons_night').removeClass('show')
-        $('.webicons_day').removeClass('hide');
+        $('.webicons_night').removeClass('webicons_show')
+        $('.webicons_day').removeClass('webicons_hide');
 
-        $('.webicons_night').addClass('hide');
-        $('.webicons_day').addClass('show');
+        $('.webicons_night').addClass('webicons_hide');
+        $('.webicons_day').addClass('webicons_show');
     });
 
     $('.webicons_night_switch').click(function () {
         $('html').toggleClass('no-scroll');
         $(this).toggleClass('active');
 
-        $('.webicons_day').removeClass('show')
-        $('.webicons_night').removeClass('hide');
+        $('.webicons_day').removeClass('webicons_show')
+        $('.webicons_night').removeClass('webicons_hide');
 
-        $('.webicons_day').addClass('hide');
-        $('.webicons_night').addClass('show');
+        $('.webicons_day').addClass('webicons_hide');
+        $('.webicons_night').addClass('webicons_show');
     });
 </script>
