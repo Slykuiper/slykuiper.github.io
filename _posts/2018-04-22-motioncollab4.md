@@ -18,9 +18,6 @@ We worked out of a new Discord server with every genre having their own assigned
 	<a href="/assets/images/work/other/motioncollab4_1.png"><img src="/assets/images/work/other/motioncollab4_1.png"></a>
 </figure>
 
-[Lightbox Test](https://slykuiper.com/assets/images/work/other/motioncollab4_1.png)
-
-
 We speculated for a while with a bunch of ideas for our genre. We wanted to tell some sort of story with a main character and progression. It was a challenge to develop something with depth in only 5 second loops, so we stuck with a safe trope of an adventurer hearing of news treasure in an ancient temple on a mysterious deserted island. My group set up a Pinterest Board to gather inspiration and settle into an art style. 
 
 <figure>
@@ -37,5 +34,3 @@ My only regret is not painting my scene in a higher resolution, I'd love to shar
 Here's the Adventure genre's standalone 4K video:
 
 <div class="vid" > <iframe width="640" height="360" src="https://player.vimeo.com/video/265977230" frameborder="0" allowfullscreen></iframe></div>
-
-[Lightbox Test](https://vimeo.com/265977230)

@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Image One",
+    "caption": "A caption",
+    "url": "https://slykuiper.com/assets/images/logo2.png"
+  },
+  {
+    "title": "Image Two",
+    "caption": "A caption",
+    "url": "{{site.url}}/assets/images/work/musicvideos/alkatnge/1.png"
+  },
+  {
+    "title": "Image 3",
+    "url": "/assets/images/videos/edits/sly_acedia.jpg"
+  }
+]
