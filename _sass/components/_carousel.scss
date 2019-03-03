@@ -1,6 +1,13 @@
 /**
  * Portfolio Carousel
  */
+.portfolio-carousel {
+  margin-top: 2em;
+
+  @media (min-width: $mq-sm) {
+    margin-top: 3em;
+  }
+}
 
 /**
  * Owl Carousel
