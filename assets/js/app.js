@@ -2875,9 +2875,9 @@ window.instafetch = instafetch;
   };
 
   Video.Defaults = {
-    video: false,
-    videoHeight: false,
-    videoWidth: false
+    video: true,
+    videoHeight: 1280,
+    videoWidth: 720
   };
 
   Video.prototype.fetch = function(target, item) {
