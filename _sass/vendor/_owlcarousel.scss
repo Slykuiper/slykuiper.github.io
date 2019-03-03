@@ -82,8 +82,8 @@
  *  Owl Carousel - Animate Plugin
  */
 .owl-carousel .animated {
-  -webkit-animation-duration: 1000ms;
-          animation-duration: 1000ms;
+  -webkit-animation-duration: 0ms;
+          animation-duration: 0ms;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both; }
 
@@ -120,7 +120,7 @@
  */
 .owl-carousel .owl-item .owl-lazy {
   opacity: 0;
-  transition: opacity 400ms ease; }
+  transition: opacity 0ms ease; }
 
 .owl-carousel .owl-item img.owl-lazy {
   -webkit-transform-style: preserve-3d;
@@ -164,7 +164,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
-  transition: opacity 400ms ease; }
+  transition: opacity 0ms ease; }
 
 .owl-carousel .owl-video-frame {
   position: relative;
