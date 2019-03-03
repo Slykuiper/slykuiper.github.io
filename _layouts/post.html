@@ -52,8 +52,8 @@ layout: default
                 </div>
             </section>
             {% endif %}
-			
-			{% if page.hctbwgrid.size > 0 %}
+
+            {% if page.hctbwgrid.size > 0 %}
             <section class="section-padding bg-black">
                 <div class="postgrid">
                     <div class="columns-wrapper">
@@ -102,7 +102,7 @@ layout: default
                             </div>
                             {% endfor %}
                         </div>
-                     </div>
+                    </div>
                 </div>
                 <div id="bodymovinArraySize" style="display: none;"> {{ page.bodymovins.size }} </div>
                 <div id="bodymovinArray" style="display: none;"> [{% for bodymovin in page.bodymovins %}'{{ bodymovin }}'{% if forloop.last == false %}, {% endif %}{% endfor %}]</div>
@@ -127,6 +127,8 @@ layout: default
                 buildIcons();
             </script>
             {% endif %}
+
+            {% include carousel.html name=”Example” data=site.data.carousel %}
 
             {% if page.tags.size > 0 %}
             <div class="container-tags">
