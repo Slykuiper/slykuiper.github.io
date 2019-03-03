@@ -3,14 +3,14 @@
     "",
     "\\assets",
     "\\assets\\css",
+    "\\_includes",
+    "\\_posts",
     "\\_sass",
     "\\_sass\\base",
     "\\_sass\\components",
     "\\_sass\\regions",
-    "\\_sass\\tools",
-    "\\_sass\\utils",
-    "\\_sass\\vendor"
+    "\\_sass\\tools"
   ],
-  "SelectedNode": "\\_sass\\components\\_post.scss",
+  "SelectedNode": "\\_posts\\2019-02-03-tsaik-pendant-drop.md",
   "PreviewInSolutionExplorer": false
 }

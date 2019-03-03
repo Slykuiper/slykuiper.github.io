@@ -18,6 +18,9 @@ We worked out of a new Discord server with every genre having their own assigned
 	<a href="/assets/images/work/other/motioncollab4_1.png"><img src="/assets/images/work/other/motioncollab4_1.png"></a>
 </figure>
 
+[First Image](/assets/images/work/other/motioncollab4_1.png){:.no-lightbox}
+
+
 We speculated for a while with a bunch of ideas for our genre. We wanted to tell some sort of story with a main character and progression. It was a challenge to develop something with depth in only 5 second loops, so we stuck with a safe trope of an adventurer hearing of news treasure in an ancient temple on a mysterious deserted island. My group set up a Pinterest Board to gather inspiration and settle into an art style. 
 
 <figure>

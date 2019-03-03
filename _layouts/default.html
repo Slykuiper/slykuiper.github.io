@@ -3,15 +3,15 @@
 
   {% include head.html %}
 
-  <body id="{% if page.title %}{{ page.title | downcase }}{% else %}home{% endif %}" class="🍕 animated fadeIn">
+    <body id="{% if page.title %}{{ page.title | downcase }}{% else %}home{% endif %}" class="🍕 animated fadeIn">
+        {% include header.html %}
 
-    {% include header.html %}
+        <main role="main">
+            {{ content }}
+        </main>
 
-    <main role="main">
-      {{ content }}
-    </main>
-
-    {% include footer.html %}
-  </body>
+        {% include footer.html %}
+        {% include lightbox.html %}
+    </body>
 
 </html>
