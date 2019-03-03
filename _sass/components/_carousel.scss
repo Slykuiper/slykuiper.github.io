@@ -47,18 +47,17 @@
 }
 
 .owl-dot {
-  display: block;
-  height: 0.75em;
-  width: 0.75em;
+    display: block;
+    height: 0.75em;
+    width: 0.75em;
+    background-color: $color-grey;
+    border-radius: 100%;
 
-  background-color: $color-black;
-  border-radius: 100%;
+    &:not(:last-child) {
+        margin-right: 0.5em;
+    }
 
-  &:not(:last-child) {
-    margin-right: 0.5em;
-  }
-
-  &.active {
-    background-color: $color-beta;
-  }
+    &.active {
+        background-color: $color-rm-red;
+    }
 }
