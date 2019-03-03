@@ -38,4 +38,4 @@ Here's the Adventure genre's standalone 4K video:
 
 <div class="vid" > <iframe width="640" height="360" src="https://player.vimeo.com/video/265977230" frameborder="0" allowfullscreen></iframe></div>
 
-[First Video](https://vimeo.com/video/265977230){:.no-lightbox}
+[First Video](https://vimeo.com/265977230){:.no-lightbox}
