@@ -7,10 +7,10 @@
   {
     "title": "Image Two",
     "caption": "A caption",
-    "url": "{{site.url}}/assets/images/work/musicvideos/alkatnge/1.png"
+    "url": "https://slykuiper.com/assets/images/work/musicvideos/alkatnge/1.png"
   },
   {
     "title": "Image 3",
-    "url": "/assets/images/videos/edits/sly_acedia.jpg"
+    "url": "https://slykuiper.com/assets/images/videos/edits/sly_acedia.jpg"
   }
 ]
