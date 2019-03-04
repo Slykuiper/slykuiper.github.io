@@ -2,15 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\css",
+    "\\assets\\js",
+    "\\_data",
     "\\_includes",
-    "\\_posts",
-    "\\_sass",
+    "\\_javascript",
+    "\\_javascript\\vendor",
     "\\_sass\\base",
     "\\_sass\\components",
-    "\\_sass\\regions",
-    "\\_sass\\tools"
+    "\\_sass\\vendor"
   ],
-  "SelectedNode": "\\_posts\\2019-02-03-tsaik-pendant-drop.md",
+  "SelectedNode": "\\assets\\js\\app.js",
   "PreviewInSolutionExplorer": false
 }
