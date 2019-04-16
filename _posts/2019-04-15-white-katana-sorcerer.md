@@ -31,7 +31,7 @@ sorcerergrid:
   - var1: /assets/images/work/musicvideos/white-katana-sorcerer/planets/22.jpg
 
 ---
-[White Katana](https://soundcloud.com/whitekatana)'s work is celestial, here's my visual interpretation of his track "[SORCERER](https://soundcloud.com/whitekatana/sorcerer)". He's got this distressed, otherworldly theme across all of his work that I'm attached to. I tried to capture a bit of that in this video.
+[White Katana](https://soundcloud.com/whitekatana)'s work is celestial, here's my visual interpretation of his track "[SORCERER](https://soundcloud.com/whitekatana/sorcerer)". He's got this distressed, otherworldly theme across all of his work that I'm attached to, I tried to capture a bit of that in this video.
 
 <div class="vid"><iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/_s-DNQRer-A?controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
