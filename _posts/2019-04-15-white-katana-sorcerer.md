@@ -42,7 +42,7 @@ I use this technique again at 0:40 in combination with VideoCopilot's Saber to s
 
 <figure class="half">
 	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/moon-dark.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/moon-dark.jpg"></a>
-	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/moon-dark2.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/moon-dark-2.jpg"></a>
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/moon-dark-2.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/moon-dark-2.jpg"></a>
 	<figcaption>Advanced Lightning as Orb's Illumination Map.</figcaption>
 </figure>
 
