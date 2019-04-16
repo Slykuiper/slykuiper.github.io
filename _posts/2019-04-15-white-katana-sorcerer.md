@@ -73,9 +73,18 @@ Polar Coordinates was used to turn the vertical composition spherical. I came ac
 	<figcaption>Energy Beam</figcaption>
 </figure>
 
-This one is pretty straightforward, the beam is just a stretched Fractal Noise comp wrapped with CC Cylinder and some Bulge near the planet's surface. Glow and Shine are ysed to brighten the beam. The tiny particles coming off of the beam are Particular.
+This one is pretty straightforward, the beam is just a stretched Fractal Noise comp wrapped with CC Cylinder and some Bulge near the planet's surface. Glow and Shine are used to brighten the beam. The tiny particles coming off of the beam are Particular.
 
-<figure class="half">
+<figure>
 	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-1.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-1.jpg"></a>
-	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-2.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-2.jpg"></a>
+	<figcaption>1:06 - 1:13</figcaption>
 </figure>
+
+This shot and the next one were the last shots I completed for this video. I came up with these without any specific plans in mind [during a livestream](https://youtu.be/WgSTbiePVzM) if you're curious to see my process. I'm happy with the outcome for these being made on the spot.
+
+<figure>
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-2.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-2.jpg"></a>
+	<figcaption>1:13 - 1:19</figcaption>
+</figure>
+
+I plan on making a more in-depth video tutorial/breakdown for this effect because I think it's pretty wild. It's a stack of simple effects that made a result that can have a wide variety of outcomes. 
