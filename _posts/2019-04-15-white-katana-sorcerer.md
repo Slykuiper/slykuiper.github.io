@@ -16,12 +16,12 @@ tags:
 
 ### Breakdown
 <figure class="third">
-	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/moon-dark.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/moon-dark.jpg"></a>
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/mars-1.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/mars-1.jpg"></a>
 	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/side-by-side-3.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/side-by-side-3.jpg"></a>
-	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/moon-dark-2.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/moon-dark-2.jpg"></a>
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold.jpg"></a>
 </figure>
 
-This project was my excuse to dive deeper into VideoCopilot's [Orb](https://www.videocopilot.net/orb/). I touched on it briefly in my last video but wasn't happy with the results given how powerful the results can be with a little time invested. The most important factor I've found for making great planets are the maps. Textures were sourced from [Nasa's Space Images](https://www.jpl.nasa.gov/spaceimages/) page as well as [Solar System Scope](https://www.solarsystemscope.com/textures/). Diffuse textures play a small role in setting up a nice scene, normal and height maps are required to bring out a lot of detail. I made normal maps and height maps using an incredible little program called [Materialize](http://boundingboxsoftware.com/materialize/).
+This project was my excuse to dive deeper into VideoCopilot's [Orb](https://www.videocopilot.net/orb/). I touched on it briefly in my last video but wasn't happy with the results given how powerful the results can be with a little time invested. The most important factor I've found for making great planets are the maps. Textures were sourced from [Nasa's Space Images](https://www.jpl.nasa.gov/spaceimages/) page as well as [Solar System Scope](https://www.solarsystemscope.com/textures/). Diffuse textures play a small role in setting up a nice scene, normal and height maps are required to bring out a lot of detail. I generated normal and height maps from the diffuse map using an incredible little program called [Materialize](http://boundingboxsoftware.com/materialize/).
 
 <figure>
 	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-prepass-1.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-prepass-1.jpg"></a>
@@ -29,7 +29,21 @@ This project was my excuse to dive deeper into VideoCopilot's [Orb](https://www.
 </figure>
 
 <figure class="sm-right">
-	<a href="/assets/images/work/musicvideos/tsaik-pd/mainlayers.png"><img src="/assets/images/work/musicvideos/tsaik-pd/mainlayers.png"></a>
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/vfx-moon.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/vfx-moon.jpg"></a>
+</figure>
+
+A lot of the scenes are straightforward, but a few are interesting enough to break down here. For the scene at the start where the moon turns dark before the drop, I animated an 8K solid with a ton of **Advanced Lightning** effects to create a corrupted look. It uses the original moon's illumination map as a matte to appear only at certain values on the texture to give it an illusion of depth. 
+
+<figure class="sm-left">
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/vfx-moon2.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/vfx-moon2.jpg"></a>
+</figure>
+
+I use this technique again at 0:40 in combination with VideoCopilot's Saber to set the moon on fire. 
+
+<figure class="half">
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/moon-dark.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/moon-dark.jpg"></a>
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/moon-dark2.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/moon-dark-2.jpg"></a>
+	<figcaption>Advanced Lightning as Orb's Illumination Map.</figcaption>
 </figure>
 
 The scene setup in After Effects isn't complex. Jupiter was made with [VideoCopilot's free ORB plugin](https://www.videocopilot.net/orb/). I kept it simple with just a diffuse texture from NASA and layer styles for the atmospheric rim light. The comets passing by Jupiter are done with Trapcode Particular, same with the particles traveling across the roadway. The smokey haze is a Fractal Noise layer with CC Vector Blur, this is my goto combination for procedural smoke. I originally wanted to use stock footage but it wouldn't have the cosmic feel that's also shown on Jupiter's surface.
