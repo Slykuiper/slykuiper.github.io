@@ -2,7 +2,7 @@
 layout: post
 title:  White Katana - Sorcerer
 exclude: true
-image: /assets/images/work/musicvideos/tsaik-pd/thumb.jpg
+image: /assets/images/work/musicvideos/white-katana-sorcerer/sorcerer-1.jpg
 tags:
 - motion graphics
 - music video
