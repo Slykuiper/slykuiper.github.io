@@ -80,11 +80,39 @@ This one is pretty straightforward, the beam is just a stretched Fractal Noise c
 	<figcaption>1:06 - 1:13</figcaption>
 </figure>
 
-This shot and the next one were the last shots I completed for this video. I came up with these without any specific plans in mind [during a livestream](https://youtu.be/WgSTbiePVzM) if you're curious to see my process. I'm happy with the outcome for these being made on the spot.
+This shot and the next one were the last shots I completed for this video. I came up with these on the spot [during a livestream](https://youtu.be/WgSTbiePVzM) if you're curious to see my process. The idea for this was a laser targeting the planet, similar to a [laser engraving machine aligning to a surface before engraving](https://www.youtube.com/watch?v=v0LI8q4hSVQ). 
 
 <figure>
 	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-2.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-2.jpg"></a>
 	<figcaption>1:13 - 1:19</figcaption>
 </figure>
 
-I plan on making a more in-depth video tutorial/breakdown for this effect because I think it's pretty wild. It's a stack of simple effects that made a result that can have a wide variety of outcomes. 
+I want to make a more in-depth video tutorial/breakdown for this effect because I haven't seen a similar technique like this before. It's a stack of very simple effects that made a result that can have a wide variety of outcomes. 
+
+<figure class="half">
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/emitter-line-zoomout.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/emitter-line-zoomout.jpg"></a>
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/emitter-line-zoomin.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/emitter-line-zoomin.jpg"></a>
+	<figcaption>Energy Pulse without Polar Coordinates.</figcaption>
+</figure>
+
+<figure class="sm-right">
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/emitter-line-shapelayer.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/emitter-line-shapelayer.jpg"></a>
+</figure>
+
+It's just a shape layer and an adjustment layer. The shape layer is horizontal bar with a Gradient Overlay layer style to fit an even gradient across it's height. The bar starts out small at the top of the composition and moves down while increasing it's height. The magic comes out of the effects stacked on the adjustment layer and how it's animated.
+
+<figure class="sm-left">
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/emitter-line-shapelayer-displace.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/emitter-line-shapelayer-displace.jpg"></a>
+</figure>
+
+The adjustment layer is masked to only cover half of the shape layer. As the shape layer moves and expands, the mask's feather increases to cover it's height. The adjustment layer is stacked with bunch of Roughen Edges, a Directional Blur, and a Displacement Map. The Roughen Edges [stretch the shape layer taller and create random variation in the peaks and valleys](/assets/images/work/musicvideos/white-katana-sorcerer/emitter-line-shapelayer-displace-roughenedges.jpg). There's diminishing returns with stacking any more Roughen Edges, so the Directional Blur stretches the striations longer and fades them out smoothly. The Displacement Map plays the key role in changing how the visuals of the effect look, and there's several ways to design the Fractal Noise to tailor the visuals any way you want.
+
+<figure class="half">
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/emitter-circle-zoomout.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/emitter-circle-zoomout.jpg"></a>
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/emitter-circle-zoomin.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/emitter-circle-zoomin.jpg"></a>
+	<figcaption>Energy Pulse with Polar Coordinates.</figcaption>
+</figure>
+
+<figure>
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/emitter-line-shapelayer-displace-displacementmap.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/emitter-line-shapelayer-displace-displacementmap.jpg"></a>
+</figure>
