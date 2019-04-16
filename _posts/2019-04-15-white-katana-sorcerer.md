@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  White Katana - Sorcerer
-exclude: true
 image: /assets/images/work/musicvideos/white-katana-sorcerer/jup.jpg
 tags:
 - motion graphics
