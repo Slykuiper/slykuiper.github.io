@@ -142,4 +142,20 @@ The adjustment layer is masked to only cover half of the shape layer. As the sha
 	<figcaption>Energy Pulse with Polar Coordinates.</figcaption>
 </figure>
 
+<section class="section-padding bg-black">
+    <div class="postgrid">
+        <div class="columns-wrapper">
+            <div class="columns">
+                {% for item in page.sorcerergrid %}
+                <a href="{{ item.var1 }}" class="spacer">
+                    <div class="postcolumn" style="background-image: url({{ item.var1 }})">
+                        <div class="postcolumn__inner"><p></p></div>
+                    </div>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
 Those are the only shots I felt worth breaking down. This was a fun project, Orb is very powerful and it was a good excercise to explore spherical mapping and some new effect ideas. Support White Katana on [Soundcloud](https://soundcloud.com/whitekatana), [Bandcamp](https://whitekatana.bandcamp.com/), and [Spotify](https://open.spotify.com/artist/5OtyZM8MxtHrYqOPxetwji).
