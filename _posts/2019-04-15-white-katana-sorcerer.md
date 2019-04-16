@@ -48,10 +48,35 @@ I use this technique again at 0:40 in combination with VideoCopilot's Saber to s
 
 The next few shots worth breaking down are from 0:53 to 1:18 involving the cold venus-like planet (it's venus just [color corrected](/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold-cc.jpg)) and mercury. 
 
-<figure class="half">
+<figure>
 	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold-2.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold-2.jpg"></a>
-	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold-3.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold-3.jpg"></a>
+	<figcaption>0:53 - 0:59</figcaption>
 </figure>
+
+<figure class="sm-right">
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/venus_cold_unwrap_2.gif"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/venus_cold_unwrap_2.gif"></a>
+</figure>
+
+The two main effects in the front-facing shot come out of Trapcode Particular and Fractal Noise. Particular is used for the particles leaving the planet and coming towards the camera. For the lines traversing along the planet's surface towards the center, it's built out of a stretched Fractal Noise and Polar Coordinates to create an Illimunation Map for Orb.
+
+<figure class="sm-left">
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/venus_cold_wrap_2.gif"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/venus_cold_wrap_2.gif"></a>
+</figure>
+I discovered an invaluable project file by Andrew Kramer for [seamlessly mapping equirectangular compositions](https://www.videocopilot.net/blog/2014/04/seamless-spherical-maps/). Without this, effect comps look warped and distorted when mapped on a sphere.
+
+<figure>
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold-3.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold-3.jpg"></a>
+	<figcaption>0:59 - 1:06</figcaption>
+</figure>
+
+<figure class="half">
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold-beam-solo.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold-beam-solo.jpg"></a>
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold-beam-breakdown.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold-beam-breakdown.jpg"></a>
+	<figcaption>Energy Beam</figcaption>
+</figure>
+
+This one is pretty straightforward, the beam is just a combination of CC Cylinder and some Bulge with Glow for color correction. The tiny particles are Particular.
+
 <figure class="half">
 	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-1.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-1.jpg"></a>
 	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-2.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-2.jpg"></a>
