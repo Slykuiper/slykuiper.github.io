@@ -2,10 +2,34 @@
 layout: post
 title:  White Katana - Sorcerer
 exclude: true
-image: /assets/images/work/musicvideos/white-katana-sorcerer/sorcerer-1.jpg
+image: /assets/images/work/musicvideos/white-katana-sorcerer/jup.jpg
 tags:
 - motion graphics
 - music video
+
+sorcerergrid:
+  - var1: /assets/images/work/musicvideos/white-katana-sorcerer/planets/1.jpg
+  - var1: /assets/images/work/musicvideos/white-katana-sorcerer/planets/2.jpg
+  - var1: /assets/images/work/musicvideos/white-katana-sorcerer/planets/3.jpg
+  - var1: /assets/images/work/musicvideos/white-katana-sorcerer/planets/4.jpg
+  - var1: /assets/images/work/musicvideos/white-katana-sorcerer/planets/5.jpg
+  - var1: /assets/images/work/musicvideos/white-katana-sorcerer/planets/6.jpg
+  - var1: /assets/images/work/musicvideos/white-katana-sorcerer/planets/7.jpg
+  - var1: /assets/images/work/musicvideos/white-katana-sorcerer/planets/8.jpg
+  - var1: /assets/images/work/musicvideos/white-katana-sorcerer/planets/9.jpg
+  - var1: /assets/images/work/musicvideos/white-katana-sorcerer/planets/10.jpg
+  - var1: /assets/images/work/musicvideos/white-katana-sorcerer/planets/11.jpg
+  - var1: /assets/images/work/musicvideos/white-katana-sorcerer/planets/12.jpg
+  - var1: /assets/images/work/musicvideos/white-katana-sorcerer/planets/13.jpg
+  - var1: /assets/images/work/musicvideos/white-katana-sorcerer/planets/14.jpg
+  - var1: /assets/images/work/musicvideos/white-katana-sorcerer/planets/15.jpg
+  - var1: /assets/images/work/musicvideos/white-katana-sorcerer/planets/16.jpg
+  - var1: /assets/images/work/musicvideos/white-katana-sorcerer/planets/17.jpg
+  - var1: /assets/images/work/musicvideos/white-katana-sorcerer/planets/18.jpg
+  - var1: /assets/images/work/musicvideos/white-katana-sorcerer/planets/19.jpg
+  - var1: /assets/images/work/musicvideos/white-katana-sorcerer/planets/20.jpg
+  - var1: /assets/images/work/musicvideos/white-katana-sorcerer/planets/21.jpg
+  - var1: /assets/images/work/musicvideos/white-katana-sorcerer/planets/22.jpg
 
 ---
 [White Katana](https://soundcloud.com/whitekatana)'s work is celestial, here's my visual interpretation of his track "[SORCERER](https://soundcloud.com/whitekatana/sorcerer)". He's got this distressed, otherworldly theme across all of his work that I'm attached to. I tried to capture a bit of that in this video.

@@ -71,6 +71,24 @@ layout: default
             </section>
             {% endif %}
 
+            {% if page.sorcerergrid.size > 0 %}
+            <section class="section-padding bg-black">
+                <div class="postgrid">
+                    <div class="columns-wrapper">
+                        <div class="columns">
+                            {% for item in page.sorcerergrid %}
+                            <a href="{{ item.var1 }}" class="spacer">
+                                <div class="postcolumn" style="background-image: url({{ item.var1 }})">
+                                    <div class="postcolumn__inner"><p></p></div>
+                                </div>
+                            </a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {% endif %}
+
             {% if page.alphabetgrid.size > 0 %}
             <section class="section-padding bg-black">
                 <div class="postgrid">
