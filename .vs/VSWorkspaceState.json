@@ -7,10 +7,9 @@
     "\\_includes",
     "\\_javascript",
     "\\_javascript\\vendor",
-    "\\_sass\\base",
-    "\\_sass\\components",
-    "\\_sass\\vendor"
+    "\\_sass",
+    "\\_sass\\tools"
   ],
-  "SelectedNode": "\\assets\\js\\app.js",
+  "SelectedNode": "\\_sass\\tools\\_config.scss",
   "PreviewInSolutionExplorer": false
 }
