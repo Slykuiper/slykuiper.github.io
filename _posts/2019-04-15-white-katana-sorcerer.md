@@ -46,11 +46,16 @@ I use this technique again at 0:40 in combination with VideoCopilot's Saber to s
 	<figcaption>Advanced Lightning as Orb's Illumination Map.</figcaption>
 </figure>
 
-The scene setup in After Effects isn't complex. Jupiter was made with [VideoCopilot's free ORB plugin](https://www.videocopilot.net/orb/). I kept it simple with just a diffuse texture from NASA and layer styles for the atmospheric rim light. The comets passing by Jupiter are done with Trapcode Particular, same with the particles traveling across the roadway. The smokey haze is a Fractal Noise layer with CC Vector Blur, this is my goto combination for procedural smoke. I originally wanted to use stock footage but it wouldn't have the cosmic feel that's also shown on Jupiter's surface.
+The next few shots worth breaking down are from 0:53 to 1:18 involving the cold venus-like planet (it's venus just [color corrected](/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold-cc.jpg)) and mercury. 
 
-<figure>
-	<a href="/assets/images/work/musicvideos/tsaik-pd/fractalnoise.png"><img src="/assets/images/work/musicvideos/tsaik-pd/fractalnoise.png"></a>
-	<figcaption>Fractal Noise Haze</figcaption>
+<figure class="half">
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold-2.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold-2.jpg"></a>
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold-3.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold-3.jpg"></a>
+	<figcaption>Energy flowing out of planets</figcaption>
 </figure>
 
-I want to explore making music videos and real-time visuals in Unity. I got into it a few years back when trying to make an FPS game, but had little 3D modeling skills. I think I could get pretty  far if I take another stab at it, stay tuned in the near future for a few Unity experiments. 
+<figure class="half">
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-1.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-1.jpg"></a>
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-2.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-2.jpg"></a>
+	<figcaption>Laser Targeting & Energy Pulse</figcaption>
+</figure>
