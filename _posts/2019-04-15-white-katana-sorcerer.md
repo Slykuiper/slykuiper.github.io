@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  White Katana - Sorcerer
+exclude: true
 image: /assets/images/work/musicvideos/tsaik-pd/thumb.jpg
 tags:
 - motion graphics
