@@ -18,7 +18,7 @@ tags:
 <figure class="third">
 	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/moon-dark.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/moon-dark.jpg"></a>
 	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/side-by-side-3.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/side-by-side-3.jpg"></a>
-	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/moon-dark2.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/moon-dark2.jpg"></a>
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/moon-dark-2.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/moon-dark-2.jpg"></a>
 </figure>
 
 With several references of a Chevrolet Caprice Estate Wagon, I box modeled this car over the course of a week. Some of the edges are pretty sharp but otherwise I'm happy with the results and modeling this complex is no longer daunting. The doors can swing open and it has an interior, maybe I'll do another project with it to show off other angles. 
