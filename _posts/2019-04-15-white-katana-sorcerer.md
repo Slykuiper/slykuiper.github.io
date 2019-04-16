@@ -51,11 +51,8 @@ The next few shots worth breaking down are from 0:53 to 1:18 involving the cold 
 <figure class="half">
 	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold-2.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold-2.jpg"></a>
 	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold-3.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold-3.jpg"></a>
-	<figcaption>Energy flowing out of planets</figcaption>
 </figure>
-
 <figure class="half">
 	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-1.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-1.jpg"></a>
 	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-2.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-2.jpg"></a>
-	<figcaption>Laser Targeting & Energy Pulse</figcaption>
 </figure>
