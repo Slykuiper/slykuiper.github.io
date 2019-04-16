@@ -32,13 +32,13 @@ This project was my excuse to dive deeper into VideoCopilot's [Orb](https://www.
 	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/vfx-moon.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/vfx-moon.jpg"></a>
 </figure>
 
-A lot of the scenes are straightforward, but a few are interesting enough to break down here. For the scene at the start where the moon turns dark before the drop, I animated an 8K solid with a ton of **Advanced Lightning** effects to create a corrupted look. It uses the original moon's illumination map as a matte to appear only at certain values on the texture to give it an illusion of depth. 
+A lot of the scenes are straightforward, but a few are interesting enough to break down here. For the scene at the start where the moon turns dark before the drop, I animated an 8K solid with a ton of **Advanced Lightning** effects stacked to create a corrupted look. It uses the original moon's illumination map as a matte to appear only at certain values on the texture to give it an illusion of depth. 
 
 <figure class="sm-left">
 	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/vfx-moon2.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/vfx-moon2.jpg"></a>
 </figure>
 
-I use this technique again at 0:40 in combination with VideoCopilot's Saber to set the moon on fire. 
+I use this technique again at 0:40 in combination with VideoCopilot's Saber to set the moon on fire. A scrolling Fractal Noise layer was used as a matte for the illumination layer to incorporate some flowing movement on the planet's surface.
 
 <figure class="half">
 	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/moon-dark.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/moon-dark.jpg"></a>
