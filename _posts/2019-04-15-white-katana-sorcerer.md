@@ -21,7 +21,12 @@ tags:
 	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/moon-dark-2.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/moon-dark-2.jpg"></a>
 </figure>
 
-With several references of a Chevrolet Caprice Estate Wagon, I box modeled this car over the course of a week. Some of the edges are pretty sharp but otherwise I'm happy with the results and modeling this complex is no longer daunting. The doors can swing open and it has an interior, maybe I'll do another project with it to show off other angles. 
+This project was my excuse to dive deeper into VideoCopilot's [Orb](https://www.videocopilot.net/orb/). I touched on it briefly in my last video but wasn't happy with the results given how powerful the results can be with a little time invested. The most important factor I've found for making great planets are the maps. Textures were sourced from [Nasa's Space Images](https://www.jpl.nasa.gov/spaceimages/) page as well as [Solar System Scope](https://www.solarsystemscope.com/textures/). Diffuse textures play a small role in setting up a nice scene, normal and height maps are required to bring out a lot of detail. I made normal maps and height maps using an incredible little program called [Materialize](http://boundingboxsoftware.com/materialize/).
+
+<figure>
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-prepass-1.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-prepass-1.jpg"></a>
+	<figcaption>Laser Targeting System</figcaption>
+</figure>
 
 <figure class="sm-right">
 	<a href="/assets/images/work/musicvideos/tsaik-pd/mainlayers.png"><img src="/assets/images/work/musicvideos/tsaik-pd/mainlayers.png"></a>
