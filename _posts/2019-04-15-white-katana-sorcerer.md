@@ -107,12 +107,15 @@ It's just a shape layer and an adjustment layer. The shape layer is horizontal b
 
 The adjustment layer is masked to only cover half of the shape layer. As the shape layer moves and expands, the mask's feather increases to cover it's height. The adjustment layer is stacked with bunch of Roughen Edges, a Directional Blur, and a Displacement Map. The Roughen Edges [stretch the shape layer taller and create random variation in the peaks and valleys](/assets/images/work/musicvideos/white-katana-sorcerer/emitter-line-shapelayer-displace-roughenedges.jpg). There's diminishing returns with stacking any more Roughen Edges, so the Directional Blur stretches the striations longer and fades them out smoothly. The Displacement Map plays the key role in changing how the visuals of the effect look, and there's several ways to design the Fractal Noise to tailor the visuals any way you want.
 
+<figure>
+	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/emitter-line-shapelayer-displace-displacementmap.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/emitter-line-shapelayer-displace-displacementmap.jpg"></a>
+	<figcaption>Polar Coordinates warps the vertical composition to an outward burst.</figcaption>
+</figure>
+
 <figure class="half">
 	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/emitter-circle-zoomout.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/emitter-circle-zoomout.jpg"></a>
 	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/emitter-circle-zoomin.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/emitter-circle-zoomin.jpg"></a>
 	<figcaption>Energy Pulse with Polar Coordinates.</figcaption>
 </figure>
 
-<figure>
-	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/emitter-line-shapelayer-displace-displacementmap.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/emitter-line-shapelayer-displace-displacementmap.jpg"></a>
-</figure>
+Those are the only shots I felt worth breaking down. This was a fun project, Orb is very powerful and it was a good excercise to explore spherical mapping and some new effect ideas. Support White Katana on [Soundcloud](https://soundcloud.com/whitekatana), [Bandcamp](https://whitekatana.bandcamp.com/), and [Spotify](https://open.spotify.com/artist/5OtyZM8MxtHrYqOPxetwji).
