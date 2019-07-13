@@ -2,7 +2,7 @@
 layout: post
 title:  Odneme x Dennis - Song1
 exclude: true
-image: /assets/images/work/musicvideos/odneme-1/odneme1.jpg
+image: /assets/images/work/musicvideos/odneme1/odneme1.jpg
 tags:
 - motion graphics
 - music video
@@ -10,7 +10,7 @@ tags:
 ---
 [White Katana](https://soundcloud.com/whitekatana)'s work is celestial, here's my visual interpretation of his track "[SORCERER](https://soundcloud.com/whitekatana/sorcerer)". He's got this distressed, otherworldly theme across all of his work that I'm attached to, I tried to capture a bit of that in this video.
 
-<div class="vid"><iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/_s-DNQRer-A?controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+<div class="vid"><iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/Y40AcClgP0E?controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
 ---
 
@@ -20,8 +20,7 @@ tags:
 	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/side-by-side-3.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/side-by-side-3.jpg"></a>
 	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold.jpg"></a>
 </figure>
-
-This project was my excuse to dive deeper into VideoCopilot's [Orb](https://www.videocopilot.net/orb/). I touched on it briefly in my last video but wasn't happy with the results given how powerful the results can be with a little time invested. The most important factor I've found for making great planets are the maps. Textures were sourced from [Nasa's Space Images](https://www.jpl.nasa.gov/spaceimages/) page as well as [Solar System Scope](https://www.solarsystemscope.com/textures/). Diffuse textures play a small role in setting up a nice scene, normal and height maps are required to bring out a lot of detail. I generated normal and height maps from the diffuse map using an incredible little program called [Materialize](http://boundingboxsoftware.com/materialize/).
+Similar to my [latest music video](http://slykuiper.com/white-katana-sorcerer), this video incorporates [Videocopilot's Orb](http://videocopilot.net/orb).
 
 <figure>
 	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-prepass-1.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-prepass-1.jpg"></a>
