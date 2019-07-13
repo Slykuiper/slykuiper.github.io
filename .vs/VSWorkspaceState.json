@@ -2,14 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\assets\\js",
+    "\\vrview-master",
+    "\\vrview-master\\src",
+    "\\vrview-master\\src\\embed",
     "\\_data",
     "\\_includes",
-    "\\_javascript",
-    "\\_javascript\\vendor",
-    "\\_sass",
-    "\\_sass\\tools"
+    "\\_layouts",
+    "\\_posts"
   ],
-  "SelectedNode": "\\_sass\\tools\\_config.scss",
+  "SelectedNode": "\\_layouts\\post.html",
   "PreviewInSolutionExplorer": false
 }
