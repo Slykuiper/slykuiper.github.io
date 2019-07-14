@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Odneme x Dennis - Song1
+title:  Odneme - My Heart In Your Hands ft. Dennis
 exclude: true
 image: /assets/images/work/musicvideos/odneme1/odneme1.jpg
 tags:
@@ -8,19 +8,18 @@ tags:
 - music video
 
 ---
-[White Katana](https://soundcloud.com/whitekatana)'s work is celestial, here's my visual interpretation of his track "[SORCERER](https://soundcloud.com/whitekatana/sorcerer)". He's got this distressed, otherworldly theme across all of his work that I'm attached to, I tried to capture a bit of that in this video.
+[Odneme](https://soundcloud.com/odneme) is a multi-talented visual artist and music producer. [My Heart In Your Hands (w/ Dennis)](https://soundcloud.com/odneme/odneme-dennis-that-familiar-feeling/s-Wn7Vy) is the first song I've had the opportunity of creative visuals for.
 
 <div class="vid"><iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/Y40AcClgP0E?controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
 ---
 
 ### Breakdown
-<figure class="third">
-	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/mars-1.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/mars-1.jpg"></a>
-	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/side-by-side-3.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/side-by-side-3.jpg"></a>
-	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/venus-cold.jpg"></a>
+<figure class="half">
+	<a href="/assets/images/work/musicvideos/odneme1/ae-breakdown-1.jpg"><img src="/assets/images/work/musicvideos/odneme1/ae-breakdown-1.jpg"></a>
+	<a href="/assets/images/work/musicvideos/odneme1/c4d-breakdown-1.jpg"><img src="/assets/images/work/musicvideos/odneme1/c4d-breakdown-1.jpg"></a>
 </figure>
-Similar to my [latest music video](http://slykuiper.com/white-katana-sorcerer), this video incorporates [Videocopilot's Orb](http://videocopilot.net/orb).
+Still on my Orb kick, we worked with another outer-spaced theme. This time the scene is placed inside of a space vessel looking out a large window towards a nearby planet. The outer space scene is made inside of After Effects while the interior walls and window were made with Cinema4D and rendered with Redshift. The lights are animated with Trapcode Soundkeys and some subtle Glow with a wiggle expression. 
 
 <figure>
 	<a href="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-prepass-1.jpg"><img src="/assets/images/work/musicvideos/white-katana-sorcerer/mercury-prepass-1.jpg"></a>
