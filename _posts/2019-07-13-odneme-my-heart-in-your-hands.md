@@ -8,7 +8,7 @@ tags:
 - music video
 
 ---
-[Odneme](https://soundcloud.com/odneme) is a multi-talented visual artist and music producer. [My Heart In Your Hands (w/ Dennis)](https://soundcloud.com/odneme/odneme-dennis-that-familiar-feeling/s-Wn7Vy) is the first song I've had the opportunity of creative visuals for.
+[Odneme](https://soundcloud.com/odneme) is a multi-talented visual artist and music producer. [My Heart In Your Hands (w/ Dennis)](https://soundcloud.com/odneme/odneme-dennis-that-familiar-feeling/s-Wn7Vy) is the first song of his I've had the opportunity of creating visuals for.
 
 <div class="vid"><iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/Y40AcClgP0E?controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
 
