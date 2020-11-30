@@ -8,8 +8,8 @@
     "\\_data",
     "\\_includes",
     "\\_layouts",
-    "\\_posts"
+    "\\_sass",
+    "\\_sass\\tools"
   ],
-  "SelectedNode": "\\_posts\\2019-07-13-odneme-my-heart-in-your-hands.md",
   "PreviewInSolutionExplorer": false
 }
