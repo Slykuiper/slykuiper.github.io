@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+    <body id="{% if page.title %}{{ page.title | downcase }}{% else %}home{% endif %}" class="🍕 animated fadeIn">
+        <main role="main">
+            {{ content }}
+        </main>
+    </body>
+
+</html>
