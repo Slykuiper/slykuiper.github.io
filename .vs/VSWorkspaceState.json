@@ -1,15 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\archive",
     "\\assets",
     "\\vrview-master",
+    "\\vrview-master\\build",
     "\\vrview-master\\src",
-    "\\vrview-master\\src\\embed",
-    "\\_data",
     "\\_includes",
     "\\_layouts",
-    "\\_sass",
     "\\_sass\\tools"
   ],
+  "SelectedNode": "\\vrview-master\\style.css",
   "PreviewInSolutionExplorer": false
 }
