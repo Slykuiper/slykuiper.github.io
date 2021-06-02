@@ -1,0 +1,433 @@
+﻿<!DOCTYPE html>
+<html class="my-page-root h-full min-h-screen" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>SLYKUIPER</title>
+    <meta name="description" content="Slykuiper">
+    <meta name="keywords" content="Visual Art, Computer Graphics, 3D, CGI, Motion Graphics, NFT, Crypto Art ">
+    <!-- Handheld -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicons -->
+    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png" />
+    <link rel="shortcut icon" href="/assets/images/favicon.ico" />
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
+    <script id="rendered-js" type="module">
+        import * as tailwindcss from "https://cdn.skypack.dev/tailwindcss@2.0.3";
+                                                            //# sourceURL=pen.js
+    </script>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+<body class="h-full h-auto min-h-screen page-body">
+    <div class="my-page-root__container flex flex-col min-h-screen items-center justify-between pt-8 pb-6 page-container h-full">
+        <div class="my-page-root__links-container flex flex-col items-center w-full h-full mx-auto">
+            <a class="profile-icon" href="https://slykuiper.com">
+                <img class="my-page-root__profile-icon" src="https://slykuiper.com/assets/images/logo2.png" alt="Slykuiper" />
+            </a>
+            <div class="my-page-root__links mt-6">
+                <p class="my-page-root__bio text-center break-words px-4 mt-2">Production Design Lead @ Streamlabs</p>
+                <p class="my-page-root__bio-body text-center break-words px-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a class="my-page-root__link w-full mb-4 button-about"
+                   href="https://slykuiper.com"
+                   rel="noopener noreferrer"
+                   target="_blank">
+                    <span class="my-page-root__link-title">Website</span>
+                    <span class="my-page-root__link-sub-title"></span>
+                </a>
+                <a class="my-page-root__link w-full mb-4 button-about"
+                   href="https://twitter.com/slykuiper"
+                   rel="noopener noreferrer"
+                   target="_blank">
+                    <span class="my-page-root__link-title">Twitter</span>
+                    <span class="my-page-root__link-sub-title">Crypto Art NFTs</span>
+                </a>
+                <a class="my-page-root__link w-full mb-4 button-about"
+                   href="https://instagram.com/slykuiper"
+                   rel="noopener noreferrer"
+                   target="_blank">
+                    <span class="my-page-root__link-title">Instagram</span>
+                    <span class="my-page-root__link-sub-title">IRL stuff</span>
+                </a>
+                <a class="my-page-root__link w-full mb-4 button-about"
+                   href="https://youtube.com/slykuiper"
+                   rel="noopener noreferrer"
+                   target="_blank">
+                    <span class="my-page-root__link-title">YouTube</span>
+                    <span class="my-page-root__link-sub-title">Personal Projects!</span>
+                </a>
+
+                <!--
+                    <a class="my-page-root__link w-full mb-4 button-about"
+                       href="https://foundation.app/vergiliusxyz"
+                       rel="noopener noreferrer"
+                       target="_blank">
+                        <span class="my-page-root__link-title">Foundation</span>
+                        <span class="my-page-root__link-sub-title">Crypto Art NFTs</span>
+                    </a>
+                -->
+            </div>
+        </div>
+    </div>
+    <a-scene>
+        <a-sky src="https://i.imgur.com/eALPkl9.jpg" rotation="0 0 0" animation="property: rotation; to: 0 360 0; loop: true; dur: 75000"></a-sky>
+    </a-scene>
+    <style>
+        .my-page-root,
+        .my-page-root__container,
+        .my-page-root__logo,
+        .device-preview__screen {
+            --backgroundImageRepeat: repeat;
+            --backgroundSize: 300px;
+            --backgroundColor: linear-gradient(0deg, rgba(10,10,10,1) 0%, rgba(35,35,35,1) 100%);
+            --logoColor: #ffffff;
+            --textColor: #ffffff;
+            --textFontWeight: normal;
+            --buttonBorderColor: #ffc627;
+            --buttonBorderColorHover: #000000;
+            --buttonBackground: #ffc627;
+            --buttonBackgroundHover: #ffffff;
+            --buttonTextColorHover: #ffffff;
+            --buttonTextColor: #ffffff;
+            --fontFamilyPrimary: Roboto, sans-serif;
+            --fontFamilyButton: Roboto, sans-serif;
+            --fontFamilyButtonSubtitle: Roboto, sans-serif;
+            --fontSize: 16px;
+            --fontSizeSubtitle: 12px;
+        }
+
+        .page-body {
+            background-image: url();
+            background-repeat: var(--backgroundImageRepeat);
+            background-size: var(--backgroundSize);
+        }
+
+        * {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .my-page-root {
+            height: 100% !important;
+            background: var(--backgroundColor) no-repeat;
+        }
+
+        .my-page-root__container {
+            flex-direction: column;
+            position: relative;
+            overflow-x: hidden;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            z-index: 1;
+        }
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+
+        .my-page-root__links-container {
+            transition: transform;
+            transition-duration: 0.3s;
+        }
+
+        .my-page-root__links-container--inactive {
+            transform: translateY(-100vh);
+            height: 0;
+            overflow: hidden;
+        }
+
+        .my-page-root__bio {
+            color: var(--textColor);
+            font-family: var(--fontFamilyPrimary);
+            font-weight: var(--fontWeightBio, 'normal');
+            font-size: 20px;
+            text-shadow: 0px 2px 4px rgba(0,0,0,0.8);
+        }
+
+        .my-page-root__bio-body {
+            color: var(--textColor);
+            font-family: var(--fontFamilyPrimary);
+            font-weight: var(--fontWeightBio, 'normal');
+            font-size: 14px;
+            text-shadow: 0px 2px 4px rgba(0,0,0,0.8);
+        }
+
+        .my-page-root__subtitle {
+            color: var(--textColor);
+            font-family: var(--fontFamilyPrimary);
+            font-weight: var(--textFontWeight);
+            font-size: var(--buttonFontSize, 14px);
+        }
+
+        .my-page-root__link-title {
+            font-size: var(--buttonFontSize, 16px);
+            font-family: var(--fontFamilyButton);
+            font-weight: var(--buttonFontWeight, 500);
+            text-transform: var(--buttonTitleTextTransform, initial);
+            color: var(--buttonTextColor, inherit);
+        }
+
+        .my-page-root__link:hover .my-page-root__link-title {
+            color: var(--buttonTextColorHover, --buttonTextColor, inherit);
+        }
+
+        .my-page-root__link:hover .my-page-root__link-sub-title {
+            color: var(--buttonSubtitleColorHover, --buttonSubtitleColor, inherit);
+        }
+
+        .my-page-root__link-sub-title {
+            font-family: var(--fontFamilyButtonSubtitle);
+            font-weight: var(--buttonFontWeightSubtitle);
+            font-size: var(--fontSizeSubtitle, 12px);
+            color: var(--buttonSubtitleColor, inherit);
+        }
+
+        .my-page-root__profile-icon {
+            height: 200px;
+            width: 200px;
+            object-fit: cover;
+        }
+
+        .my-page-root__profile-icon--small {
+            height: 32px;
+            width: 32px;
+            object-fit: cover;
+            background: var(--logoColor);
+        }
+
+        .my-page-root__profile-icon--medium {
+            height: 40px;
+            width: 40px;
+            object-fit: cover;
+            background: var(--logoColor);
+        }
+
+        .my-page-root__links {
+            width: 680px;
+            padding-left: 16px;
+            padding-right: 16px;
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .my-page-root__link {
+            display: flex;
+            min-height: 52px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            padding: 8px 16px;
+            text-align: center;
+        }
+
+            .my-page-root__link path {
+                fill: var(--buttonTextColor) !important;
+            }
+
+            .my-page-root__link:hover path {
+                fill: var(--buttonTextColorHover, --buttonTextColor, inherit) !important;
+            }
+
+            .my-page-root__link span {
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                width: 100%;
+                text-align: center;
+                overflow: hidden;
+            }
+
+        .my-page-root__logo {
+            margin-top: 24px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .my-page-root__logo rect {
+                fill: var(--logoColor);
+            }
+
+        .justify-between {
+            justify-content: space-between;
+        }
+
+        .page-body {
+            background-repeat: var(--backgroundImageRepeat, none);
+            background-size: var(--backgroundSize, cover);
+        }
+
+        .w-full {
+            width: 100%;
+        }
+
+        .mb-4 {
+            margin-bottom: 1rem;
+        }
+
+        .break-words {
+            overflow-wrap: break-word;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .px-4 {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        .mt-2 {
+            margin-top: 2rem;
+        }
+
+        .mt-6 {
+            margin-top: 1.5rem;
+        }
+
+        img, video {
+            max-width: 100%;
+            height: auto;
+        }
+
+        audio, canvas, embed, iframe, img, object, svg, video {
+            display: block;
+            vertical-align: middle;
+        }
+
+        img {
+            border-style: solid;
+        }
+
+        .mx-auto {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .h-full {
+            height: 100%;
+        }
+
+        .items-center {
+            align-items: center;
+        }
+
+        .flex-col {
+            flex-direction: column;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .my-page-root__container {
+            flex-direction: column;
+            position: relative;
+            overflow-x: hidden;
+            width: 100%;
+            height: 100%;
+            display: flex;
+        }
+
+        .pt-8 {
+            padding-top: 2rem;
+        }
+
+        .pb-6 {
+            padding-bottom: 1.5rem;
+        }
+
+        .min-h-screen {
+            min-height: 100vh;
+        }
+
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes dash {
+            to {
+                stroke-dashoffset: 0;
+            }
+        }
+
+        @keyframes strokeWidthGrow {
+            to {
+                stroke-width: 4;
+            }
+        }
+
+        @keyframes rotation {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+
+            25% {
+                -webkit-transform: rotate(30deg);
+            }
+
+            50% {
+                -webkit-transform: rotate(0deg);
+            }
+
+            75% {
+                -webkit-transform: rotate(-30deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(0deg);
+            }
+        }
+
+        @keyframes loading {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .button-about {
+            backdrop-filter: blur(30px) saturate(3.0);
+            color: var(--buttonTextColor);
+            border-radius: 12px;
+            border: 0px solid rgba(0,0,0,0);
+            background-color: rgba(255,255,255,0.1);
+            transition: all 1s ease;
+            text-shadow: 0px 2px 4px rgba(0,0,0,0.8);
+        }
+
+            .button-about:hover {
+                color: var(--buttonTextColor);
+                box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.32);
+                background-color: rgba(255,255,255,0.3);
+                transition: all 1s ease;
+            }
+    </style>
+</body>
+</html>
