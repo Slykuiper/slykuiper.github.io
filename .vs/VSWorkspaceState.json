@@ -7,9 +7,8 @@
     "\\vrview-master\\build",
     "\\vrview-master\\src",
     "\\_includes",
-    "\\_layouts",
-    "\\_sass\\tools"
+    "\\_layouts"
   ],
-  "SelectedNode": "\\vrview-master\\style.css",
+  "SelectedNode": "\\README.md",
   "PreviewInSolutionExplorer": false
 }
