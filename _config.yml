@@ -13,7 +13,7 @@ color_scheme: dark # You can choose three modes auto, light, and dark. By defaul
 author:
   author__name: Corbin Scott
   author__bio: Creative @ streamlabs designing resources for creators. 
-  author__avatar: '/images/01-1.jpg'
+  author__avatar: '/assets/pfp_1_half.jpg'
 
 social:
 - {icon: "ion-logo-twitch", link: "https://twitch.tv/slykuiper"}
