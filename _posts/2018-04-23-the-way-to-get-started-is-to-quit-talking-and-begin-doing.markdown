@@ -2,7 +2,7 @@
 layout: post
 title:  Pride Collection Twitch Panels
 description:
-date:   2020-04-23 15:01:35 +0300
+date:   2022-01-13 00:00:00 +0000
 image:  '/images/15.jpg'
 tags:   [free, twitch panels, pride, collection]
 ---
