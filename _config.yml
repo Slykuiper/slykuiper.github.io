@@ -28,7 +28,7 @@ social:
 # Hero Settings
 hero:
   hero__title: Corbin Scott
-  hero__description: Creative @ Streamlabs sharing the creative process of designing resources for creators.
+  hero__description: Creative @ Streamlabs sharing the process of designing resources for creators.
   hero__image: '/assets/pfp_2_half.jpg'
 
 
