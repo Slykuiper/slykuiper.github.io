@@ -6,10 +6,9 @@ date:   2022-01-13 00:00:00 +0000
 image:  '/images/15.jpg'
 tags:   [free, twitch panels, pride, collection]
 ---
-Hey streamers,
+A free collection of LGBTQ+ friendly twitch panels. Each panel theme comes with 202 panels covering almost any platform or use-case. Each theme also includes a blank panel in case you want to make additional panels. 
 
-I created a free collection of LGBTQ+ friendly twitch panels for creators looking to represent their communities. Each panel theme comes with 202 panels for just about every occasional or use, and a blank panel in-case I missed anything. The Pride Collection Twith Panel pack comes with the following themes:
-
+Pride Collection themes:
 - Rainbow (Gay) Pride
 - Asexual
 - Bisexual
@@ -23,10 +22,9 @@ I created a free collection of LGBTQ+ friendly twitch panels for creators lookin
 - Polyamorous
 - Polysexual
 
+### Download
 
-### Free Download
-
-You can download the entire panel pack from the Google Drive folder [here](https://drive.google.com/drive/folders/1Ba9yQCDutNn8Cy9TLhP0pUAcuafeUAl7). Let me know if enjoyed these panels! 
+You can download the entire panel pack from the [Google Drive folder here](https://drive.google.com/drive/folders/1Ba9yQCDutNn8Cy9TLhP0pUAcuafeUAl7).
 
 ![River]({{site.baseurl}}/images/15-1.jpg#wide)
 *Photo by [Jeroen Bendeler](https://unsplash.com/photos/_w7CkrJdn1Q) on [Unsplash](https://unsplash.com/)*

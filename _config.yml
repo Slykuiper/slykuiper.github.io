@@ -12,7 +12,7 @@ color_scheme: dark # You can choose three modes auto, light, and dark. By defaul
 # Author Settings
 author:
   author__name: Corbin Scott
-  author__bio: Creative @ streamlabs designing resources for creators. 
+  author__bio: Designer  
   author__avatar: '/assets/pfp_1_half.jpg'
 
 social:
@@ -28,7 +28,7 @@ social:
 # Hero Settings
 hero:
   hero__title: Corbin Scott
-  hero__description: Creative @ Streamlabs sharing the process of designing resources for creators.
+  hero__description: Designer showcasing their work & sharing resources for creators.
   hero__image: '/assets/pfp_2_half.jpg'
 
 
@@ -36,8 +36,8 @@ hero:
 # Newsletter
 mailchimp: enable # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
 mailchimp__identifier: https://slykuiper.us17.list-manage.com/subscribe/post?u=cf324a021293d8ac7a12d0ca8&amp;id=f4d98cfa16 # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
-mailchimp__input__text: Subscribe here
-mailchimp__button__text: Get free designs & resources
+mailchimp__input__text: Subscribe
+mailchimp__button__text: New Resources Newsletter
 
 
 #-------------------------------
@@ -70,7 +70,7 @@ gallery:
 # Contact Settings
 contact:
   email: corbin@slykuiper.com # Add your email for contact form
-  description: Have a question? Happy to do what I can to help out, drop a line below. # Add a description of your form
+  description: Questions? Drop a line. # Add a description of your form
 
 # NOTE
 # Menso theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
@@ -83,7 +83,7 @@ disqus-identifier: #demo-menca # Add your shortname for Disqus Comment. For exam
 
 #-------------------------------
 # Google Analytics
-google-analytics: # Add your GA Tracking Id
+google-analytics: G-5PE0HGMWV1
 
 
 #-------------------------------
