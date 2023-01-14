@@ -35,19 +35,24 @@
 }
 
 .article__tags {
-    position: absolute;
-    z-index: 1;
-    top: 16px;
-    left: 16px;
-    display: inline-block;
-    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.article__tag {
+    padding: 4px 8px;
+    margin: 2px 4px 2px 0;
     font-size: 12px;
     line-height: 1;
     font-weight: 500;
+    text-transform: capitalize;
+    border: none;
     border-radius: 4px;
     color: var(--heading-font-color);
-    background: var(--background-color);
-    pointer-events: none;
+    transition: none;
+    background-color: var(--background-color);
 }
 
 .article__image {
