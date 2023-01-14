@@ -3,7 +3,7 @@
 
         <div class="article__head">
             <!-- <time class="article__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time> -->
-            <div class="article__date">{{ post.tags }}</div>
+            <!-- <div class="article__date">{{ post.tags }}</div> -->
 
             {% if post.tags.size >= 1 %} {% for tag in post.tags %}
             <div class="article__tags">
