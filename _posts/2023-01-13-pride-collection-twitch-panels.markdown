@@ -26,5 +26,7 @@ Pride Collection themes:
 
 You can download the entire panel pack from the [Google Drive folder here](https://drive.google.com/drive/folders/1Ba9yQCDutNn8Cy9TLhP0pUAcuafeUAl7).
 
+© 2023. This work is licensed under a [CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/). 
+
 ![River]({{site.baseurl}}/images/15-1.jpg#wide)
 *Photo by [Jeroen Bendeler](https://unsplash.com/photos/_w7CkrJdn1Q) on [Unsplash](https://unsplash.com/)*
