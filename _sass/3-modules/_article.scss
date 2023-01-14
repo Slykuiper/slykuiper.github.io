@@ -35,13 +35,13 @@
 }
 
 .article__tags {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
 }
 
 .article__tag {
+    display: inline-block;
     padding: 4px 8px;
     margin: 2px 4px 2px 0;
     font-size: 12px;
