@@ -20,20 +20,19 @@ A free collection of 2000+ LGBTQ+ friendly twitch panels. Each panel theme comes
 - Pansexual
 - Polyamorous
 - Polysexual
-
-
-![River]({{site.baseurl}}/images/15-1.jpg#wide)
-*Photo by [Jeroen Bendeler](https://unsplash.com/photos/_w7CkrJdn1Q) on [Unsplash](https://unsplash.com/)*
+  
+![Panels]({{site.baseurl}}/assets/resources/pride collection/wide image.jpg#wide)
+*Background Photo by [Maciek Sulkowski](https://unsplash.com/photos/qkAqJuX6DVI) on [Unsplash](https://unsplash.com/)*
 
 ### Download
 
-You can download the entire panel pack from the [Google Drive folder here](https://drive.google.com/drive/folders/1Ba9yQCDutNn8Cy9TLhP0pUAcuafeUAl7).
+You can download all 12 themes from Pride Collection twitch panel pack from the [Google Drive folder here](https://drive.google.com/drive/folders/1Ba9yQCDutNn8Cy9TLhP0pUAcuafeUAl7).
 
 © 2023. This work is licensed under a [CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/). 
 
 ### Setup
 
-Refer to Twitch's guide on [How to Edit Info Panels](https://help.twitch.tv/s/article/how-to-edit-info-panels?language=en_US) to add custom panels to your channel page.
+Setup and installation is easy, refer to Twitch's guide on [How to Edit Info Panels](https://help.twitch.tv/s/article/how-to-edit-info-panels?language=en_US) to add custom panels to your channel page.
 
 
 
