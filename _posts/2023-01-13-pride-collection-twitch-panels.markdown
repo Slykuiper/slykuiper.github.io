@@ -28,11 +28,8 @@ A free collection of 2000+ LGBTQ+ friendly twitch panels. Each panel theme comes
 
 You can download all 12 themes from Pride Collection twitch panel pack from the [Google Drive folder here](https://drive.google.com/drive/folders/1Ba9yQCDutNn8Cy9TLhP0pUAcuafeUAl7).
 
-© 2023. This work is licensed under a [CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/). 
-
 ### Setup
 
 Setup and installation is easy, refer to Twitch's guide on [How to Edit Info Panels](https://help.twitch.tv/s/article/how-to-edit-info-panels?language=en_US) to add custom panels to your channel page.
 
-
-
+© 2023. This work is licensed under a [CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/). 
