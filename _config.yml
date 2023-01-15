@@ -35,7 +35,7 @@ hero:
 #-------------------------------
 # Newsletter
 mailchimp: enable # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
-mailchimp__identifier: https://slykuiper.us17.list-manage.com/subscribe/post?u=cf324a021293d8ac7a12d0ca8&amp;id=f4d98cfa16 # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
+mailchimp__identifier: https://slykuiper.us17.list-manage.com/subscribe/post?u=cf324a021293d8ac7a12d0ca8&amp;id=f4d98cfa16&amp;f_id=009350e0f0 # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
 mailchimp__input__text: Subscribe
 mailchimp__button__text: New Resources Newsletter
 
