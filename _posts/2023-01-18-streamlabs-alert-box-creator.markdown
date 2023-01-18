@@ -14,7 +14,7 @@ The Alert Box is a widget from Streamlabs that displays a graphic every time vie
 The biggest gripe about creating an Alert Box widget as a designer in this space is that there are many repetitive tasks that take a lot of time. There are **30 different event types** (Follow, Subscription, Donation, etc) that can be supported across multiple platforms (Twitch, Facebook, Trovo, YouTube, Charity, etc), and each event type has settings that need to be updated individually. There's no way to apply settings across multiple event types at once - designers have to update the image/sound/font/code settings for one event, then switch to the next tab and do it all over again multiple times. 
 
 ### The Solution
-[I created a tool on Codepen](https://codepen.io/Slykuiper/full/LYmdovY) using jQuery that allows you to define global alert settings and branch out to apply individual settings for any specific event. The end result is a set of 4 fetch commands that you apply in your dashboard. 
+[I created a tool on CodePen](https://codepen.io/Slykuiper/full/LYmdovY) using jQuery that allows you to define global alert settings and branch out to apply individual settings for any specific event. The end result is a set of 4 fetch commands that you apply in your dashboard. 
 
 For example - most designers create Alert Box themes that have custom image/sound/font/code settings but the only setting that's different per event is the **image** setting. This is a dynamic animation that displays "New Follower!" or "New Subscriber!" in the animation file, but all other settings remain the same for each event. With this tool you can have a setup that looks like this:  
   
