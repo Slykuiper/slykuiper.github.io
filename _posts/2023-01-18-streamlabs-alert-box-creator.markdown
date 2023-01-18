@@ -18,7 +18,7 @@ The biggest gripe about creating an Alert Box widget as a designer in this space
 
 For example - most designers create Alert Box themes that have custom image/sound/font/code settings but the only setting that's different per event is the **image** setting. This is a dynamic animation that displays "New Follower!" or "New Subscriber!" in the animation file, but all other settings remain the same for each event. With this tool you can have a setup that looks like this:  
   
-![Panels]({{site.baseurl}}/assets/resources/alert box creator/wide-img.jpg#wide)
+![Alert Box Creator]({{site.baseurl}}/assets/resources/alert box creator/wide-img.jpg#wide)
 *Background Photo by [Rudi West](https://unsplash.com/photos/IHCHpxUIIVs) on [Unsplash](https://unsplash.com/)*
 
 All settings are the same except for the ones under the Image setting. The other non-Twitch events will use **fire_main.webm** since it's defined as the global image setting. 
