@@ -8,7 +8,7 @@ layout: default
 
       {%if page.image %}
       <div class="col panel-wrap">
-        <div class="panel-blur" style="background-image: url( {{site.url}}{{site.baseurl}}{{page.image}} )">
+        <div class="panel-blur" style="background-image: url({% site.url %}{% site.baseurl %}{% page.image %})">
         </div>
         <div class="panel-image">
           <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
@@ -35,7 +35,7 @@ layout: default
 
       <div class="col col-6 col-d-12">
         <div class="post__tags">
-            <a href="{{ page.download }}" class="post__tag">{{ tag }}</a>
+            <a href="{{ page.download }}" class="post__tag">Download</a>
         </div>
       </div>
     </div>
