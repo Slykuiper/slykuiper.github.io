@@ -52,6 +52,7 @@ $mq: ( $mobile:$columns, $tablet:$columns, $desktop:$columns );
   box-sizing: border-box;
   margin-left: ($base-spacing-unit * -1);
   margin-right: ($base-spacing-unit * -1);
+  min-height: 300px;
 }
 
 .col {

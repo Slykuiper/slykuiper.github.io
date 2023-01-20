@@ -8,8 +8,7 @@ layout: default
 
       {%if page.image %}
       <div class="col panel-wrap">
-        <div class="panel-blur" style="background-image: url({{site.baseurl}}{{page.image}})">
-          <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
+        <div class="panel-blur" style="background-image: url( {{site.url}}{{site.baseurl}}{{page.image}} )">
         </div>
         <div class="panel-image">
           <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
@@ -18,10 +17,10 @@ layout: default
       {% endif %}
 
       
-      <div class="col">
+      <div class="col col-6 col-d-12">
         <div class="panel__info {{videoInfo}}">
           
-          <h1 class="post__title">{{ page.title | escape }}</h1>
+          <h3 class="post__title">{{ page.title | escape }}</h3>
 
           {% if page.tags.size >= 1 %}
             <div class="post__tags">
@@ -31,6 +30,12 @@ layout: default
             </div>
           {% endif %}
   
+        </div>
+      </div>
+
+      <div class="col col-6 col-d-12">
+        <div class="post__tags">
+            <a href="{{ page.download }}" class="post__tag">{{ tag }}</a>
         </div>
       </div>
     </div>
