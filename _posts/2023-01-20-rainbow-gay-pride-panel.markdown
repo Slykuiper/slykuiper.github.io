@@ -2,7 +2,7 @@
 layout: panel-showcase
 title:  Rainbow Gay Pride Panel
 description: A free Rainbow Gay Pride Panel twitch panel theme.
-image:  '/assets/resources/pride collection/Rainbow_Blank.png.png'
+image:  '/assets/resources/pride collection/Rainbow_Blank.png'
 tags:   [free, twitch panels, pride]
 download: https://drive.google.com/drive/folders/1S5qNyY5lsEefN2eHDqAKAYXPrTyP2Bfi?usp=share_link
 ---
