@@ -7,7 +7,10 @@ layout: default
     <div class="row-panel">
 
       {%if page.image %}
-      <div class="col col-12">
+      <div class="col panel-wrap">
+        <div class="panel-blur" style="background-image: url({{site.baseurl}}{{page.image}})">
+          <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
+        </div>
         <div class="panel-image">
           <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
         </div>
@@ -15,7 +18,7 @@ layout: default
       {% endif %}
 
       
-      <div class="col {% if page.video_embed %}col-12{% else %}col-6 col-d-12{% endif %}">
+      <div class="col">
         <div class="panel__info {{videoInfo}}">
           
           <h1 class="post__title">{{ page.title | escape }}</h1>
