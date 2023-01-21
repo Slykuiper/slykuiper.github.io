@@ -30,6 +30,6 @@ My other gaming obsession was Call of Duty - I had like 200 hours on MW3 for PS3
   </div>
 </div>
 
-I started freelancing after graduating highschool, creating motion graphics for a variety of clients and small businesses. 3 years into it I was approached by [Streamlabs](https://streamlabs.com/) for a small project to animate icons for their dashboard. New projects kept coming and I was brought on to the company as a motion designer. From there it’s been an exciting ride contributing on numerous projects for creators, designing & animating social media graphics and paid media, and leading content production on design-driven tools for creators.
+I started freelancing after graduating highschool, creating motion graphics for friends and small YouTubers. Then I made the push to breakout beyond YouTube and work for a variety of clients and small businesses. 3 years into it I was approached by [Streamlabs](https://streamlabs.com/) for a small project to animate icons for their dashboard. New projects kept coming and I was brought on to the company as a motion designer. From there it’s been an exciting ride contributing on numerous projects for creators, designing & animating social media graphics and paid media, and leading content production on design-driven tools for creators.
 
-Learning new things and exploring different mediums in my free time is important to me. Front-end design, game programming, 3d modeling, scripting, browser automation, IoT tinkering and anything in between. 
+Pushing myself to learn new mediums in my free time is important to me. Gamedev, programming, automation, IoT tinkering, 2d/3d design & animation, front-end, and anything in between.
