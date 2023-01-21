@@ -8,7 +8,7 @@ layout: default
 
       {%if page.image %}
       <div class="col panel-wrap">
-        <div class="panel-blur" style="background-image: url({% site.url %}{% site.baseurl %}{% page.image %})">
+        <div class="panel-blur" style="background-image: url('{{site.baseurl}}{{page.image}}')">
         </div>
         <div class="panel-image">
           <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
@@ -17,10 +17,10 @@ layout: default
       {% endif %}
 
       
-      <div class="col col-6 col-d-12">
+      <div class="col panel-info-wrap">
         <div class="panel__info {{videoInfo}}">
           
-          <h3 class="post__title">{{ page.title | escape }}</h3>
+          <h6 class="panel__title">{{ page.title | escape }}</h6>
 
           {% if page.tags.size >= 1 %}
             <div class="post__tags">
@@ -31,16 +31,32 @@ layout: default
           {% endif %}
   
         </div>
-      </div>
-
-      <div class="col col-6 col-d-12">
-        <div class="post__tags">
-            <a href="{{ page.download }}" class="post__tag">Download</a>
+        <div class="panel__download">
+            <a href="{{ page.download }}" class="panel__button">Download</a>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+<!-- begin panel array -->
+
+<div class="container animate">
+  <div class="row">
+    {% if page.panels.size >= 1 %}
+      {% for panel in page.panels %}
+      <div class="col col-3 col-d-6 col-m-12">
+        <a href="" class="panel-gallery-image">
+          <img class="lazy" data-src="{{site.baseurl}}{{page.paneldir}}{{panel}}.png">
+        </a>
+      </div>
+      {% endfor %}
+    {% endif %}
+  </div>
+
+</div>
+
+<!-- end pannel array -->
 
 <!-- begin post -->
 <div class="container animate">
