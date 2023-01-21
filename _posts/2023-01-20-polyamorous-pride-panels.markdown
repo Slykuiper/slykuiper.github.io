@@ -1,9 +1,9 @@
 ---
 layout: panel-showcase
-title:  Rainbow Gay Pride Panel
-description: A free Rainbow Gay Pride Panel twitch panel theme.
-image:  '/assets/resources/pride collection/rainbow/Rainbow_Blank.png'
-paneldir: '/assets/resources/pride collection/rainbow/Rainbow_'
+title:  Polyamorous Pride Panel
+description: A free Polyamorous Pride Panel twitch panel theme.
+image:  '/assets/resources/pride collection/polyamorous/blank_thumbnail.png'
+paneldir: '/assets/resources/pride collection/polyamorous/Polyamorous_'
 panels: [Ads, Affiliate, 2nd-Channel, About-Me, Battle-Net, Artists, Background, ArtStation, Birthday, BTTV, Calendar, Blog, Charity, Chat-Rules, Clips, Channel-Points, Emotes, Fanmail, Donate, Editor, Friends, Games, Gear, FAQ, Hardware, Hive, Hall-of-Fame, Hall-of-Shame, Ko-Fi, Languages, Leaderboard, Links, Music, Mastadon, Merch, Mods, New-Channel, P.O, Partners, My-Shop, Sponsorships, Subscribe, Support, TikTok, Perks, Playlist, Pronouns, Rules]
 tags:   [free, twitch panels, pride]
 download: https://drive.google.com/drive/folders/1S5qNyY5lsEefN2eHDqAKAYXPrTyP2Bfi?usp=share_link
