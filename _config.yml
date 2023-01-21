@@ -43,7 +43,6 @@ mailchimp__button__text: New Resources Newsletter
 #-------------------------------
 # Gallery Footer Section
 gallery:
-  gallery__title: Gallery
   gallery__columns: 3
   gallery__images:
     - alt: 'Rest'
