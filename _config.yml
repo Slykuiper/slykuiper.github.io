@@ -45,18 +45,18 @@ mailchimp__button__text: New Resources Newsletter
 gallery:
   gallery__columns: 3
   gallery__images:
-    - alt: 'Rest'
-      url: '/images/100.jpg'
-    - alt: 'Lifestyle'
-      url: '/images/101.jpg'
-    - alt: 'Hobby'
-      url: '/images/102.jpg'
-    - alt: 'Notes'
-      url: '/images/103.jpg'
-    - alt: 'Rest'
-      url: '/images/104.jpg'
-    - alt: 'Hobby'
-      url: '/images/105.jpg'
+    - alt: 'Amsterdan w/ Jim'
+      url: '/assets/gallery/gallery-1.jpg'
+    - alt: 'TwitchCon AMS Meetup'
+      url: '/assets/gallery/gallery-2.jpg'
+    - alt: 'TwitchCon AMS Meetup'
+      url: '/assets/gallery/gallery-3.jpg'
+    - alt: 'TwitchCon AMS'
+      url: '/assets/gallery/gallery-4.jpg'
+    - alt: 'Amsterdam'
+      url: '/assets/gallery/gallery-5.jpg'
+    - alt: 'Sewing Stream'
+      url: '/assets/gallery/gallery-6.png'
 
 
 #-------------------------------

@@ -12,9 +12,9 @@ As a kid I really liked art class, taking it every year until I graduated. In mi
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/assets/selfie_1.jpg">
-    <img src="/assets/selfie_2.jpg">
-    <img src="/assets/selfie_3.jpg">
+    <img src="/assets/about/selfie_1.jpg">
+    <img src="/assets/about/selfie_2.jpg">
+    <img src="/assets/about/selfie_3.jpg">
   </div>
 </div>
 
@@ -24,9 +24,9 @@ My other gaming obsession was Call of Duty - I had like 200 hours on MW3 for PS3
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/assets/selfie_4.jpg">
-    <img src="/assets/selfie_5.jpg">
-    <img src="/assets/selfie_6.jpg">
+    <img src="/assets/about/selfie_4.jpg">
+    <img src="/assets/about/selfie_5.jpg">
+    <img src="/assets/about/selfie_6.jpg">
   </div>
 </div>
 

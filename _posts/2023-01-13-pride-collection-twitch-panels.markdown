@@ -2,7 +2,7 @@
 layout: post
 title:  Pride Collection Twitch Panels
 description: A free collection of 2000+ LGBTQ+ friendly twitch panels.
-date:   2022-01-13 00:00:00 +0000
+date:   2023-01-13 00:00:00 +0000
 image:  '/assets/resources/pride collection/pride-collection-thumb.png'
 tags:   [free, twitch panels, pride, collection]
 ---
