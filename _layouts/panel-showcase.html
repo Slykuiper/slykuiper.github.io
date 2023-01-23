@@ -10,7 +10,7 @@ layout: default
       <div class="col panel-wrap">
         <div class="panel-blur" style="background-image: url('{{site.baseurl}}{{page.image}}')">
         </div>
-        <div class="panel-image">
+        <div class="panel-image panel-shine">
           <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
         </div>
       </div>
@@ -47,13 +47,12 @@ layout: default
       {% for panel in page.panels %}
       <div class="col col-3 col-d-6 col-m-12">
         <a href="" class="panel-gallery-image">
-          <img class="lazy" data-src="{{site.baseurl}}{{page.paneldir}}{{panel}}.png">
+          <img class="lazy" title="{{ panel }} Panel" alt="{{ panel }} Panel from {{ page.title }} Theme." data-src="{{ site.baseurl }}{{ page.paneldir }}{{ panel }}.png">
         </a>
       </div>
       {% endfor %}
     {% endif %}
   </div>
-
 </div>
 
 <!-- end pannel array -->

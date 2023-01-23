@@ -3,7 +3,7 @@ layout: post
 title:  Stream Chatter Phone Display
 description: Show your latest stream chatter on a physical display.
 date:   2023-01-22 00:00:00 +0000
-image:  '/assets/resources/alert box creator/thumb.jpg'
+image:  '/assets/chatter/thumb.png'
 tags:   [tool]
 ---
 I've been brainstorming different ways that viewers in a livestream can participate and influence a creator's stream. Physically displaying them alongside the streamer in their room came to mind and I built a rudimentary widget to do just that.

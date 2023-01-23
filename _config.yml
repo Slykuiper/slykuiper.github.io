@@ -49,12 +49,6 @@ gallery:
       url: '/assets/gallery/gallery-1.jpg'
     - alt: 'TwitchCon AMS Meetup'
       url: '/assets/gallery/gallery-2.jpg'
-    - alt: 'TwitchCon AMS Meetup'
-      url: '/assets/gallery/gallery-3.jpg'
-    - alt: 'TwitchCon AMS'
-      url: '/assets/gallery/gallery-4.jpg'
-    - alt: 'Amsterdam'
-      url: '/assets/gallery/gallery-5.jpg'
     - alt: 'Sewing Stream'
       url: '/assets/gallery/gallery-6.png'
 
