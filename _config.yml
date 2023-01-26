@@ -16,9 +16,10 @@ author:
   author__avatar: '/assets/pfp_1_half.jpg'
 
 social:
-- {icon: "ion-logo-twitch", link: "https://twitch.tv/slykuiper"}
-- {icon: "ion-logo-twitter", link: "https://twitter.com/slykuiper"}
-- {icon: "ion-logo-youtube", link: "https://youtube.com/slykuiper"}
+- {icon: "ion-logo-twitch", link: "https://twitch.tv/slykuiper", text: " "}
+- {icon: "ion-logo-twitter", link: "https://twitter.com/slykuiper", text: " "}
+- {icon: "ion-logo-youtube", link: "https://youtube.com/slykuiper", text: " "}
+- {icon: "ion-md-mail-open", link: "mailto:corbin@slykuiper.com", text: " Contact"}
 
 # Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
 # Other icons can be found at https://ionicons.com/v4/
