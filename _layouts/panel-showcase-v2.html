@@ -41,11 +41,26 @@ layout: default
 
 <div class="container animate">
   <div class="row">
+    {% if page.video_embed %}
+      <div class="col col-12">
+        <div class="post-video">
+          <div class="post-video__wrap">
+            <iframe src="{{ page.video_embed }}" loading="lazy" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    {%endif %}
+  </div>
+</div>
+
+<div class="container animate">
+  <div class="row">
     <div class="gallery-box">
       <div class="gallery">
         <img src="{{ site.baseurl }}{{ page.paneldir }}Panel-Cover-Image-2_00000.png">
         <img src="{{ site.baseurl }}{{ page.paneldir }}Panel-Cover-Image-3_00000.png">
       </div>
+      <em>{{ page.description }}</em>
     </div>
   </div>
 </div>
@@ -57,7 +72,7 @@ layout: default
     {% if page.panels.size >= 1 %}
       {% for panel in page.panels %}
       <div class="col col-3 col-d-6 col-m-12">
-        <a href="" class="panel-gallery-image">
+        <a href="#" class="panel-gallery-image">
           <img class="lazy" title="{{ panel }} Panel" alt="{{ panel }} Panel from {{ page.title }} Theme." data-src="{{ site.baseurl }}{{ page.paneldir }}{{ panel }}_00000.png">
         </a>
       </div>
