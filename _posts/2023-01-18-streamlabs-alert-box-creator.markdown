@@ -10,6 +10,14 @@ The Alert Box is a widget from Streamlabs that displays a graphic every time vie
 
 [Alert Box Creator](https://codepen.io/Slykuiper/full/LYmdovY) tool on CodePen.
 
+<p class="codepen" data-height="1099.9999694824219" data-default-tab="result" data-slug-hash="LYmdovY" data-user="Slykuiper" style="height: 1099.9999694824219px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/Slykuiper/pen/LYmdovY">
+  Alert Box Creator</a> by Corbin Scott (<a href="https://codepen.io/Slykuiper">@Slykuiper</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+
 ### The Issue
 The biggest gripe about creating an Alert Box widget as a designer in this space is that there are many repetitive tasks that take a lot of time. There are **30 different event types** (Follow, Subscription, Donation, etc) that can be supported across multiple platforms (Twitch, Facebook, Trovo, YouTube, Charity, etc), and each event type has settings that need to be updated individually. There's no way to apply settings across multiple event types at once - designers have to update the image/sound/font/code settings for one event, then switch to the next tab and do it all over again multiple times. 
 
