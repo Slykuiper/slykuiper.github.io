@@ -48,10 +48,16 @@
 
 .panel-image {
   position: relative;
-  max-width: 100%;
-  max-height: 500px;
+  flex: 1;
+  
 }
 
+.panel-image-inner {
+  position: relative;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
 .panel-shine {
 	position: relative;
   opacity: 0;
