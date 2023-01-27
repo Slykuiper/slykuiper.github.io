@@ -49,7 +49,7 @@
 /* Smooth Scroll behavior polyfill
   ====================================================
   Version : 0.4.0
-  Website : http://iamdustan.com/smoothscroll/
+  Website : https://iamdustan.com/smoothscroll/
   Repo    : https://github.com/iamdustan/smoothscroll
   Author  : Dustan Kasten
   License : MIT
