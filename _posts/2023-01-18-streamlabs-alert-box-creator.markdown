@@ -6,9 +6,9 @@ date:   2023-01-18 00:00:00 +0000
 image:  '/assets/resources/alert box creator/thumb.jpg'
 tags:   [tool]
 ---
-The Alert Box is a widget from Streamlabs that displays a graphic every time viewers engage with a creator's channel. I created a tool that gives designers more granular control over setting up an Alert Box. This tool gives you the ability to quickly create an Alert Box theme that supports 30 different event types in a few short clicks, and easily make adjustments for each event all on one page. 
+The [Alert Box](https://streamlabs.com/desktop-widgets/alert-box) is a widget from [Streamlabs](https://streamlabs.com/) that displays a graphic every time viewers engage with a creator's channel - following their channel, subscribing, or tipping the creator. I created an Alert Box Creator tool that gives designers a more intuitive way to have granular control over settings when setting up an Alert Box Theme. 
 
-[Alert Box Creator](https://codepen.io/Slykuiper/full/LYmdovY) tool on CodePen.
+This tool speeds up a designer's Alert Box setup process considerably by allowing designers to support 30 event types in a few short clicks, as opposed to the 30 individual pages with various settings that a designer would have to navigate normally to fully support the Alert Box. 
 
 <p class="codepen" data-height="1099.9999694824219" data-default-tab="result" data-slug-hash="LYmdovY" data-user="Slykuiper" style="height: 1099.9999694824219px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/Slykuiper/pen/LYmdovY">
@@ -19,12 +19,12 @@ The Alert Box is a widget from Streamlabs that displays a graphic every time vie
 
 
 ### The Issue
-The biggest gripe about creating an Alert Box widget as a designer in this space is that there are many repetitive tasks that take a lot of time. There are **30 different event types** (Follow, Subscription, Donation, etc) that can be supported across multiple platforms (Twitch, Facebook, Trovo, YouTube, Charity, etc), and each event type has settings that need to be updated individually. There's no way to apply settings across multiple event types at once - designers have to update the image/sound/font/code settings for one event, then switch to the next tab and do it all over again multiple times. 
+One of the biggest gripes about configuring an Alert Box widget as a designer in the livestreaming industry is that there are many repetitive tasks which take time to do. There are **30 different event types** (Follow, Subscription, Donation, etc) that can be supported across multiple platforms (Twitch, Facebook, Trovo, YouTube, Charity, etc), and each event type has 12+ settings that need to be updated individually. There's no way to apply settings across multiple event types at once - designers have to update multiple settings for one event, switch to the next event type and repeat.
 
 ### The Solution
-[I created a tool on CodePen](https://codepen.io/Slykuiper/full/LYmdovY) using jQuery that allows you to define global alert settings and branch out to apply individual settings for any specific event. The end result is a set of 4 fetch commands that you apply in your dashboard. 
+[I created a tool on CodePen](https://codepen.io/Slykuiper/full/LYmdovY) using jQuery that allows you to define global alert settings and branch out to apply individual settings for any specific event. The tool outputs 4 fetch commands that designers apply on the Streamlabs Dashboard to save these settings. 
 
-For example - most designers create Alert Box themes that have custom image/sound/font/code settings but the only setting that's different per event is the **image** setting. This is a dynamic animation that displays "New Follower!" or "New Subscriber!" in the animation file, but all other settings remain the same for each event. With this tool you can have a setup that looks like this:  
+A typical setup for designers that create Alert Box Themes is to have each event type follow the same sound, font, and custom code settings for each event and only change the **image** setting. This image is a dynamic animation or graphic that displays "New Follower!" or "New Subscriber!" in the animation file. With this tool you can create this setup (and more) very easily.  
   
 ![Alert Box Creator]({{site.baseurl}}/assets/resources/alert box creator/wide-img.jpg#wide)
 *Background Photo by [Rudi West](https://unsplash.com/photos/IHCHpxUIIVs) on [Unsplash](https://unsplash.com/)*
@@ -33,6 +33,6 @@ All settings are the same except for the ones under the Image setting. The other
 
 ### Getting Started
 
-If you're a designer creator Alert Box Themes in the space, I recommend creating accounts on Twitch, YouTube, Trovo, Facebook, and StreamlabsCharity. Then merging them to your account under [Account Settings](https://streamlabs.com/dashboard#/settings/account-settings/platforms). That way you're supporting a wider range of creators with little effort. 
+If you're a designer creator Alert Box Themes in the space, I recommend creating accounts on Twitch, YouTube, Trovo, Facebook, and StreamlabsCharity. Then merging them to your account under [Account Settings](https://streamlabs.com/dashboard#/settings/account-settings/platforms). This way you're supporting a wider range of platforms & integrations for the Alert Box with ease, expanding your clientbase. 
 
 There's a short video demonstrating in the top-right of the tool on CodePen that shows it in action. CodePen doesn't have an uploader component, so you'll have to upload media to the Streamlabs Media Gallery like normal, then copy the link and paste it in the CodePen. 

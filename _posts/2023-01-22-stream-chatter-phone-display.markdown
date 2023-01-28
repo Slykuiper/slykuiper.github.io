@@ -4,9 +4,9 @@ title:  Stream Chatter Phone Display
 description: Show your latest stream chatter on a physical display.
 date:   2023-01-22 00:00:00 +0000
 image:  '/assets/chatter/thumb.png'
-tags:   [tool]
+tags:   [tool, api, streamlabs, twitch]
 ---
-I've been brainstorming different ways that viewers in a livestream can participate and influence a creator's stream. Physically displaying them alongside the streamer in their room came to mind and I built a rudimentary widget to do just that.
+There's a lot of different ways that a creator's live audience can engage with them. Using Node.js, the [Twitch API](https://dev.twitch.tv/docs/api/) and the [Streamlabs API](https://dev.streamlabs.com/) I programmed a rudimentary widget that let's creators display a viewer's profile picture & name on their phone so they can show it in their webcams. 
 
 <div class="gallery-box">
   <div class="gallery">
@@ -20,17 +20,64 @@ I've been brainstorming different ways that viewers in a livestream can particip
   <em>Phone displaying Live Stream Chatters</em>
 </div>
 
-It's definitely not a fully-fledged polished application, it's pretty unpolished and barebones but it works! Using the Twitch & Streamlabs APIs I pulled together a widget that detects a user interactions, grabs their Profile Picture, then displays it on a server for you to display on your phone. It works for:
-+ Twitch Alerts
-+ Twitch Chat
-+ YouTube Alerts
-+ Trovo Alerts
-+ Facebook Alerts
+When it receives an event from Twitch Chat or Streamlabs (For Twitch, YouTube, Facebook, Streamlabs Charity alerts), it grabs their Profile Picture and displays it on a web server that your phone can connect to.
 
-There's definitely a risk when displaying a random user's profile picture on stream, it's an opportunity for trolls to change their profile picture to something that's offensive or might get you banned. There's plenty of ways around this:
+There's definitely a risk when displaying a random user's profile picture on stream, it's an opportunity for trolls to change their profile picture to something that's offensive or might get you banned. I included a small protective measure by including settings that can limit usage to VIPs/Moderators/Subscribers-Only for Twitch Chat. That's okay for a working proof of concept, but not sae enough for something that should be widely distributed.
 
-+ Approval queue that let's the creator approve/deny an image before displaying it on stream.
-+ Blur the profile picture by adding a blur CSS filter on the image element.
-+ Limit it to certain user groups: VIPs, Moderators, Staff, Subscribers-Only, etc
+{% highlight js %}
+if (process.env.ENABLE_ALERTS == "true") {
+  const streamlabs = io(`https://sockets.streamlabs.com?token=[process.env.SOCKETTOKEN]`, { transports: ['websocket'] });
+  streamlabs.on('connect', () => { console.log('Connected to Streamlabs Server'); });
 
-None of these are implemented in this project. 
+  streamlabs.on('event', (eventData) => {
+    if (eventData.for == "streamlabs" || eventData.for == "twitch_account" || eventData.for == "youtube_account" || eventData.for == "facebook_account" || eventData.for == "streamlabscharity") {
+      processAlert(eventData.for, eventData.type, eventData.message[0]);
+    }
+  });
+}
+{% endhighlight %}
+
+This snippet connects to the Streamlabs Socket API then listens for events from platforms connected to the creators account. From there, a creator can define settings like enabling specific events and setting minimum tip, bit, raid, and superchat amounts to trigger those specific events.
+
+{% highlight js %}
+if (process.env.ENABLE_TWITCH_CHAT == "true") {
+    const client = new tmi.client({
+        options: {},
+        connection: {
+            reconnect: true,
+            secure: true
+        },
+        identity: {
+            username: process.env.TWITCH_IRC_USERNAME,
+            password: process.env.TWITCH_IRC_OAUTH
+        },
+        channels: [process.env.TWITCH_IRC_CHANNEL]
+    });
+
+    client.on('connected', twitchOnConnectedHandler);
+    client.on('message', twitchOnMessageHandler); // print chat image
+    client.connect(); // Connect to Twitch IRC
+}
+{% endhighlight %}
+
+This snippet uses [tmi.js](https://tmijs.com/), a JS Package for interacting with Twitch Chat via IRC in Node.js. After connecting to a creator's channel, it listens to their chat to handle interactions. It check's the chatter's stats (subscriber, moderator, etc) then uses the [Twitch Helix API](https://dev.twitch.tv/docs/api/reference/) to grab that chatter's Profile Picture. 
+
+{% highlight js %}
+function getAvatar(username) {
+    var avatar;
+    fetch('https://api.twitch.tv/helix/users?login=' + username, {
+        method: 'GET',
+        headers: {
+            'Client-ID': process.env.TWITCH_API_CLIENT_ID,
+            'Authorization': 'Bearer ' + accesstoken
+        }
+    })
+    .then(res => res.json())
+    .then(res => {
+        avatar = res.data[0]['profile_image_url'];
+        console.log(username + ": " + avatar);
+    });
+}
+{% endhighlight %}
+
+From there it gets very hacky. It reads a local html layout, switches out some variables (username, profile image url), and overwrites the html file in an [XAMPP](https://www.apachefriends.org/) directory as a local server. The phone, connected on the same wifi, accesses localhost and displays the contents of the html page.
