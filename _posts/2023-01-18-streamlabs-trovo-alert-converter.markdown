@@ -4,7 +4,7 @@ title:  Streamlabs Trovo Alert Converter
 description: Dynamic and powerful Alert Box creator tool.
 date:   2023-01-18 00:00:00 +0000
 image:  '/assets/resources/trovo converter/thumb.jpg'
-tags:   [tool]
+tags:   [streamlabs, tool]
 ---
 Designers that create Alert Box themes in the industry primarily focus on the big platforms - Twitch & YouTube. These platforms draw the most concurrent viewership and have the largest userbase of creators. However, there are smaller emerging platforms like Trovo that can be a promising source of potential clients for designers looking to expand their reach. With a few short clicks, designers can now easily convert their Twitch Alert Box themes to support Trovo as well. 
 

@@ -8,10 +8,10 @@
 }
 
 .tags__inner {
-  margin-bottom: 120px;
+  margin-bottom: 40px;
 
   @media only screen and (max-width: $mobile) {
-    margin-bottom: 60px;
+    margin-bottom: 20px;
   }
 }
 
@@ -29,8 +29,6 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  padding-bottom: 80px;
-  border-bottom: 1px solid var(--background-alt-color);
 
   .tag__item {
     margin-right: 12px;
