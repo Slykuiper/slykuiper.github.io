@@ -26,7 +26,7 @@ Setting up Alert Box themes can be pretty tedious when there's pages full of rep
 - Subscriber
 - Raid
 
-It made me wonder if it was possible to speed up a workflow since a designer doesn't need to create any new animations for this platform. Work on this tool took some time since it was my first dive into jQuery, but the foundation built on jQuery, JSON, and fetch requests lead me to create the more advanced [Alert Box Creator](https://slykuiper.com/streamlabs-alert-box-creator) tool that I released as well. 
+It made me wonder if it was possible to speed up a workflow since a designer doesn't need to create any new animations for this platform. Work on this tool took some time since it was my first dive into jQuery, but the foundation built on jQuery, JSON, and fetch requests lead me to create the more advanced [Alert Box Creator](/streamlabs-alert-box-creator/) tool that I released as well. 
   
 ![Trovo Converter]({{site.baseurl}}/assets/resources/trovo converter/wide-img.jpg#wide)
 *Background Photo by [Jenn Buxton](https://unsplash.com/photos/VbehmJNj5Tc) on [Unsplash](https://unsplash.com/)*
