@@ -6,7 +6,7 @@ image: '/assets/resources/panels/Plus/blank_thumbnail_00000.png'
 paneldir: '/assets/resources/panels/Plus/'
 panels: [Ads, Affiliate, 2nd-Channel, About-Me, Battle-Net, Artists, Background, ArtStation, Birthday, BTTV, Calendar, Blog, Charity, Chat-Rules, Clips, Channel-Points, Emotes, Fanmail, Donate, Editor, Friends, Games, Gear, FAQ, Hardware, Hive, Hall-of-Fame, Hall-of-Shame, Ko-Fi, Languages, Leaderboard, Links, Music, Mastadon, Merch, Mods, New-Channel, P.O, Partners, My-Shop, Sponsorships, Subscribe, Support, TikTok, Perks, Playlist, Pronouns, Rules]
 tags: [free, twitch panels]
-video_embed: https://www.youtube.com/embed/E5BHmS-y88A
+video_embed: https://www.youtube-nocookie.com/embed/E5BHmS-y88A
 download: https://drive.google.com/drive/folders/1KBmScEROjtHR_Qd3vHJnozbYmB6M_8CO?usp=share_link
 ---
 

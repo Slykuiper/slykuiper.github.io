@@ -8,7 +8,7 @@ tags:   [tool, api, streamlabs]
 ---
 POS Printers that interact with live streams are nothing new, and many are a search away for creators to download and configure. In 2021 wanted to figure out the entire process of programming my own from scratch, to manipulate the events and have full control over what prints out. In July of 2021 I purchased a [TEROW Thermal Receipt Printer](https://www.amazon.com/gp/product/B07848ZBXT/ref=ppx_yo_dt_b_asin_title_o06_s01?ie=UTF8&th=1) and Thermal Rolls to start the process. 
 
-<p><iframe src="https://www.youtube.com/embed/UjvRDH2ulxE" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe src="https://www.youtube-nocookie.com/embed/UjvRDH2ulxE" loading="lazy" frameborder="0" allowfullscreen></iframe></p>
 
 Printers are all kinds of confusing, in the beginning I tried all kinds of things to get it to print like using VirtualBox running Ubuntu to print raw files hoping it would work.
 
