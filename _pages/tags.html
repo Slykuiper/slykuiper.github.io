@@ -21,7 +21,7 @@ permalink: /tags/
             {% for item in (0..site.tags.size) %}
               {% unless forloop.last %}
                 {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-                <li class="tag__item"><a href="#{{ this_word | uri_escape }}" class="tag__link">{{ this_word }}</a></li>
+                <li class="tag__item"><a href="#{{ this_word | uri_escape }}" class="tag__link">{{ this_word | replace: '-', ' ' }}</a></li>
               {% endunless %}
             {% endfor %}
           </ul>
@@ -47,7 +47,7 @@ permalink: /tags/
                   <span>{{ site.tags[this_word].size }}</span>
                   <small>{% if site.tags[page.tag].size < 2 %}Post{% else %}Posts{% endif %}</small>
                 </div>
-                <h2 class="tag__name" id="{{ this_word | uri_escape }}">{{ this_word }}</h2>
+                <h2 class="tag__name" id="{{ this_word | uri_escape }}">{{ this_word | replace: '-', ' ' }}</h2>
               </div>
               <a class="top__link" href="#top">Return to top</a>
             </div>
