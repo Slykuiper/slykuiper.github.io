@@ -140,6 +140,11 @@ I think the most frustrating part of all of this was figuring out the formatting
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-![layouts]({{site.baseurl}}/assets/pos/alert-layouts.jpg)
+<div class="gallery-box">
+  <div class="gallery">
+    <img src="/assets/pos/alert-layouts.jpg">
+    <img src="/assets/pos/layouts.png">
+  </div>
+</div>
 
 I experimented with different layouts to different alerts and integrations, it turned out pretty well overlay. 
