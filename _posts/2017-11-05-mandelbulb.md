@@ -3,7 +3,7 @@ layout: post
 title:  Mandelbulb
 image: /assets/images/work/mandelbulb/scarab1_800.jpg
 tags:
-- motion graphics
+- motion-graphics
 - fractal
 
 mandelbulbgrid:

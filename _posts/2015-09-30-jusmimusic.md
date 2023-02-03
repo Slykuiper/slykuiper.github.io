@@ -3,9 +3,8 @@ layout: post
 title:  JusmiMusic
 image: /assets/images/work/musicvideos/jusmi_terror.png
 tags:
-- motion graphics
-- music video
-- intro
+- motion-graphics
+- music-video
 ---
 [Jusmi](https://soundcloud.com/jusmi), is an alias of one my closest friends, Albert Mast. He's a talented music producer, mixer, and artist whose worked under a few different aliases in the past. Nowadays he produces under [AlKaT](http://slykuiper.com/alkat), but before becoming JusmiMusic he was [DaddyCat](https://www.youtube.com/user/OfficialDaddyCat/videos). We found eachother through the [Toribash](http://slykuiper.com/toribash/) community and began making videos together; it gave me the opportunity to learn about audio reaction and creating music videos while giving him another platform to release his music on.
 

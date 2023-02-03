@@ -3,8 +3,8 @@ layout: post
 title:  How Could This Be Wrong - The Glitch Mob (Marc Statz remix)
 image: /assets/images/work/musicvideos/marcstatz-hctbw/1.jpg
 tags:
-- motion graphics
-- music video
+- motion-graphics
+- music-video
 
 hctbwgrid:
   - var1:

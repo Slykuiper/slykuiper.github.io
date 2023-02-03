@@ -3,8 +3,8 @@ layout: post
 title:  White Katana - Sorcerer
 image: /assets/images/work/musicvideos/white-katana-sorcerer/jup.jpg
 tags:
-- motion graphics
-- music video
+- motion-graphics
+- music-video
 
 sorcerergrid:
   - var1: /assets/images/work/musicvideos/white-katana-sorcerer/planets/1.jpg

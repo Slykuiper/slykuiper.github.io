@@ -4,7 +4,7 @@ title:  Cute Collection Twitch Panels
 description: A free collection of 2000+ cute twitch panels.
 date:   2023-01-15 00:00:00 +0000
 image:  '/assets/resources/cute collection/thumb.png'
-tags:   [free, twitch panels, cute, collection]
+tags:   [free, twitch-panels, collection, livestreaming]
 ---
 Set up your stream and be prepared for Valentine's Day with a free collection of 2000+ cute twitch panels. Each panel theme comes with 202 panels covering almost any platform or use-case. Each theme also includes a blank panel in case you want to make additional panels.
   

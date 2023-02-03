@@ -3,7 +3,7 @@ layout: post
 title:  Toribash Edits
 image: /assets/images/work/other/toribash_edits.png
 tags:
-- motion graphics
+- motion-graphics
 - gaming
 - edits
 ---

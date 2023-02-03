@@ -3,7 +3,7 @@ layout: post
 title:  Call Of Duty Edits
 image: /assets/images/work/other/amen.jpg
 tags:
-- motion graphics
+- motion-graphics
 - gaming
 - edits
 ---

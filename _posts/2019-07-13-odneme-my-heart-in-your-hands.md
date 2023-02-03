@@ -3,8 +3,8 @@ layout: post
 title:  Odneme - My Heart In Your Hands ft. Dennis
 image: /assets/images/work/musicvideos/odneme1/odneme1.jpg
 tags:
-- motion graphics
-- music video
+- motion-graphics
+- music-video
 
 ---
 [Odneme](https://soundcloud.com/odneme) is a multi-talented visual artist and music producer. [My Heart In Your Hands (w/ Dennis)](https://soundcloud.com/odneme/odneme-dennis-that-familiar-feeling/s-Wn7Vy) is the first song of his I've had the opportunity of creating visuals for.

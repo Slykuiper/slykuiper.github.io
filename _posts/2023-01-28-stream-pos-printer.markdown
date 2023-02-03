@@ -4,7 +4,7 @@ title:  Stream POS Printer
 description: POS Printer that prints out stream alerts
 date:   2023-01-28 00:00:00 +0000
 image:  '/assets/pos/thumb.gif'
-tags:   [tool, api, streamlabs]
+tags:   [tool, api, streamlabs, livestreaming]
 ---
 POS Printers that interact with live streams are nothing new, and many are a search away for creators to download and configure. In 2021 wanted to figure out the entire process of programming my own from scratch, to manipulate the events and have full control over what prints out. In July of 2021 I purchased a [TEROW Thermal Receipt Printer](https://www.amazon.com/gp/product/B07848ZBXT/ref=ppx_yo_dt_b_asin_title_o06_s01?ie=UTF8&th=1) and Thermal Rolls to start the process. 
 

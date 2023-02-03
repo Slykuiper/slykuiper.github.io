@@ -3,8 +3,8 @@ layout: post
 title:  Marc Statz - Yes Hello
 image: /assets/images/work/musicvideos/marcstatz-yh/thumb_16-9.jpg
 tags:
-- motion graphics
-- music video
+- motion-graphics
+- music-video
 
 ---
 

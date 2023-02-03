@@ -3,8 +3,8 @@ layout: post
 title:  Marc Statz - Catharsis
 image: /assets/images/work/musicvideos/marcstatz-darktrapbeat/subwayfar.jpg
 tags:
-- motion graphics
-- music video
+- motion-graphics
+- music-video
 
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title:  Motioncollab one
 image: /assets/images/work/other/rAfterEffects.png
 tags:
-- motion graphics
+- motion-graphics
 - motioncollabs
 ---
 

@@ -3,8 +3,8 @@ layout: post
 title:  AlKaT - Re:Insane
 image: /assets/images/work/musicvideos/alkat_insane.png
 tags:
-- motion graphics
-- music video
+- motion-graphics
+- music-video
 ---
 <div class="vid" > <iframe width="640" height="360" src="https://player.vimeo.com/video/200781171" frameborder="0" allowfullscreen></iframe></div>
 I worked with [AlKaT](http://slykuiper.com/alkat) to create an animated music video for his release "Re:Insane", published through [Vocallective Records](http://store.vocallective.net/album/re-insane).

@@ -3,8 +3,7 @@ layout: post
 title:  Plutonium
 image: /assets/images/work/intros/pluto_bg_smg.png
 tags:
-- motion graphics
-- intro
+- motion-graphics
 - gaming
 ---
 

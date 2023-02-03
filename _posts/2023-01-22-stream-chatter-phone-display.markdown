@@ -4,7 +4,7 @@ title:  Stream Chatter Phone Display
 description: Show your latest stream chatter on a physical display.
 date:   2023-01-22 00:00:00 +0000
 image:  '/assets/chatter/thumb.png'
-tags:   [tool, api, streamlabs]
+tags:   [tool, api, streamlabs, livestreaming]
 ---
 There's a lot of different ways that a creator's live audience can engage with them. Using Node.js, the [Twitch API](https://dev.twitch.tv/docs/api/) and the [Streamlabs API](https://dev.streamlabs.com/) I programmed a rudimentary widget that let's creators display a viewer's profile picture & name on their phone so they can show it in their webcams. 
 

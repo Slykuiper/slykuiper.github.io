@@ -3,8 +3,7 @@ layout: post
 title:  React Screencast
 image: /assets/images/work/intros/react-screencast.png
 tags:
-- motion graphics
-- intro
+- motion-graphics
 ---
 I created an intro for [React Screencast](https://www.reactscreencast.com/), an online video series educating people about advanced Javascript and React topics.
 

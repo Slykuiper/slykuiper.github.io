@@ -4,7 +4,7 @@ title:  Pride Collection Twitch Panels
 description: A free collection of 2000+ LGBTQ+ friendly twitch panels.
 date:   2023-01-13 00:00:00 +0000
 image:  '/assets/resources/pride collection/pride-collection-thumb.png'
-tags:   [free, twitch panels, pride, collection]
+tags:   [free, twitch-panels, pride, collection, livestreaming]
 ---
 A free collection of 2000+ LGBTQ+ friendly twitch panels. Each panel theme comes with 202 panels covering almost any platform or use-case. Each theme also includes a blank panel in case you want to make additional panels. This collection features the following themes:
 

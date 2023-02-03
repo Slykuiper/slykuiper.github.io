@@ -3,8 +3,8 @@ layout: post
 title:  AlKaT - Never Good Enough
 image: /assets/images/work/musicvideos/alkat-nge.png
 tags:
-- motion graphics
-- music video
+- motion-graphics
+- music-video
 ---
 
 2 years ago [AlKaT](https://slykuiper.com/alkat/) released [Never Good Enough Ft. Daisy](https://soundcloud.com/4lka7/never-good-enough-ft-daisy), a dark electronic track conveying the idea that no matter what you do, you're never good enough. I tried to capture that feeling with a moody cityscape featuring a drone tracking the character's movements.

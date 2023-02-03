@@ -4,7 +4,7 @@ title:  Bodymovin'
 image: /assets/images/work/other/bodymovin.png
 
 tags:
-- motion graphics
+- motion-graphics
 
 bodymovins:
   - 4bar

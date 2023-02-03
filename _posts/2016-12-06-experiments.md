@@ -3,7 +3,7 @@ layout: post
 title:  Experiments
 image: /assets/images/work/everydays/2016/12-24-2016.png
 tags:
-- motion graphics
+- motion-graphics
 
 everydaysgrid:
   - var1: rm circuit 02</br>1/13/2017

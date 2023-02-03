@@ -3,7 +3,7 @@ layout: post
 title:  Walkcycles and Psychedelics
 image: /assets/images/work/other/rAfterEffects-collab3-sly1.png
 tags:
-- motion graphics
+- motion-graphics
 - motioncollabs
 ---
 It's been a while! I'm a little late getting around to posting about these collabs, but I thought I'd provide writeups nonetheless. They were fun projects that might be of benefit to someone if I gave a little insight into them. If you're unfamiliar with the first collab, [check it out here](http://slykuiper.com/MOTIONCOLLAB1/). Regardless of skill level, if you're interested in participating in the next collab, check out the /r/aftereffects subreddit.  

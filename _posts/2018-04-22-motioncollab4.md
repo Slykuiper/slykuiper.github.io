@@ -3,7 +3,7 @@ layout: post
 title:  Quilts
 image: /assets/images/work/other/motioncollab4.jpg
 tags:
-- motion graphics
+- motion-graphics
 - motioncollabs
 ---
 With **forty** participants this time around, we present the fourth motioncollab! This one is Quilts, where we divided into nine groups and explored various movie genres. The genres we chose for this collaboration were 80s Action Movies, Adventure, Crime, Fantasy, Horror, Romantic-Comedy, Superhero, Science-Fiction, and Western. You can read more about the project and find credits listed on the [vimeo page](https://vimeo.com/265902525). Give the [motioncollabs](https://vimeo.com/motioncollabs) channel a follow as well!

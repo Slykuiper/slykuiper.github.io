@@ -4,7 +4,7 @@ title:  Streamlabs Alert Box Creator
 description: Dynamic and powerful Alert Box creator tool.
 date:   2023-01-18 00:00:00 +0000
 image:  '/assets/resources/alert box creator/thumb.jpg'
-tags:   [tool, streamlabs]
+tags:   [tool, streamlabs, livestreaming]
 ---
 The [Alert Box](https://streamlabs.com/desktop-widgets/alert-box) is a widget from [Streamlabs](https://streamlabs.com/) that displays a graphic every time viewers engage with a creator's channel - following their channel, subscribing, or tipping the creator. I created an Alert Box Creator tool that gives designers a more intuitive way to have granular control over settings when setting up an Alert Box Theme. 
 
