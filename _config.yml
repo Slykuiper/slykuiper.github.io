@@ -29,7 +29,7 @@ social:
 # Hero Settings
 hero:
   hero__title: Corbin Scott
-  hero__description: Designer showcasing their work & sharing resources for creators.
+  hero__description: Designer showcasing their work & sharing resources for others.
   hero__image: '/assets/pfp_2_half.jpg'
 
 
