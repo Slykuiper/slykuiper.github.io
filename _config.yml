@@ -82,7 +82,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
 
-paginate: 9
+paginate: 15
 paginate_path: "/page/:num"
 
 # Pages Path

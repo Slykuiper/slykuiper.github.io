@@ -6,6 +6,13 @@ image: '/assets/pfp_2_half.jpg'
 {% include hero.html %}
 
 <div class="container">
+  <div class="row">
+    <div class="col col-12">
+      <div class="section__head">
+        <h3 class="section__title">Posts</h3>
+      </div>
+    </div>
+  </div>
   <div class="row animate">
     {% if site.posts.size > 0 %}
       {% for post in paginator.posts %}
