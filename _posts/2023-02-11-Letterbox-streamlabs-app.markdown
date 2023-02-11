@@ -8,9 +8,9 @@ tags:   [tool, api, streamlabs, livestreaming]
 ---
 ### Introduction
 
-I'm not a software engineer by profession - I like creating graphics and making them move. But I've picked up a lot of programming knowledge over the years making video game mods, web sites, and scripts for After Effects. I've tinkered with custom-coded [widgets](https://streamlabs.com/widgets) in Streamlabs and naturally thought the next extension of that is creating an [App for Streamlabs Desktop](https://streamlabs.com/app-store). 
+I'm not a software engineer by profession - I like creating graphics and making them move. But I've picked up some programming knowledge over the years making video game mods, web sites, and scripts for After Effects. I've tinkered with custom-coded [widgets](https://streamlabs.com/widgets) in Streamlabs and naturally thought the next extension of that was learning how to create an [App for Streamlabs Desktop](https://streamlabs.com/app-store). 
 
-[The Streamlabs Platform docs](https://slobs-platform.readme.io/docs) are a great resource to get started. It shows you how to create a basic app that responds to the Streamlabs API. 
+[The Streamlabs Platform docs](https://slobs-platform.readme.io/docs) are a great resource to get started. It shows you how to create a basic app that responds to the Streamlabs API. This page is a short explanation of the first basic Streamlabs app I've made for anyone whose curious to learn more about the app developement process, without completely diving in on their own.
 
 In October 2022, I created a basic app called "Letterbox", that let's chat control the height, transition speed, and color of a Letterbox that a streamer adds to their scene in Streamlabs Desktop. There's no purpose for something like this beyond coding practice and something chat can change on stream, but it should inspire some more-interesting ideas for anyone reading this. Source Code is available at the bottom of the page.
 
