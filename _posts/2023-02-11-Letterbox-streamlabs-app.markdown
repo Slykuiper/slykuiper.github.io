@@ -67,6 +67,8 @@ streamlabs.onChatMessage(function(event) {
 });
 {% endhighlight %}
 
+This is pretty much the bulk of how it works. It responds to chat input by changing CSS properties on two rectangle elements.
+
 <div class="gallery-box">
   <div class="gallery">
     <img src="/assets/slapps/letterbox-source.png">
