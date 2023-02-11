@@ -91,4 +91,4 @@ These apps include an App Settings page that is only visible to the streamer. I 
 ***
 
 ### Source Code
-The full source of this project is available here. It should give a bit more insight on this project or serve is a base for basic tinkering. 
+The full source of this project is [available on GitHub](https://github.com/Slykuiper/Letterbox). It should give a bit more insight on this project or serve is a base for basic tinkering. 
