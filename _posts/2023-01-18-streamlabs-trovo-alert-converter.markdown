@@ -8,14 +8,9 @@ tags: [streamlabs, tool, livestreaming]
 ---
 Designers that create Alert Box themes in the industry primarily focus on the big platforms - Twitch & YouTube. These platforms draw the most concurrent viewership and have the largest userbase of creators. However, there are smaller emerging platforms like Trovo that can be a promising source of potential clients for designers looking to expand their reach. With a few short clicks, designers can now easily convert their Twitch Alert Box themes to support Trovo as well. 
 
-I created the [Streamlabs Trovo Alert Converter](https://codepen.io/Slykuiper/full/wvmbZzg) on CodePen which converts your Twitch Alert Box settings to Trovo in one click. All you need to do is grab your Twitch settings (see how by clicking the Tutorial hyperlink in the CodePen) and paste it in the field, then click Convert Alert. Head back to your Streamlabs Dashboard, switch platforms to Trovo and paste your resulting code via DevTools.
+I created the [Streamlabs Trovo Alert Converter]({{site.baseurl}}/tools/trovo-alert-converter/) on CodePen which converts your Twitch Alert Box settings to Trovo in one click. All you need to do is grab your Twitch settings (see how by clicking the Tutorial hyperlink in the CodePen) and paste it in the field, then click Convert Alert. Head back to your Streamlabs Dashboard, switch platforms to Trovo and paste your resulting code via DevTools.
 
-<p class="codepen" data-height="736.3636169433594" data-default-tab="result" data-slug-hash="wvmbZzg" data-user="Slykuiper" style="height: 736.3636169433594px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/Slykuiper/pen/wvmbZzg">
-  Twitch to Trovo Alert Converter</a> by Corbin Scott (<a href="https://codepen.io/Slykuiper">@Slykuiper</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+[View Trovo Alert Converter]({{site.baseurl}}/tools/trovo-alert-converter/)
 
 
 
@@ -26,7 +21,7 @@ Setting up Alert Box themes can be pretty tedious when there's pages full of rep
 - Subscriber
 - Raid
 
-It made me wonder if it was possible to speed up a workflow since a designer doesn't need to create any new animations for this platform. Work on this tool took some time since it was my first dive into jQuery, but the foundation built on jQuery, JSON, and fetch requests lead me to create the more advanced [Alert Box Creator](/streamlabs-alert-box-creator/) tool that I released as well. 
+It made me wonder if it was possible to speed up a workflow since a designer doesn't need to create any new animations for this platform. Work on this tool took some time since it was my first dive into jQuery, but the foundation built on jQuery, JSON, and fetch requests lead me to create the more advanced [Alert Box Creator](/streamlabs-alert-box-creator/) tool that I shortly after. 
   
 ![Trovo Converter]({{site.baseurl}}/assets/resources/trovo converter/wide-img.jpg#wide)
 *Background Photo by [Jenn Buxton](https://unsplash.com/photos/VbehmJNj5Tc) on [Unsplash](https://unsplash.com/)*

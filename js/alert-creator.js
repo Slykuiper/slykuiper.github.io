@@ -899,7 +899,7 @@ function saveAlertBox() {
       
       if(key.includes("_custom_html") && !key.includes("_enabled")) {
         var newHTML1 = allSettings[key];
-        if (newHTML1 == "") {
+        if (!newHTML1) {
           allSettings[key] = null;
         } else {
           var newHTMLKey = newHTML1.replace(/\"/g, '~3qt~').replace(/\n/g, "\\n").replace(/\t/g, "\\t");
@@ -909,7 +909,7 @@ function saveAlertBox() {
 
       if(key.includes("_custom_js") && !key.includes("_json")) {
         var newJS1 = allSettings[key];
-        if (newJS1 == "") {
+        if (!newJS1) {
           allSettings[key] = null;
         } else {
           var newJSKey = newJS1.replace(/"/g, '~3qt~').replace(/\n/g, '\\n');
@@ -919,7 +919,7 @@ function saveAlertBox() {
 
       if(key.includes("_custom_json")) {
         var newJSON = allSettings[key];
-        if (newJSON == "") {
+        if (!newJSON) {
           allSettings[key] = null;
         } else {
           allSettings[key] = JSON.parse(newJSON);
@@ -928,7 +928,7 @@ function saveAlertBox() {
       
       if(key.includes("_custom_css")) {
         var newCSS1 = allSettings[key];
-        if (newCSS1 == "") {
+        if (!newCSS1) {
           allSettings[key] = null;
         } else {
           var newCSSKey = newCSS1.replace(/\n/g, "\\n").replace(/\t/g, "\\t");
