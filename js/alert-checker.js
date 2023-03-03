@@ -39,7 +39,7 @@ $( document ).ready(function() {
           if (alertSettingsObj[key].length >= 1) {
             eventImageURL = alertSettingsObj[key];
           } else {
-            eventImageURL = "https://slykuiper.com/assets/resources/alert checker/image-not-found.png";
+            eventImageURL = `https://slykuiper.com/assets/resources/alert%20checker/image-not-found.png`;
           }
           
           let eventSoundURL = alertSettingsObj[eventSetting + "_sound_href"];
