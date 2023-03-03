@@ -162,8 +162,8 @@
 .expand, .expand-code {
   display: inline-block;
   background-color: #4F5E65;
-  width: 20px;
-  height: 20px;
+  width: 35px;
+  height: 35px;
   text-align: center;
   margin-right: 0.5em;
   cursor: pointer;
@@ -174,8 +174,8 @@
 
 .entry {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 35px;
+  height: 35px;
   text-align: center;
   margin-right: 0.5em;
   cursor: pointer;
@@ -334,6 +334,12 @@
   text-align: center;
   cursor: pointer;
   font-size: 16px;
+}
+
+.toolset {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 1em;
 }
 
 .locked {
@@ -570,8 +576,13 @@ label {
 
 .event-image-name, .event-sound-name {
   margin-top: 4px;
+  cursor: pointer;
 }
 
+.tool-info {
+  margin: 0;
+  padding-top: 1em;
+}
 .event-video {
   max-width: 100%;
   height: auto;
@@ -581,3 +592,34 @@ label {
 .hidden {
   display: none;
 }
+
+.event-streamlabs {
+  background-color: #80f5d2 !important;
+  color: #09161d !important;
+}
+
+.event-yt {
+  background-color: #ff0000 !important;
+  color: #ffffff !important;
+}
+
+.event-twitch {
+  background-color: #8e42fe !important;
+  color: #ffffff !important;
+}
+
+.event-trovo {
+  background-color: #32c27c !important;
+  color: #ffffff !important;
+}
+
+.event-fb {
+  background-color: #1877f2 !important;
+  color: #ffffff !important;
+}
+
+.event-3p {
+  background-color: #a96311 !important;
+  color: #ffffff !important;
+}
+
