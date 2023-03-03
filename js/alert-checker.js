@@ -1,8 +1,3 @@
-/* 
-  TODO
-    - variation support
-*/
-
 $( document ).ready(function() {
   var saveTextArea = $(".form-fetch-settings").find("textarea");
 
