@@ -113,10 +113,10 @@ $( document ).ready(function() {
                 let eventTypeClass = `<p class="event-type">${eventName}</p>`;
 
                 
-                if (!eventImageURL.includes("https://")) {
+                if (!eventImageURL.includes("https://") || !eventImageURL.includes("http://")) {
                   eventImageURL = "https://streamlabs.com" + eventImageURL;
                 }
-                if (!eventSoundURL.includes("https://")) {
+                if (!eventSoundURL.includes("https://")  || !eventSoundURL.includes("http://")) {
                   eventSoundURL = "https://streamlabs.com" + eventSoundURL;
                 }
                 if (eventImageType == "gif" || eventImageType == "png" || eventImageType == "jpg") {
