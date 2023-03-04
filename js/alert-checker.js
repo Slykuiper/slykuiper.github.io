@@ -18,8 +18,8 @@ $( document ).ready(function() {
       alertObj = JSON.parse(fetchCommand);
       alertSettingsObj = JSON.parse(alertObj["body"]);
       var eventList = {}
-      var eventNames = {"donation": "Donation", "merch": "SL Merch", "loyalty_store_redemption": "Cloudbot Redemption", "prime_sub_gift": "SL Ultra Gift", "streamlabscharitydonation": "SL Charity", "follow": "Twitch Follow", "sub": "Twitch Sub", "resub": "Twitch Resub", "host": "Twitch Host", "bits": "Twitch Bits", "raid": "Twitch Raid", "subscriber": "YT Sub", "sponsor": "YT Member", "fanfunding": "YT Super Chat", "facebook_follow": "FB Follow", "facebook_stars": "FB Stars", "facebook_like": "FB Like", "facebook_support": "FB Support", "facebook_support_gifter": "FB Support Gifter", "facebook_share": "FB Share", "trovo_follow": "Trovo Follow", "trovo_sub": "Trovo Sub", "trovo_raid": "Trovo Raid", "pledge": "Pledge", "sponsored_campaign": "Sponsored Campaign", "donordrivedonation": "Charity Streaming Donations", "eldonation": "Extra Life", "tiltifydonation": "Tiltify", "treat": "Treats", "justgivingdonation": "JustGiving", "gamewispsubscription": "Game Wisp"};
-      var eventTypes = {"donation": "Streamlabs", "merch": "Streamlabs", "loyalty_store_redemption": "Streamlabs", "prime_sub_gift": "Streamlabs", "streamlabscharitydonation": "Streamlabs", "follow": "Twitch", "sub": "Twitch", "resub": "Twitch", "host": "Twitch", "bits": "Twitch", "raid": "Twitch", "subscriber": "YT", "sponsor": "YT", "fanfunding": "YT", "facebook_follow": "FB", "facebook_stars": "FB", "facebook_like": "FB", "facebook_support": "FB", "facebook_support_gifter": "FB", "facebook_share": "FB", "trovo_follow": "Trovo", "trovo_sub": "Trovo", "trovo_raid": "Trovo", "pledge": "3P", "sponsored_campaign": "3P", "donordrivedonation": "3P", "eldonation": "3P", "tiltifydonation": "3P", "treat": "3P", "justgivingdonation": "3P", "gamewispsubscription": "3P"};
+      var eventNames = {"donation": "Donation", "merch": "SL Merch", "loyalty_store_redemption": "Cloudbot Redemption", "prime_sub_gift": "SL Ultra Gift", "streamlabscharitydonation": "SL Charity", "follow": "Twitch Follow", "sub": "Twitch Sub", "resub": "Twitch Resub", "host": "Twitch Host", "bits": "Twitch Bits", "bit": "Twitch", "raid": "Twitch Raid", "subscriber": "YT Sub", "sponsor": "YT Member", "fanfunding": "YT Super Chat", "facebook_follow": "FB Follow", "facebook_stars": "FB Stars", "facebook_like": "FB Like", "facebook_support": "FB Support", "facebook_support_gifter": "FB Support Gifter", "facebook_share": "FB Share", "trovo_follow": "Trovo Follow", "trovo_sub": "Trovo Sub", "trovo_raid": "Trovo Raid", "pledge": "Pledge", "sponsored_campaign": "Sponsored Campaign", "donordrivedonation": "Charity Streaming Donations", "eldonation": "Extra Life", "tiltifydonation": "Tiltify", "treat": "Treats", "justgivingdonation": "JustGiving", "gamewispsubscription": "Game Wisp"};
+      var eventTypes = {"donation": "Streamlabs", "merch": "Streamlabs", "loyalty_store_redemption": "Streamlabs", "prime_sub_gift": "Streamlabs", "streamlabscharitydonation": "Streamlabs", "follow": "Twitch", "sub": "Twitch", "resub": "Twitch", "host": "Twitch", "bits": "Twitch", "bit": "Twitch", "raid": "Twitch", "subscriber": "YT", "sponsor": "YT", "fanfunding": "YT", "facebook_follow": "FB", "facebook_stars": "FB", "facebook_like": "FB", "facebook_support": "FB", "facebook_support_gifter": "FB", "facebook_share": "FB", "trovo_follow": "Trovo", "trovo_sub": "Trovo", "trovo_raid": "Trovo", "pledge": "3P", "sponsored_campaign": "3P", "donordrivedonation": "3P", "eldonation": "3P", "tiltifydonation": "3P", "treat": "3P", "justgivingdonation": "3P", "gamewispsubscription": "3P"};
       
       console.log(alertSettingsObj);
       const keys = Object.keys(alertSettingsObj);
@@ -37,10 +37,15 @@ $( document ).ready(function() {
           } else {
             eventImageURL = `https://slykuiper.com/assets/resources/alert%20checker/image-not-found.png`;
           }
-          
-          let eventSoundURL = alertSettingsObj[eventSetting + "_sound_href"];
+          let eventSoundURL, eventSoundName;
+          if (eventSoundURL != null) {
+            eventSoundURL = alertSettingsObj[eventSetting + "_sound_href"];
+            eventSoundName = eventSoundURL.substring(eventSoundURL.lastIndexOf('/')+1);
+          } else {
+            eventSoundURL = "";
+            eventSoundName = "";
+          }
           let eventImageName = eventImageURL.substring(eventImageURL.lastIndexOf('/')+1);
-          let eventSoundName = eventSoundURL.substring(eventSoundURL.lastIndexOf('/')+1);
           let eventImageType = eventImageURL.substring(eventImageURL.lastIndexOf('.')+1);
           let eventImageDiv;
           let eventTypeClass = `<p class="event-type">${eventName}</p>`;
