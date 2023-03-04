@@ -81,8 +81,8 @@ $( document ).ready(function() {
             <li class="event-item">
               ${eventTypeClass}
               <div class="event-files">
-                <a class="event-image-name" href=${eventImageURL}>${eventImageName}</a>
-                <a class="event-sound-name" href=${eventSoundURL}>${eventSoundName}</a>
+                <a class="event-image-name" href=${eventImageURL} target="_blank">${eventImageName}</a>
+                <a class="event-sound-name" href=${eventSoundURL} target="_blank">${eventSoundName}</a>
               </div>
               ${eventImageDiv}
             </li>`;
