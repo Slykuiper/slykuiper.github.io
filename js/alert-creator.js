@@ -80,7 +80,6 @@ $( document ).ready(function() {
   $("#m-layout-input-banner").prop("checked", true);
   
   $("div.expand").on("click", function( event ) {
-    console.log("click!");
     $(this).find("i").toggleClass("fa-plus");
     $(this).find("i").toggleClass("fa-minus");
     
@@ -625,7 +624,7 @@ function saveAlertBox() {
       });
     });
 
-    $("div.code-setting").find(".container > textarea").each(function() {
+    $("div.code-setting").find(".tool-container > textarea").each(function() {
       var settingName = "";
       var settingValue = "";
       var dataType = $(this).parents(".setting-row").attr("data-type");
@@ -850,6 +849,7 @@ function saveAlertBox() {
       allSettings[event + "_message_font_color"] = settingAlertEvents[event + "_message_font_color"];
       allSettings[event + "_message_allow_emotes"] = true;
     });
+
     // if editable settings aren't defined, pull from defaults
     const keys = Object.keys(allSettings);
     for (let i = 0; i < keys.length; i++) {
@@ -936,6 +936,7 @@ function saveAlertBox() {
         }
       }
     }
+    console.log("custom html: " + settingsAlertDefaults["main_custom_html"]);
 
     $(".form").find("*").each(function() {
       if ($(this).attr("id") == "twitch") {
