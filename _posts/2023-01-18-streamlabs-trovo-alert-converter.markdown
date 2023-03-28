@@ -8,7 +8,7 @@ tags: [streamlabs, tool, livestreaming]
 ---
 Designers that create Alert Box themes in the industry primarily focus on the big platforms - Twitch & YouTube. These platforms draw the most concurrent viewership and have the largest userbase of creators. However, there are smaller emerging platforms like Trovo that can be a promising source of potential clients for designers looking to expand their reach. With a few short clicks, designers can now easily convert their Twitch Alert Box themes to support Trovo as well. 
 
-I created the [Streamlabs Trovo Alert Converter]({{site.baseurl}}/tools/trovo-alert-converter/) on CodePen which converts your Twitch Alert Box settings to Trovo in one click. All you need to do is grab your Twitch settings (see how by clicking the Tutorial hyperlink in the CodePen) and paste it in the field, then click Convert Alert. Head back to your Streamlabs Dashboard, switch platforms to Trovo and paste your resulting code via DevTools.
+I created the [Streamlabs Trovo Alert Converter]({{site.baseurl}}/tools/trovo-alert-converter/) which converts your Twitch Alert Box settings to Trovo in one click. All you need to do is grab your Twitch settings (check the guide in the top-right of the link below) and paste it in the field, then click Convert Alert. Head back to your Streamlabs Dashboard, switch platforms to Trovo and paste your resulting code via DevTools.
 
 [View Trovo Alert Converter]({{site.baseurl}}/tools/trovo-alert-converter/)
 

@@ -30,4 +30,4 @@ All settings are the same except for the ones under the Image setting. The other
 
 If you're a designer creator Alert Box Themes in the space, I recommend creating accounts on Twitch, YouTube, Trovo, Facebook, and StreamlabsCharity. Then merging them to your account under [Account Settings](https://streamlabs.com/dashboard#/settings/account-settings/platforms). This way you're supporting a wider range of platforms & integrations for the Alert Box with ease, expanding your clientbase. 
 
-There's a short video demonstrating in the top-right of the tool on CodePen that shows it in action. CodePen doesn't have an uploader component, so you'll have to upload media to the Streamlabs Media Gallery like normal, then copy the link and paste it in the CodePen. 
+There's a short video demonstrating in the top-right of the tool that shows it in action. You'll have to upload media to the Streamlabs Media Gallery like normal, then copy the link and paste it in the tool. 
