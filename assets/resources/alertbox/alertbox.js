@@ -263,7 +263,7 @@ function setVisibility(duration, hide_animation, parentEl) {
   } else {
     return new Promise(resolve => {
       setTimeout(() => {
-        console.log(parentEl);
+        //console.log(parentEl);
         $(parentEl)[0].classList.remove('animated', hide_animation);
         $(parentEl)[0].classList.add('hidden');
         $(parentEl)[0].innerHTML = '';
@@ -278,7 +278,7 @@ function setEventList(event, message) {
     $('.event-item')[0].remove();
   }
 
-  console.log(`event: ${event}`);
+  //console.log(`event: ${event}`);
   let eventItem = document.createElement('div');
   eventItem.classList.add('event-item');
   $('.eventlist')[0].insertAdjacentElement('beforeend', eventItem);
