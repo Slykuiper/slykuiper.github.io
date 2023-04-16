@@ -1,0 +1,121 @@
+/* Start Helpers */
+
+html  {
+    --degree1: 0deg;
+    --degree2: 0deg;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.widget-AlertBox, #wrap {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+}
+
+html, body, #wrap {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#wrap {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+#alert-box {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/* End Helpers */
+
+#alert-box.hidden,
+.hidden {
+    opacity: 0;
+}
+
+#alert-message,
+#alert-user-message {
+    text-align: center;
+}
+#alert-user-message img {
+    vertical-align: middle;
+    height: 1em;
+}
+#alert-image {
+    position: relative;
+}
+#alert-image video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#alert-message > span > span {
+    display: inline-block;
+}
+
+#alert-message {
+    background: rgb(1,1,8);
+    background: linear-gradient(var(--degree1), rgba(1,1,8,1) 0%, rgb(24, 30, 102) 100%);
+    border-radius: 100px;
+    border: 2px solid rgba(255,255,255,0.5);
+    padding: 32px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px !important;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+#alert-event {
+    background: rgb(1,1,8);
+    background: linear-gradient(var(--degree2), rgba(1,1,8,1) 0%, rgb(59 65 133) 100%);
+    border-radius: 27px;
+    border: 2px solid rgba(255,255,255,0.5);
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    display: none;
+    color: #FFFFFF;
+    opacity: 0;
+    text-transform: capitalize;
+}
+
+#alert-image {
+    z-index: 6;
+    position: relative;
+}
+
+#alert-text {
+    z-index: 6;
+    position: relative;
+}
+
+#alert-text-wrap {
+    z-index: 6;
+    position: relative;
+}
+
+#alert-text-inner {
+    text-align: center;
+    opacity: 0;
+}

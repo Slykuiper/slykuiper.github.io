@@ -1,0 +1,76 @@
+---
+layout: page
+title: Widget Documentation
+permalink: /widget-documentation/
+---
+
+CSS - targets "name" token and applies value from Custom Field
+{% highlight css %}
+[data-token="name"] {
+  color: {colorRGB} !important;
+  font-weight: 900;
+}
+{% endhighlight %}
+
+JS - load external scripts
+{% highlight js %}
+$(document).ready(function(){
+  const scripts = ['https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.0/velocity.min.js'];
+  let fetchedStatus = {};
+  scripts.forEach(script => fetchedStatus[script] = false);
+
+  // ensure necessary external scripts are loaded and available
+  function ensureDependencies() {
+    return new Promise((resolve, reject) => {
+      // check if scripts have already been fetched
+      if (Object.values(fetchedStatus).every(script => script)) {
+        resolve();
+      } else {
+      // request all scripts provided
+        Promise.all(scripts.map(script => getScriptPromise(script))).then(() => { 
+          resolve();
+        }).catch(reason => { 
+          reject(reason);
+        });
+      }
+    });
+  }
+
+  // wrap $.getScript in promise, fetch a single script
+  function getScriptPromise(script) {
+    return new Promise((resolve, reject) => {
+      $.getScript(script).done(() => {
+      // store successful fetch
+      fetchedStatus[script] = true;
+      resolve();
+      }).fail(() => {
+        reject(`external javascript error: script ${script} failed to load`);
+      });
+    });
+  }
+  
+  ensureDependencies().then(() => {
+    alertAppear();
+  });
+});
+{% endhighlight %}
+
+Alertbox - Event Listeners
+{% highlight js %}
+  window.addEventListener("message",  function(obj) {
+    if (obj.data.type === 'display' ) {
+        console.log(obj.data);
+    }
+  });
+{% endhighlight %}
+
+
+JS - Goal Event Listeners
+{% highlight js %}
+  function eventListener(e) {
+    updateData(e.detail);
+  }
+  document.addEventListener('goalLoad', eventListener);
+  document.addEventListener('goalEvent', eventListener);
+{% endhighlight %}
+

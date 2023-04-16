@@ -31,29 +31,32 @@ layout: default
           {% endif %}
   
         </div>
+        {% if page.download %}
         <div class="panel__download">
             <a href="{{ page.download }}" class="panel__button" target="_blank">Download 200+ Panels</a>
         </div>
+        {% endif %}
       </div>
     </div>
   </div>
 </div>
 
 <!-- begin panel array -->
+{% if page.panels.size >= 1 %}
+{% for panel in page.panels %}
 
 <div class="container animate">
   <div class="row">
-    {% if page.panels.size >= 1 %}
-      {% for panel in page.panels %}
       <div class="col col-3 col-d-6 col-m-12">
         <a href="" class="panel-gallery-image">
           <img class="lazy" title="{{ panel }} Panel" alt="{{ panel }} Panel from {{ page.title }} Theme." data-src="{{ site.baseurl }}{{ page.paneldir }}{{ panel }}.png">
         </a>
       </div>
-      {% endfor %}
-    {% endif %}
   </div>
 </div>
+
+{% endfor %}
+{% endif %}
 
 <!-- end pannel array -->
 

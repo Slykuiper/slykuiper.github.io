@@ -9,6 +9,31 @@ $mobile:  576px;
 
 $mq: ( $mobile:$columns, $tablet:$columns, $desktop:$columns );
 
+.container-wide, .widget-wrap {
+  max-width: 1600px;
+  padding-left: $container-offset;
+  padding-right: $container-offset;
+  margin: 0 auto;
+
+  @media only screen and (max-width: 1600px) {
+    max-width: 1500px;
+  }
+
+  @media only screen and (max-width: $desktop) {
+    max-width: 740px;
+  }
+
+  @media only screen and (max-width: $tablet) {
+    max-width: 560px;
+  }
+
+  @media only screen and (max-width: $mobile) {
+    max-width: 480px;
+    padding-left: calc(#{$container-offset} + 4px);
+    padding-right: calc(#{$container-offset} + 4px);
+  }
+}
+
 .container {
   max-width: $container-base-width;
   padding-left: $container-offset;
@@ -152,5 +177,4 @@ $mq: ( $mobile:$columns, $tablet:$columns, $desktop:$columns );
       }
     }
   }
-
 }
