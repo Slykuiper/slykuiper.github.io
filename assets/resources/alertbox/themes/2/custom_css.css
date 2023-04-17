@@ -76,7 +76,7 @@ html, body, #wrap {
 #alert-message {
     background: rgb(1,1,8);
     background: linear-gradient(var(--degree1), rgba(1,1,8,1) 0%, rgb(24, 30, 102) 100%);
-    border-radius: 100px;
+    border-radius: 2em;
     border: 2px solid rgba(255,255,255,0.5);
     padding: 32px;
     font-family: 'Roboto', sans-serif;
@@ -88,7 +88,7 @@ html, body, #wrap {
 #alert-event {
     background: rgb(1,1,8);
     background: linear-gradient(var(--degree2), rgba(1,1,8,1) 0%, rgb(59 65 133) 100%);
-    border-radius: 27px;
+    border-radius: 4em;
     border: 2px solid rgba(255,255,255,0.5);
     padding: 10px 20px;
     font-family: 'Roboto', sans-serif;

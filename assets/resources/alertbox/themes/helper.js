@@ -3,9 +3,10 @@ const iFrameParams = new URLSearchParams(iFrameURL.search);
 const eventType = iFrameParams.get("event");
 const username = iFrameParams.get("username");
 
-const messageTemplates = {"donation": `{name} tipped {amount}!`, "merch": `{name} bought {product}`, "loyalty_store_redemption": `{name} redeemed {product}!`, "prime_sub_gift": `{name} gifted {giftType} Ultra subscription to {streamer}`, "streamlabscharitydonation": `{name} donated {amount} via Streamlabs charity`, "follow": `{name} is now following!`, "sub": `{name} just subscribed!`, "resub": `{name} subscribed for {months} months!`, "host": `{name} is now hosting my stream with {count} viewers!`, "bits": `{name} cheered! x{amount}`, "raid": `{name} is raiding with a party of {count}!`, "subscriber": `{name} just subscribed!`, "sponsor": `{name} became a member!`, "fanfunding": `{name} tipped {amount} via Super Chat!`, "facebook_follow": `{name} is now following!`, "facebook_stars": `{name} has sent {amount} stars!`, "facebook_like": `{name} liked the stream!`, "facebook_support": `{name} has subscribed!`, "facebook_support_gifter": `{gifter} has gifted {count} subs!`, "facebook_share": `{name} has shared the stream!`, "trovo_follow": `{name} is now following!`, "trovo_sub": `{name} just subscribed!`, "trovo_raid": `{name} is raiding with a party of {count}!`, "pledge": `{name} pledged {amount} via Patreon`, "sponsored_campaign": `{name} interacted with {campaign}`, "donordrivedonation": `{name} donated {amount} to {charityName}`, "eldonation": `{name} donated {amount} via extralife`, "tiltifydonation": `{name} donated {amount} via tiltify`, "treat": `{name} bought you a {title} treat`, "justgivingdonation": `{name} donated {amount} via JustGiving`, "gamewispsubscription": `{name} just subscribed!`};
+const messageTemplates = {"donation": `{name} tipped {amount}!`, "merch": `{name} bought {product}!`, "loyalty_store_redemption": `{name} redeemed {product}!`, "prime_sub_gift": `{name} gifted {giftType} Ultra subscription to {streamer}!`, "streamlabscharitydonation": `{name} donated {amount} via Streamlabs Charity!`, "follow": `{name} is now following!`, "sub": `{name} just subscribed!`, "resub": `{name} subscribed for {months} months!`, "host": `{name} is now hosting my stream with {count} viewers!`, "bits": `{name} cheered! x{amount}`, "raid": `{name} is raiding with a party of {count}!`, "subscriber": `{name} just subscribed!`, "sponsor": `{name} became a member!`, "fanfunding": `{name} tipped {amount} via Super Chat!`, "facebook_follow": `{name} is now following!`, "facebook_stars": `{name} has sent {amount} stars!`, "facebook_like": `{name} liked the stream!`, "facebook_support": `{name} has subscribed!`, "facebook_support_gifter": `{gifter} has gifted {count} subs!`, "facebook_share": `{name} has shared the stream!`, "trovo_follow": `{name} is now following!`, "trovo_sub": `{name} just subscribed!`, "trovo_raid": `{name} is raiding with a party of {count}!`, "pledge": `{name} pledged {amount} via Patreon!`, "sponsored_campaign": `{name} interacted with {campaign}!`, "donordrivedonation": `{name} donated {amount} to {charityName}!`, "eldonation": `{name} donated {amount} via ExtraLife!`, "tiltifydonation": `{name} donated {amount} via Tiltify!`, "treat": `{name} bought you a {title} treat!`, "justgivingdonation": `{name} donated {amount} via JustGiving!`, "gamewispsubscription": `{name} just subscribed!`};
+let eventNames = {"donation": "Donation", "merch": "Merch", "loyalty_store_redemption": "Cloudbot Redemption", "prime_sub_gift": "Ultra Gift", "streamlabscharitydonation": "Charity", "follow": "Follow", "sub": "Sub", "resub": "Resub", "host": "Host", "bits": "Bits", "raid": "Raid", "subscriber": "Sub", "sponsor": "Member", "fanfunding": "Super Chat", "facebook_follow": "Follow", "facebook_stars": "Stars", "facebook_like": "Like", "facebook_support": "Support", "facebook_support_gifter": "Support Gifter", "facebook_share": "Share", "trovo_follow": "Follow", "trovo_sub": "Sub", "trovo_raid": "Raid", "pledge": "Pledge", "sponsored_campaign": "Campaign", "donordrivedonation": "Charity", "eldonation": "Charity", "tiltifydonation": "Charity", "treat": "Treat", "justgivingdonation": "Charity", "gamewispsubscription": "Game Wisp"};
 const merchProducts = ["T-Shirt", "Mug", "Hat", "Joggers", "Hoodie", "Mousepad"];
-const usernames2 = ["Jane", "John", "Michael", "Karl", "Joshua", "Hailey"];
+const usernames2 = ["Jane", "John", "Michael", "Jeremy", "Joshua", "Hailey"];
 const charityNames = ["American Red Cross", "Project HOPE", "Feeding America", "Stand Up To Cancer", "Skate Bud", "Robotics For All"];
 const treats = ["Pizza", "Candy", "Chipotle", "Burrito", "Burger", "Nachos", "Chili", "Soup", "Sandwich"];
 const giftTypes = ["Annual", "Monthly"];
@@ -22,6 +23,7 @@ fetch(`./settings.json`)
 
 function replaceVariables() {
   let messageSettings = getMessageSettings(eventType, username);
+  let alertEventEl = document.querySelector("#alert-event");
   let alertImageEl = document.querySelector('#alert-image');
   let alertMessageEl = document.querySelector('#alert-message');
   let alertUsermessageEl = document.querySelector('#alert-user-message');
@@ -32,6 +34,10 @@ function replaceVariables() {
 
   if (alertMessageEl && alertMessageEl.textContent.includes("{messageTemplate}")) {
     alertMessageEl.textContent = alertMessageEl.textContent.replace("{messageTemplate}", messageSettings["messageTemplate"]);
+  }
+
+  if (alertEventEl && alertEventEl.textContent.includes("{event}")) {
+    alertEventEl.textContent = alertEventEl.textContent.replace("{event}", `New ${eventNames[eventType]}!`);
   }
 
   if (alertUsermessageEl && alertUsermessageEl.textContent.includes("{userMessage}")) {
@@ -61,7 +67,7 @@ function getMessageSettings(event, name) {
     if (messageTemplate.includes('{amount}')) {
       if (event === "donation" || event === "streamlabscharitydonation" || event === "fanfunding" || event === "pledge" || event === "donordrivedonation" || event === "tiltifydonation" || event === "eldonation" || event === "justgivingdonation") {
         let amount = getRandomInt(5, 200).toString() + ".00"; 
-        messageTemplate = messageTemplate.replace("{amount}", amount);
+        messageTemplate = messageTemplate.replace("{amount}", `$${amount}`);
       }
       if (event === "bits" || event === "facebook_stars") {
         let amount = getRandomInt(5, 10000).toString(); 

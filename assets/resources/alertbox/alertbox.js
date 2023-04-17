@@ -290,7 +290,7 @@ function setEventList(event, message) {
   eventPlatform.classList.add(`event-platform`);
   $('.event-item')[0].insertAdjacentElement('beforeend', eventPlatform);
 
-  if (platform === 'twitch' || platform === 'facebook' || platform === 'youtube' || platform === 'trovo') {
+  if (platform === 'twitch' || platform === 'facebook' || platform === 'youtube' || platform === 'trovo' || platform === 'streamlabs') {
     // event element
     let eventType = document.createElement('span');
     let eventName = eventNames[event];
@@ -308,8 +308,12 @@ function setEventList(event, message) {
   }
   */
 
-  let tl = gsap.timeline({ defaults: {duration: 1} })
-  tl.fromTo(".event-item", { y: '10', opacity: '0' }, { y: '0', opacity: '1', ease: "elastic.out(1, 1)" });
+  let tl = gsap.timeline({ defaults: {duration: 1, ease: "power2.out"} })
+  tl.fromTo(".event-item", { y: '25', opacity: '0' }, { y: '0', opacity: '1'});
+  if ($(".event-default").length) {
+    tl.fromTo(".event-default", {opacity: '0' }, { opacity: '1'}, "<")
+    .fromTo("html", { '--padding': 0 }, {'--padding': 10, ease: "elastic.out(1, 1)"}, '<');
+  }
 }
 
 async function setThemeImage(img) {

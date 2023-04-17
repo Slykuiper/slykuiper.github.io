@@ -7,8 +7,10 @@ layout: default
     <div class="col">
 
       <div class="col widget-wrap">
-        <h6 class="widget__title">{{ page.title | escape }}</h6>
-        <div class="eventlist"></div>
+        <div class="widget-group">
+          <div class="widget__title">{{ page.title | escape }}</div>
+          <div class="eventlist"></div>
+        </div>
         <div class="controls">
           <a id="next" class="vrview-control"><i class="ion ion-md-arrow-round-back"></i></a>
           <a id="back" class="vrview-control"><i class="ion ion-md-arrow-round-forward"></i></a>

@@ -41,21 +41,30 @@ function mainFunction() {
     }
     
     ensureDependencies().then(() => {
+        eventCheck();
         runTimeline();
     });
 }
 
 function updateElements(event) {
     let alertEventEl = document.querySelector("#alert-event");
-    console.log(event);
     if ( event.constructor === Object && Object.keys(event).length > 0 ) {
         eventSettings = event.message.message;
         //console.log(eventSettings);
         if (eventSettings.type != null) {
             let event = eventSettings.type;
-            alertEventEl.innerHTML = `${event}`;
+            alertEventEl.innerHTML = `New ${event}!`;
           alertEventEl.style.display = 'inline-block';
         }
+    } else {
+        alertEventEl.style.display = 'none';
+    }
+}
+
+function eventCheck() {
+    let alertEventEl = document.querySelector("#alert-event");
+    if (alertEventEl.innerHTML.length) {
+        alertEventEl.style.display = 'inline-block';
     } else {
         alertEventEl.style.display = 'none';
     }
@@ -67,7 +76,7 @@ function runTimeline() {
     timeline
         .fromTo('#alert-text-inner', { scale: '0.7', opacity: '0' }, { scale: '1', ease: "elastic.out(1, 1)", opacity: '1' })
         .fromTo("html", { '--degree1': 0 }, {'--degree1': 315, ease: "power2.out", duration: 2}, '<0.25')
-        .fromTo('#alert-event', { scale: '0.7', opacity: '0', y: 50}, { scale: '1', y: 15, ease: "elastic.out(1, 1)", opacity: '1' }, '<0.5')
+        .fromTo('#alert-event', { scale: '0.7', opacity: '0', y: 30}, { scale: '1', y: 10, ease: "elastic.out(1, 1)", opacity: '1' }, '<0.25')
         .fromTo("html", { '--degree2': 0 }, {'--degree2': 315, ease: "power2.out", duration: 2}, '<0.25')
         ;
     timelineDuration = timeline.duration() * 1000;
