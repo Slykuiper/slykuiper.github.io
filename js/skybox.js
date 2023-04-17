@@ -53,17 +53,6 @@ function init() {
   skybox.name = "skybox";
   scene.add(skybox);
 
-  /*
-  controls = new THREE.OrbitControls(camera, renderer.domElement);
-  controls.autoRotate = false;
-  controls.autoRotateSpeed = 2;
-  controls.enableDamping = true;
-  controls.enablePan = false;
-  controls.minDistance = 0.1;
-  controls.maxDistance = size * 1;
-  controls.target.set(0, size / 2, 0);
-  controls.update();
-  */
   document.querySelectorAll('a.vrview-control').forEach(item => {
     item.addEventListener('click', event => {
       updateCarousel(item.id);
