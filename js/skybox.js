@@ -6,11 +6,11 @@ const seg = 100;
 let loader = new THREE.TextureLoader();
 let bgCarouselItem = 0;
 const bgCarousel = [
-  '/assets/images/work/360/iw6x_Panorama.jpg',
-  '/assets/images/work/360/iw6x_mp_swamp.jpg',
-  '/assets/images/work/360/mir3.png',
+  '/assets/images/work/360/skybox-fortnite.jpg',
+  '/assets/images/work/360/skybox-anime-fortnite.jpg',
+  '/assets/images/work/360/skybox-seaofthieves.jpg',
   '/assets/images/work/360/skybox-mc.jpg',
-  '/assets/images/work/360/skybox-cod.jpg'
+  '/assets/images/work/360/skybox-mc-desert.jpg'
 ];
 
 let randomCarouselItem = bgCarousel[Math.floor(Math.random() * bgCarousel.length)];
