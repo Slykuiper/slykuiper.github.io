@@ -1,0 +1,116 @@
+---
+layout: default
+---
+
+<div class="post-head">
+  <div class="container-wide">
+    <div class="col">
+
+      <div class="col widget-wrap">
+        <div class="widget-group">
+          <div class="widget__title">{{ page.title | escape }}</div>
+          <div class="eventlist"></div>
+        </div>
+        <div class="controls">
+          <a id="next" class="vrview-control"><i class="ion ion-md-arrow-round-back"></i></a>
+          <a id="back" class="vrview-control"><i class="ion ion-md-arrow-round-forward"></i></a>
+        </div>
+        <div id="widget-frame" class="widget-AlertBox hidden">
+          <!-- main alert box window -->
+          <div id="alert-box">
+            <!-- wrap window -->
+            <div id="wrap"></div>
+          </div>
+        </div>
+        <div class="vignette"></div>
+        <div id="vrview"></div>
+      </div>
+
+      <div id="theme-id" style="display: none;">{{ page.theme-id }}</div>
+      <div class="widget__description">{{ page.widget-description }}</div>
+    </div>
+  </div>
+</div>
+
+<div class="container-wide info">
+  <div class="col">
+    <div class="widget__info">
+      <div class="widget__info-left">
+        {% if page.theme-tags.size >= 1 %}
+          <div class="widget__tags">
+            {% for tag in page.theme-tags %}
+              <a class="widget__tag">{{ tag | replace: '-', ' ' }}</a>
+            {% endfor %}
+          </div>
+        {% endif %}
+        <h1 class="widget__heading">{{ page.title | escape }}</h1>
+        {{ content }}
+        <div class="widget__content">
+          <div class="widget__selector">
+            <select name="selector" id="selector">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+          <button id="play-button" data-tilt data-tilt-scale="1.04" data-tilt-glare data-tilt-max-glare="0.5">Test Alert</button> 
+        </div>
+      </div>
+
+      <div class="widget__info-right">
+        <div class="widget-wrap-sm">
+          <div id="widget-frame-sm">
+            <!-- main alert box window -->
+            <div id="alert-box">
+              <!-- wrap window -->
+              <div id="wrap"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- begin post -->
+<div class="container animate">
+  <article class="post">
+    <div class="post__share">
+      <ul class="share__list list-reset">
+        <li class="share__item">
+          <a class="share__link share__twitter"
+            href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Twitter" rel="nofollow"><i class="ion ion-logo-twitter"></i></a>
+        </li>
+        <li class="share__item">
+          <a class="share__link share__facebook" href="https://www.reddit.com/submit?url={{ site.url }}{{ site.baseurl }}{{ page.url }}&title={{ page.title | uri_escape }}&summary={{ page.description | uri_escape }}"
+            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+            title="Share on Reddit" rel="nofollow"><i class="ion ion-logo-reddit"></i></a>
+        </li>
+      </ul>
+    </div>
+
+  </article>
+</div>
+<!-- end post -->
+
+{% include related-posts.html %}
+
+{% if site.disqus-identifier %}
+<!-- test comment -->
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        {% include disqus-comments.html %} 
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+<script src="{{ site.baseurl }}/js/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+<script src="{{ site.baseurl }}/js/webgl.js"></script>

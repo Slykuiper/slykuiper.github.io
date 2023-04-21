@@ -1,0 +1,10 @@
+---
+layout: webgl
+title: WebGL Test
+image: '/assets/resources/alertbox/themes/2/thumb.png'
+tags: [webgl, javascript, frontend]
+theme-tags: [default]
+theme-id: 1
+description: Test WebGL scene.
+---
+Test WebGL scene. 
