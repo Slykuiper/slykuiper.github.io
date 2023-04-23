@@ -1,7 +1,7 @@
 ---
 layout: widget-alertbox
 title: Gentle Mist
-image: '/assets/resources/alertbox/themes/3/thumb.png'
+image: '/assets/resources/alertbox/themes/6/thumb.png'
 tags: [widget, alert-box, livestreaming, streamlabs]
 theme-tags: [clean, purple, simple]
 theme-id: 6

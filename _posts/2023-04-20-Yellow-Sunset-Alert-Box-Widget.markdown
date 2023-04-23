@@ -1,7 +1,7 @@
 ---
 layout: widget-alertbox
 title: Yellow Sunset
-image: '/assets/resources/alertbox/themes/3/thumb.png'
+image: '/assets/resources/alertbox/themes/4/thumb.png'
 tags: [widget, alert-box, livestreaming, streamlabs]
 theme-tags: [clean, yellow, simple]
 theme-id: 4

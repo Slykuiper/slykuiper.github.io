@@ -1,7 +1,7 @@
 ---
 layout: widget-alertbox
 title: Slick Pink
-image: '/assets/resources/alertbox/themes/3/thumb.png'
+image: '/assets/resources/alertbox/themes/5/thumb.png'
 tags: [widget, alert-box, livestreaming, streamlabs]
 theme-tags: [clean, pink, simple]
 theme-id: 5
