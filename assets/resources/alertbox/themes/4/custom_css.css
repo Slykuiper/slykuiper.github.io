@@ -1,8 +1,8 @@
 /* Start Helpers */
 
 html  {
-    --degree2: 180deg;
-    --col: 100%;
+    --psuedoSize: 0px;
+    --psuedoOpacity: 0;
 }
 
 * {
@@ -74,22 +74,29 @@ html, body, #wrap {
 }
 
 #alert-message {
-    padding: 20px 20px 40px 20px;
     font-family: 'Roboto', sans-serif;
     font-size: 30px !important;
     font-weight: 600;
-    color: #FFFFFF;
+    color: #323232;
+    display: flex;
+    flex-grow: 1;
+    align-self: center;
+    align-items: center;
+    text-align: center;
 }
 
 #alert-event {
-    padding-top: 20px;
-    padding-left: 20px;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 600;
     display: none;
-    color: #FFFFFF;
+    align-self: flex-end;
+    color: rgb(255 226 100);
+    padding: 6px 14px;
+    margin: 10px;
     text-transform: capitalize;
+    background: #323232;
+    border-radius: 8px;
 }
 
 #alert-image {
@@ -111,13 +118,12 @@ html, body, #wrap {
     text-align: left;
     display: flex;
     opacity: 0;
-    align-items: center;
 }
 
 .seperator {
     position: relative;
     display: flex;
-    background: linear-gradient(-7deg, rgb(53 53 114) 0%, hsl(0, 0%, var(--col)) 100%);
+    background: linear-gradient(-7deg, rgb(53 53 114) 0%, rgb(0 1 2) 100%);
     width: 20px;
     border-radius: 1.5em;
     height: 100%;
@@ -127,9 +133,38 @@ html, body, #wrap {
 .wrap1 {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(var(--degree2), rgb(53 53 114) 0%, hsl(0, 0%, var(--col)) 100%);
+    background: linear-gradient(0deg, rgb(251 183 48) 0%, rgb(255 226 100) 100%);
     width: 550px;
-    border-radius: 1.5em;
+    border-radius: 15px;
     min-height: 200px;
-    text-shadow: 0px 7px 29px rgb(182 174 255 / 70%);
+    transform: translate(0%, 0%);
+    overflow: hidden;
+}
+
+.wrap1::before {
+    content: '';
+    display: block;
+    position: absolute;
+    transform: translate(-50%, -20%);
+    left: 85%;
+    width: var(--psuedoSize);
+    height: var(--psuedoSize);
+    opacity: var(--psuedoOpacity);
+    background: linear-gradient(0deg, #ffe163, #fbb831);
+    border-radius: 100%;
+    z-index: -2;
+}
+.wrap1::after {
+    content: '';
+    display: block;
+    position: absolute;
+    transform: translate(-50%, 0%);
+    left: 0%;
+    top: 50%;
+    width: calc(var(--psuedoSize) * 0.5);
+    height: calc(var(--psuedoSize) * 0.5);
+    opacity: var(--psuedoOpacity);
+    background: linear-gradient(180deg, #ffe163, #fbb831);
+    border-radius: 100%;
+    z-index: -2;
 }

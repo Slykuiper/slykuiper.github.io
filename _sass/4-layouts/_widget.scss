@@ -159,7 +159,6 @@ html  {
 }
 
 
-
 .widget-wrap-sm {
   background-color: var(--background-alt-color);
   height: 400px;
@@ -225,6 +224,25 @@ html  {
 
   @media only screen and (max-width: $mobile) {
     font-size: 40px;
+  }
+}
+
+.widget__heading2 {
+  font-size: 45px;
+  font-weight: 500;
+  margin-bottom: 16px;
+
+  @media only screen and (max-width: $mobile) {
+    font-size: 40px;
+  }
+}
+
+.theme-title {
+  color: var(--brand-color);
+  transition: all 500ms cubic-bezier(0.385, 0.075, 0.000, 1.005);
+
+  &:hover {
+    color: #ffffff;
   }
 }
 
@@ -452,6 +470,26 @@ html  {
   width: 100%;
   background-color: var(--brand-color);
   box-shadow: 0px -3px 14px var(--brand-color);
+}
+
+.content-placeholder {
+  display: flex; 
+  position: rleative; 
+  width: 100%; 
+  background: #2f3e54;
+  height: 400px;
+  border-radius: 8px;
+  overflow: clip;
+}
+
+.platform-img {
+  width: 100%;
+  position: relative;
+  display: flex;
+  background-image: url('/assets/resources/alertbox/img/platform-text.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Default Widget Settings */

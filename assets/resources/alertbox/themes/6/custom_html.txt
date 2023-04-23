@@ -1,0 +1,9 @@
+<div id="alert-image-wrap">
+  <div id="alert-image">{img}</div>
+</div>
+<div id="alert-text-wrap">
+  <div id="alert-text">
+    <div id="alert-message">{messageTemplate}</div>
+    <div id="alert-user-message">{userMessage}</div>
+  </div>
+</div>
