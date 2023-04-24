@@ -1,7 +1,7 @@
 {
-    "image_href": "https://cdn.streamlabs.com/library/giflibrary/Monster.gif",
+    "image_href": "",
     "text_animation": "none",
-    "sound_href": "https://cdn.streamlabs.com/users/45389631/library/Vibrant%20Alert%20Sound.ogg",
+    "sound_href": "",
     "sound_volume": 50,
     "font": "Roboto",
     "font_size": "32px",
@@ -12,6 +12,5 @@
     "text_delay": 0,
     "show_animation": "none",
     "hide_animation": "none",
-    "custom_html_enabled": true,
-    "events": ["follow", "sub", "donation", "bits", "raid", "merch"]
+    "custom_html_enabled": true
 }

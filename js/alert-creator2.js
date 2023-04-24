@@ -78,6 +78,32 @@ $( document ).ready(function() {
   $("#js-container > textarea").val(defaultJS);
   $("#json-container > textarea").val(defaultJSON);
   $("#m-layout-input-banner").prop("checked", true);
+
+  setTimeout(() => {
+    let customCodeInput = document.getElementById("m-custom_html_enabled");
+    customCodeInput.checked = true;
+
+    if ("createEvent" in document) {
+        var evt = new Event("change", {"cancelable":false});
+        customCodeInput.dispatchEvent(evt);
+    } else {
+      customCodeInput.fireEvent("onchange");
+    }
+
+  }, 500);
+
+  setTimeout(() => {
+    let customCodeInput = document.getElementById("customcode");
+    if ("createEvent" in document) {
+        var evt = new Event("input", {"cancelable":false});
+        customCodeInput.dispatchEvent(evt);
+    } else {
+      customCodeInput.fireEvent("oninput");
+    }
+
+  }, 500);
+
+  //$('.form-fetch-settings > textarea').val('');
   
   $("div.expand").on("click", function( event ) {
     $(this).find("i").toggleClass("fa-plus");

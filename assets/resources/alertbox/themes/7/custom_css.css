@@ -1,5 +1,10 @@
 html {
-    --test: red;
+    --eventFontFamily: 'Roboto', sans-serif;
+    --eventFontSize: 18px;
+    --eventFontWeight: 200;
+    --messageFontFamily: 'Roboto', sans-serif;
+    --messageFontFamily: 24px;
+    --messageFontFamily: 500;
 }
 
 #alert-icon {
@@ -78,11 +83,11 @@ html, body, #wrap {
 }
 
 #alert-message {
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    font-weight: 500;
+    font-family: var(--messageFontFamily);
+    font-size: var(--messageFontSize);
+    font-weight: var(--messageFontWeight);
     display: flex;
-    color: white;
+    color: #b85b36;
     flex-grow: 1;
     align-self: center;
     align-items: center;
@@ -99,9 +104,9 @@ html, body, #wrap {
 }
 
 #alert-event {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 200;
+    font-family: var(--eventFontFamily);
+    font-size: var(--eventFontSize);
+    font-weight: var(--eventFontWeight);
     display: none;
     text-align: center;
     background: linear-gradient( to right, #47bfff 5%, #1a44c2 60%);
