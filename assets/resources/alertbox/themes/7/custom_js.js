@@ -172,7 +172,7 @@ function mainFunction() {
     ensureDependencies().then(() => {
         eventCheck();
         eventIcon(iconType);
-        //runTimeline();
+        runTimeline();
     });
 }
 
@@ -184,7 +184,7 @@ function updateElements(event) {
             let event = eventSettings.type;
             alertEventEl.innerHTML = `New ${event}!`;
             alertEventEl.style.display = 'flex';
-            //document.querySelector("#alert-icon").src = eventIcons[event][iconType];
+            document.getElementById('alert-icon').setAttribute('d', eventIconsSVG[eventEl.innerHTML][type]);
         }
     } else {
         alertEventEl.style.display = 'none';
@@ -203,7 +203,6 @@ function eventCheck() {
 function eventIcon(type) {
     let eventEl = document.querySelector("#event-type");
     if (eventEl.innerHTML.length) {
-        //document.querySelector("#alert-icon").src = eventIcons[eventEl.innerHTML][type];
         document.getElementById('alert-icon').setAttribute('d', eventIconsSVG[eventEl.innerHTML][type]);
     }
 }
@@ -214,8 +213,9 @@ function runTimeline() {
     timeline
         .fromTo('.wrap1', { y: '15', opacity: '0' }, { y: '0', opacity: '1', ease: "elastic.out(1, 1)" })
         .fromTo("html", { '--bgSize': 25, '--psuedoSize': 50, '--psuedoOpacity': 0 }, { '--bgSize': 100, '--psuedoSize': 200, '--psuedoOpacity': 1, ease: "power4.out", duration: 2 }, '<')
-        .fromTo('#alert-event', {y: '0', opacity: '0' }, { y: '-20', opacity: '1', ease: "elastic.out(1, 1)"}, '<0.25')
-        .fromTo('#alert-icon', {y: '0', opacity: '0' }, { y: '20', opacity: '1', ease: "elastic.out(1, 1)"}, '<0.25')
+        .fromTo('#alert-message', {x: '40', opacity: '0' }, { x: '0', opacity: '1', duration: 1.5, ease: "elastic.out(1, 0.6)"}, '<')
+        .fromTo('#alert-event', {x: '20', opacity: '0' }, { x: '0', opacity: '1', duration: 1.5, ease: "elastic.out(1, 0.4)"}, '<0.2')
+        .fromTo('#alert-icon-svg', { x: '60', width: '60', height: '60', opacity: '0' }, { x: '0', width: '90', height: '90', opacity: '1', ease: "elastic.out(1, 0.4)", duration: 2}, '<0.8')
         //.fromTo('#alert-message::before', {width: '50', height: '50', opacity: '0'}, { width: '200', height: '200', opacity: '1', ease: "elastic.out(1, 1)"}, '<.25')
         ;
     timelineDuration = timeline.duration() * 1000;

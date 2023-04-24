@@ -1,15 +1,15 @@
 ---
 layout: widget-alertbox
-title: Test
-image: '/assets/resources/alertbox/themes/4/thumb.png'
+title: Peach Kiss
+image: '/assets/resources/alertbox/themes/7/thumb.png'
 tags: [widget, alert-box, livestreaming, streamlabs]
-theme-tags: [clean, yellow, simple]
+theme-tags: [clean, pink, simple, cute]
 theme-id: 7
-description: Test alert box!
+description: Peach Kiss alert box!
 installurl: 'https://streamlabs.com/library'
 affiliate: 'https://streamlabs.com/streamlabs-live-streaming-software'
 section-easyinstall: "false"
 section-likeit: "false"
 section-wantmore: "false"
 ---
-Bursting and radiant...
+Pretty peachy..
