@@ -3,8 +3,8 @@ html {
     --eventFontSize: 18px;
     --eventFontWeight: 200;
     --messageFontFamily: 'Roboto', sans-serif;
-    --messageFontFamily: 24px;
-    --messageFontFamily: 500;
+    --messageFontSize: 24px;
+    --messageFontWeight: 500;
 }
 
 #alert-icon {
