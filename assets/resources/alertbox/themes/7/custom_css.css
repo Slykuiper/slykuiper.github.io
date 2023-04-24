@@ -145,6 +145,21 @@ html, body, #wrap {
     flex-direction: column;
     align-items: center;
     color: rgb(62 62 62);
-    opacity: 1;
+    opacity: 0;
     min-height: 100px;
 }   
+
+#event-type {
+    display: none;
+}
+
+#alert-icon {
+    background: #ffffff;
+    background-color: linear-gradient(33deg, transparent 60%, hsl(253, 63%, 91%)), linear-gradient(210deg, transparent 60%,hsl(272, 65%, 93%));
+    border-radius: 100%;
+    padding: 10px;
+    border: 2px solid #3e3e3e;
+    width: 50px;
+    height: 50px;
+    z-index: 8;
+}

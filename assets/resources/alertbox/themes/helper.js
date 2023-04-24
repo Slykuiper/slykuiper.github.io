@@ -27,6 +27,7 @@ function replaceVariables() {
   let alertImageEl = document.querySelector('#alert-image');
   let alertMessageEl = document.querySelector('#alert-message');
   let alertUsermessageEl = document.querySelector('#alert-user-message');
+  let eventTypeEl = document.querySelector('#event-type');
 
   if (alertImageEl && alertImageEl.textContent.includes("{img}")) {
     alertImageEl.textContent = alertImageEl.textContent.replace("{img}", theme.image_href);
@@ -37,7 +38,7 @@ function replaceVariables() {
   }
 
   if (alertEventEl && alertEventEl.textContent.includes("{event}")) {
-    alertEventEl.textContent = alertEventEl.textContent.replace("{event}", `New ${eventNames[eventType]}!`);
+    alertEventEl.textContent = alertEventEl.textContent.replace("{event}", `${eventNames[eventType]}`);
   }
 
   if (alertUsermessageEl && alertUsermessageEl.textContent.includes("{userMessage}")) {
@@ -47,6 +48,10 @@ function replaceVariables() {
     } else {
       alertUsermessageEl.textContent = '';
     }
+  }
+
+  if (eventTypeEl && eventTypeEl.textContent.includes("{eventType}")) {
+    eventTypeEl.textContent = eventTypeEl.textContent.replace("{eventType}", `${eventType}`);
   }
 }
 
