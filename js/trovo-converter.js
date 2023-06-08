@@ -21,7 +21,6 @@ function addTrovoKeys(obj) {
     obj[newKey] = obj[e];
 
     if (e == 'raid_text_delay' || e == 'sub_font_size' || e == 'follow_font_size' || e == 'raid_font_size' || e == 'resub_message_font_size' || e == 'sub_text_delay' || e == 'follow_text_delay') {
-      //console.log("Kept: " + e);
     } else {
       delete obj[e];
     }
@@ -83,6 +82,7 @@ function convertTrovo() {
     alertObj = JSON.parse(fetchCommand);
     alertSettings = alertObj["body"];
     alertSettingsObj = JSON.parse(alertSettings);
+    console.log(alertSettingsObj);
     
     addTrovoKeys(alertSettingsObj); // add "trovo_" to Object Keys
     removeTwitchKeys(alertSettingsObj); // remove keys
@@ -97,6 +97,7 @@ function convertTrovo() {
     textarea.value = fetchCmd + trovoCommand + '\n});';
 
     $( "#copy-button" ).css("display", "inline-block");
+    
   }
 }
 
@@ -151,7 +152,14 @@ function renameCodeKeys(obj) {
       if (!newJSON) {
         obj[key] = null;
       } else {
-        obj[key] = JSON.parse(newJSON);
+        // issue with getrekt here, test with getrektlabs_twitch_alertbox_donation-custom-json.txt
+        //console.log(`key: ${key}, value: ${JSON.stringify(newJSON)}`);
+        //obj[key] = JSON.stringify(newJSON);
+        //console.log(`key: ${key}`);
+        //console.log(newJSON);
+        //console.log(JSON.parse(newJSON));
+        //obj[key] = JSON.parse(newJSON);
+        obj[key] = newJSON;
       }
     }
     
@@ -165,7 +173,7 @@ function renameCodeKeys(obj) {
             obj[key][i]["settings"]["customCss"] = newCSS;
             var newJS = obj[key][i]["settings"]["customJs"].replace(/"/g, '~3qt~').replace(/\n/g, '~lnb~');
             obj[key][i]["settings"]["customJs"] = newJS;
-            console.log("Variation [" + i + "] set!");
+            //console.log("Variation [" + i + "] set!");
           }
         }
       }
