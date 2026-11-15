@@ -7,6 +7,8 @@ image: '/assets/pfp_3_half.jpg'
 
 Designer from Virginia Beach fascinated with creating art in various mediums. Head of Creative at Streamlabs.
 
+For my full professional background, connect with me on [LinkedIn](https://www.linkedin.com/in/slykuiper/).
+
 
 As a kid I really liked art class, taking it every year until I graduated. In middle school I was lucky enough to dual-enroll in my primary middle school and a gifted visual arts program at Old Donation Center. At ODC I had the opportunity to explore all kinds of mediums to learn the history and principles behind traditional art. Being exposed to a whole world of artists & mediums while having the freedom to explore an interest beyond an hour-long period in class really sparked my interest and gave me the mindset that you can be creative in all kinds of fields. 
 
@@ -33,3 +35,5 @@ My other gaming obsession was Call of Duty - I had like 200 hours on MW3 for PS3
 I started freelancing after graduating highschool, creating motion graphics for friends and small YouTubers. Then I made the push to breakout beyond YouTube and work for a variety of clients and small businesses. 3 years into it I was approached by [Streamlabs](https://streamlabs.com/) for a small project to animate icons for their dashboard. New projects kept coming and I was brought on to the company as a motion designer. From there it’s been an exciting ride contributing on numerous projects for creators, designing & animating social media graphics and paid media, and leading content production on design-driven tools for creators.
 
 Pushing myself to learn new mediums in my free time is important to me. Gamedev, programming, automation, IoT tinkering, 2d/3d design & animation, front-end, and anything in between.
+
+Interested in working together? You can reach me at [corbin@slykuiper.com](mailto:corbin@slykuiper.com).
